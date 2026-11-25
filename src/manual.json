@@ -1,0 +1,67 @@
+{
+ "flags": {
+  "nbe": {
+   "neutrality": {
+    "en": "NBE is reported to hold 40% of Al Ahly Sabbour (Sabbour family 60%), reported May 2026. It is also a shareholder of El Mostakbal for Urban Development and was the escrow bank for the El Mostakbal - Al Ahly City of Odyssia account (2018).",
+    "ar": "تفيد التقارير بأن البنك الأهلي المصري يملك 40% من الأهلي صبور (عائلة صبور 60%) وفق ما نُشر في مايو 2026. وهو أيضاً مساهم في شركة المستقبل للتنمية العمرانية وكان بنك حساب الضمان لمشروع سيتي أوف أوديسيا بين المستقبل والأهلي (2018)."
+   },
+   "neutrality_url": "https://enterpriseam.com/egypt/?p=700732",
+   "conflict": {
+    "en": "NBE also acquired a 24% share in Hyde Park Developments (March 2024).",
+    "ar": "استحوذ البنك الأهلي كذلك على حصة 24% في هايد بارك للتطوير (مارس 2024)."
+   },
+   "conflict_url": "https://www.dailynewsegypt.com/?p=811919"
+  },
+  "bm": {
+   "link": {
+    "en": "Banque Misr is a shareholder of El Mostakbal for Urban Development, master developer of Mostakbal City (10.30% in 2015 plus 2% bought in 2018; current stake unknown). No evidence of a stake in or loan to Al Ahly Sabbour.",
+    "ar": "بنك مصر مساهم في شركة المستقبل للتنمية العمرانية، المطوّر العام لمدينة المستقبل (10.30% في 2015 إضافة إلى 2% في 2018؛ الحصة الحالية غير معروفة). لا دليل على حصة في الأهلي صبور أو قرض لها."
+   },
+   "link_url": "https://www.alborsaanews.com/?p=667737",
+   "conflict": {
+    "en": "Banque Misr's equity list includes housing companies such as Nasr City Housing and Misr Al Ameria for Real Estate Investment; stakes not shown.",
+    "ar": "قائمة مساهمات بنك مصر تتضمن شركات إسكان مثل مدينة نصر للإسكان ومصر العامرية للاستثمار العقاري؛ النسب غير مبيّنة."
+   },
+   "conflict_url": "https://banquemisr.com/en/CAPITAL-MARKETS/Equity-Participation"
+  },
+  "cib": {
+   "link": {
+    "en": "CIB is a lender to Al Ahly Sabbour: first lead arranger, facility agent and account bank on an EGP 4.4bn syndicated facility for the Summer project (July 2026). No shareholding evidence.",
+    "ar": "البنك التجاري الدولي مُقرض للأهلي صبور: المرتب الرئيسي الأول ووكيل التمويل وبنك الحساب في تمويل مشترك بقيمة 4.4 مليار جنيه لمشروع سمر (يوليو 2026). لا دليل على مساهمة."
+   },
+   "link_url": "https://www.dailynewsegypt.com/?p=851426"
+  },
+  "adib": {
+   "conflict": {
+    "en": "ADIB Egypt consolidates Abu Dhabi Islamic Properties (44.24%, real estate investment) per its FY2024 statements. Whether it competes with this project is not established.",
+    "ar": "يجمّع مصرف أبوظبي الإسلامي - مصر شركة أبوظبي الإسلامي للعقارات (44.24%، استثمار عقاري) وفق قوائمه لعام 2024. لم يثبت ما إذا كانت تنافس هذا المشروع."
+   }
+  },
+  "hdb": {
+   "conflict": {
+    "en": "Housing and Development Properties (HDP) is described as the real estate arm of HD Bank, and the bank markets housing projects itself. Ownership percentage not confirmed.",
+    "ar": "توصف شركة التعمير والإسكان العقارية (HDP) بأنها الذراع العقارية لبنك التعمير والإسكان، ويسوّق البنك مشروعات سكنية بنفسه. نسبة الملكية غير مؤكدة."
+   },
+   "conflict_url": "https://www.zawya.com/en/economy/north-africa/hd-banks-real-estate-arm-secures-289mln-financing-from-midbank-rg1dmuy9"
+  }
+ },
+ "ratings": {
+  "enbd|g_escrow": 9,
+  "enbd|g_developer_account": 9,
+  "enbd|k_setup": 5,
+  "enbd|k_annual": 4,
+  "adib|k_annual": 6,
+  "adib|k_txn": 6,
+  "adib|k_cheque": 6,
+  "nbe|g_escrow": 9,
+  "nbe|g_developer_account": 9,
+  "nbe|c_pdc": 9,
+  "bm|g_escrow": 9,
+  "bm|g_developer_account": 9,
+  "hdb|p_sigverify": 2,
+  "aaib|g_escrow": 9,
+  "aaib|g_developer_account": 9,
+  "hsbc|k_yield": 4,
+  "bm|k_yield": 4
+ }
+}

@@ -1,0 +1,1749 @@
+{
+ "banks": [
+  {
+   "id": "nbe",
+   "name_en": "National Bank of Egypt",
+   "name_ar": "البنك الأهلي المصري",
+   "type": "public",
+   "website": "https://www.nbe.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "Yes. 'Al Ahly Waseet' escrow account (one-transaction and multi-transaction types); scope explicitly includes real estate development agreements and distribution of project proceeds.",
+     "value_ar": "نعم. حساب «الأهلي وسيط» (Escrow) بنوعيه: صفقة واحدة وصفقات متعددة، ويشمل صراحةً اتفاقيات التطوير العقاري وتوزيع حصيلة المشروعات.",
+     "status": "verified",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "Press report of bank announcement; NBE's own website could not be opened.",
+     "note_ar": "خبر صحفي عن إعلان البنك؛ تعذر فتح موقع البنك نفسه."
+    },
+    "g_developer_account": {
+     "value_en": "Tripartite escrow signed 2018 with El Mostakbal for Urban Development and Al Ahly for Real Estate Development (City of Odyssia, Mostakbal City); NBE deposits and distributes revenues among partners.",
+     "value_ar": "اتفاق ثلاثي لحساب وسيط عام 2018 مع المستقبل للتنمية العمرانية والأهلي للتنمية العقارية (سيتي أوف أوديسيا – مستقبل سيتي)؛ البنك يودع الإيرادات ويوزعها على الشركاء.",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=654853",
+     "source_title": "Daily News Egypt (25 Mar 2018): El Mostakbal, Al Ahly Real Estate Development seal agreement with NBE for City of Odyssia",
+     "accessed": "2026-11-25",
+     "note_en": "2018 deal; current terms and the developer-controlled account variant (structure B) are not described.",
+     "note_ar": "صفقة 2018؛ الشروط الحالية وبديل الحساب المُدار باسم المطور (الهيكل ب) غير موصوفة."
+    },
+    "p_reserve": {
+     "value_en": "Escrow holds funds until agreed conditions are met or the contract deadline passes.",
+     "value_ar": "الحساب الوسيط يحتفظ بالأموال لحين تحقق الشروط المتفق عليها أو انتهاء المهلة المحددة بالعقد.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "A dedicated blocked reserve / lien sub-account for cheque cover is not specifically described.",
+     "note_ar": "لم يُذكر تحديدًا حساب فرعي مجمَّد/احتياطي لتغطية الشيكات."
+    },
+    "p_sweep": {
+     "value_en": "Under the escrow, the bank transfers funds to entitled parties on the agreed dates.",
+     "value_ar": "في الحساب الوسيط يقوم البنك بتحويل الأموال للأطراف المستحقة في المواعيد المتفق عليها.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "No published automatic sweep / cash-pooling product for an ordinary corporate account was found.",
+     "note_ar": "لم يُعثر على منتج منشور للتحويل التلقائي أو تجميع السيولة لحساب شركات عادي."
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "NBE website (nbe.com.eg) could not be opened.",
+     "note_ar": "تعذر فتح موقع البنك الأهلي."
+    },
+    "p_overdraft": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_certified": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sigverify": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "'Cheque Wallet' for post-dated cheques under the escrow: daily or weekly submission, automated daily collection/return reports, Excel statements.",
+     "value_ar": "«محفظة الشيكات» للشيكات الآجلة ضمن الحساب الوسيط: تقديم يومي أو أسبوعي، تقارير آلية يومية بالتحصيل والمرتد، وكشوف Excel.",
+     "status": "verified",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "Custody fees not stated.",
+     "note_ar": "لم تُذكر عمولات الحفظ."
+    },
+    "c_pos": {
+     "value_en": "Article on FY2025 results cites 758,000 point-of-sale terminals.",
+     "value_ar": "خبر نتائج 2025 يذكر 758 ألف نقطة بيع إلكترونية.",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/2026/10/05/national-bank-of-egypt-2025-net-profit-rises-to-egp-175-5bn/",
+     "source_title": "Daily News Egypt (5 Oct 2026): National Bank of Egypt 2025 net profit rises to EGP 175.5bn",
+     "accessed": "2026-11-25",
+     "note_en": "Merchant-acquiring terms for a developer are not established.",
+     "note_ar": "شروط خدمة التحصيل عبر نقاط البيع للمطور غير محددة."
+    },
+    "c_online": {
+     "value_en": "B2B online e-payment platform for corporate clients with electronic collection and payment tools (launched Nov 2021).",
+     "value_ar": "منصة دفع إلكتروني B2B لعملاء الشركات مع أدوات تحصيل ودفع إلكترونية (أُطلقت نوفمبر 2021).",
+     "status": "verified",
+     "source_url": "https://amwalalghad.com/j25s",
+     "source_title": "Amwal Al Ghad (25 Nov 2021): NBE launches B2B online e-payment service for corporates",
+     "accessed": "2026-11-25",
+     "note_en": "2021 article; payment gateway and Fawry/eFinance integration not established.",
+     "note_ar": "خبر 2021؛ بوابة الدفع والربط مع فوري/إي فاينانس غير مؤكدين."
+    },
+    "c_instapay": {
+     "value_en": "FY2025 results article reports NBE InstaPay volumes in general terms.",
+     "value_ar": "خبر نتائج 2025 يذكر أرقام إنستاباي للبنك بشكل عام.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.dailynewsegypt.com/2026/10/05/national-bank-of-egypt-2025-net-profit-rises-to-egp-175-5bn/",
+     "source_title": "Daily News Egypt (5 Oct 2026): National Bank of Egypt 2025 net profit rises to EGP 175.5bn",
+     "accessed": "2026-11-25",
+     "note_en": "Inbound IPN/InstaPay collection into a corporate account is not specifically described.",
+     "note_ar": "لم يُوصف تحديدًا التحصيل اللحظي الوارد على حساب شركات."
+    },
+    "c_branches": {
+     "value_en": "Network exceeded 700 branches and units nationwide (incl. 38 electronic branches); 7,572 ATMs - as reported with FY2025 results.",
+     "value_ar": "تجاوزت الشبكة 700 فرع ووحدة على مستوى الجمهورية (منها 38 فرعًا إلكترونيًا) و7,572 ماكينة صراف آلي – وفق خبر نتائج 2025.",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/2026/10/05/national-bank-of-egypt-2025-net-profit-rises-to-egp-175-5bn/",
+     "source_title": "Daily News Egypt (5 Oct 2026): National Bank of Egypt 2025 net profit rises to EGP 175.5bn",
+     "accessed": "2026-11-25",
+     "note_en": "Article published 5 Oct 2026; no explicit as-of date for the branch count. Figure mixes branches and units.",
+     "note_ar": "الخبر بتاريخ 5 أكتوبر 2026 دون تاريخ محدد لعدد الفروع؛ الرقم يشمل فروعًا ووحدات."
+    },
+    "c_fx": {
+     "value_en": "Escrow accounts available in EGP, USD, EUR and GBP.",
+     "value_ar": "الحسابات الوسيطة متاحة بالجنيه المصري والدولار واليورو والإسترليني.",
+     "status": "verified",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "SWIFT inbound handling and fees not stated.",
+     "note_ar": "لم تُذكر آلية ورسوم التحويلات الواردة بالسويفت."
+    },
+    "c_recon": {
+     "value_en": "Automated daily reports of collected/returned cheques and Excel statements under the escrow Cheque Wallet.",
+     "value_ar": "تقارير آلية يومية بالشيكات المحصلة/المرتدة وكشوف Excel ضمن محفظة الشيكات بالحساب الوسيط.",
+     "status": "verified",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "MT940 / file-based statements not mentioned.",
+     "note_ar": "لم يُذكر MT940 أو كشوف الملفات."
+    },
+    "c_api": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_time": {
+     "value_en": "One-transaction escrow opens within 24 hours on a simple contract; multi-transaction escrow (the relevant type) follows a deal-specific contract with no stated time.",
+     "value_ar": "حساب الصفقة الواحدة يُفتح خلال 24 ساعة بعقد بسيط؛ حساب الصفقات المتعددة (النوع المعني) يتبع عقدًا خاصًا بكل صفقة دون مدة معلنة.",
+     "status": "verified",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "Multi-transaction escrow: preliminary agreement and supporting documents, recent commercial register for companies, national IDs of individuals/authorised signatories, any deal-specific documents; at any branch.",
+     "value_ar": "حساب الصفقات المتعددة: الاتفاق المبدئي والمستندات المؤيدة، سجل تجاري حديث للشركات، بطاقات الرقم القومي للأفراد/المفوضين بالتوقيع، وأي مستندات خاصة بالصفقة؛ من أي فرع.",
+     "status": "verified",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "List is for the escrow account, as reported in press; full KYC list for a corporate current account not found.",
+     "note_ar": "القائمة خاصة بالحساب الوسيط وفق الخبر؛ لم يُعثر على قائمة مستندات فتح حساب جاري شركات."
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "One-transaction escrow uses a 'simple contract'; multi-transaction escrow uses a contract 'of special nature' that varies by deal.",
+     "value_ar": "حساب الصفقة الواحدة يستخدم «عقدًا بسيطًا»؛ حساب الصفقات المتعددة يستخدم عقدًا «ذا طبيعة خاصة» يختلف حسب الصفقة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "Indicates bespoke drafting for our case; no template text is published.",
+     "note_ar": "يدل على صياغة خاصة لحالتنا؛ لا يوجد نموذج منشور."
+    },
+    "k_setup": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "Official corporate tariff not reachable; escrow fees not published in press.",
+     "note_ar": "تعذر الوصول للتعريفة الرسمية للشركات؛ رسوم الحساب الوسيط غير منشورة صحفيًا."
+    },
+    "k_annual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_txn": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_cheque": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_minbal": {
+     "value_en": "EGP 5,000 minimum to open an EGP current account for companies (EGP 2,500 for individuals).",
+     "value_ar": "الحد الأدنى لفتح الحساب الجاري بالجنيه 5,000 جنيه للشركات (2,500 للأفراد).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.banker.news/64345",
+     "source_title": "Banker News (16 Jan 2024): NBE current account features",
+     "accessed": "2026-11-25",
+     "note_en": "Third-party article dated Jan 2024; NBE's official tariff could not be opened.",
+     "note_ar": "خبر من طرف ثالث بتاريخ يناير 2024؛ تعذر فتح تعريفة البنك الرسمية."
+    },
+    "k_yield": {
+     "value_en": "Escrow announcement states that a return may be calculated on amounts deposited in the account.",
+     "value_ar": "إعلان الحساب الوسيط يذكر إمكانية احتساب عائد على المبالغ المودعة بالحساب.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "No rate or conditions published.",
+     "note_ar": "لم يُنشر سعر أو شروط العائد."
+    },
+    "s_finance": {
+     "value_en": "Co-arranged EGP 8bn long-term syndicated loan to Palm for Investment & Real Estate Development (Palm Hills New Cairo), signed 19 Aug 2026; NBE: initial MLA, security agent, DSRA bank, documentation bank.",
+     "value_ar": "شارك في ترتيب تمويل مشترك طويل الأجل 8 مليارات جنيه لشركة بالم للاستثمار والتنمية العقارية (بالم هيلز القاهرة الجديدة) وُقّع 19 أغسطس 2026؛ الأهلي: مرتب رئيسي أولي ووكيل ضمان وبنك حساب خدمة الدين وبنك المستندات.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/ABOUT-US/News/Joint-financing-agreement-for-the-Palm-Hills-New-Cairo-project",
+     "source_title": "Banque Misr news: بنك مصر والبنك الأهلي يوقعان عقد تمويل مشترك 8 مليارات جنيه لمشروع بالم هيلز القاهرة الجديدة (19 Aug 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_discount": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "Unlimited number of escrow accounts can be opened per deal.",
+     "value_ar": "يمكن فتح عدد غير محدود من الحسابات الوسيطة للصفقة الواحدة.",
+     "status": "verified",
+     "source_url": "https://www.bnok24.com/2026/07/%d8%a7%d9%84%d8%a8%d9%86%d9%83-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%88%d8%b3/",
+     "source_title": "Bnok24 (27 Jul 2026): البنك الأهلي المصري يتيح «الحساب الوسيط» (Escrow Account)",
+     "accessed": "2026-11-25",
+     "note_en": "Sub-accounts under an ordinary corporate current account not established.",
+     "note_ar": "الحسابات الفرعية تحت حساب جاري شركات عادي غير مؤكدة."
+    },
+    "s_track": {
+     "value_en": "Escrow for El Mostakbal / Al Ahly Real Estate Development's City of Odyssia (2018); article cites 24-year cooperation between Al Ahly and NBE.",
+     "value_ar": "حساب وسيط لمشروع سيتي أوف أوديسيا بين المستقبل والأهلي للتنمية العقارية (2018)؛ الخبر يذكر تعاونًا لمدة 24 عامًا بين الأهلي والبنك.",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=654853",
+     "source_title": "Daily News Egypt (25 Mar 2018): El Mostakbal, Al Ahly Real Estate Development seal agreement with NBE for City of Odyssia",
+     "accessed": "2026-11-25",
+     "note_en": "See also s_finance (Palm Hills, 2026).",
+     "note_ar": "انظر أيضًا s_finance (بالم هيلز 2026)."
+    },
+    "n_sabbour": {
+     "value_en": "NBE holds a 40% stake in Al Ahly Sabbour; the Sabbour family holds 60% (as reported Nov 2024).",
+     "value_ar": "البنك الأهلي يملك 40% من الأهلي صبور وعائلة صبور 60% (وفق خبر نوفمبر 2024).",
+     "status": "verified",
+     "source_url": "https://enterpriseam.com/egypt/2024/11/19/al-ahly-sabbour-plans-to-offer-up-to-a-25-stake-on-the-egx/",
+     "source_title": "Enterprise (19 Nov 2024): Al Ahly Sabbour plans to offer up to a 25% stake on the EGX",
+     "accessed": "2026-11-25",
+     "note_en": "NBE is therefore a shareholder of the landowner counterparty - a conflict-of-interest point for the developer. Current percentage not re-checked.",
+     "note_ar": "البنك مساهم في الطرف مالك الأرض – نقطة تعارض مصالح للمطور. النسبة الحالية لم تُراجع."
+    },
+    "n_conflict": {
+     "value_en": "Yes: 40% of Al Ahly Sabbour (see n_sabbour) and acquisition of a 24% share in Hyde Park Developments from Egyptian Arab Land Bank (Mar 2024).",
+     "value_ar": "نعم: 40% من الأهلي صبور (انظر n_sabbour) واستحواذ على 24% من هايد بارك للتطوير من البنك العقاري المصري العربي (مارس 2024).",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=811919",
+     "source_title": "Daily News Egypt (31 Mar 2024): NBE acquires 24% share in Hyde Park Developments",
+     "accessed": "2026-11-25",
+     "note_en": "Full list of NBE real estate holdings not obtained.",
+     "note_ar": "لم نحصل على قائمة كاملة بمساهمات البنك العقارية."
+    }
+   }
+  },
+  {
+   "id": "bm",
+   "name_en": "Banque Misr",
+   "name_ar": "بنك مصر",
+   "type": "public",
+   "website": "https://www.banquemisr.com",
+   "fields": {
+    "g_escrow": {
+     "value_en": "Yes. Signed escrow account agreement with MIDAR and SODIC (Eastvale, MADA, New Cairo) on 3 May 2026; Banque Misr serves as escrow agent.",
+     "value_ar": "نعم. وقّع اتفاقية حساب ضمان (Escrow) مع ميدار وسوديك (إيستفيل – مدى – القاهرة الجديدة) في 3 مايو 2026؛ بنك مصر وكيل حساب الضمان.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/en/ABOUT-US/News/Midar-and-sodic-agreement",
+     "source_title": "Banque Misr news (3 May 2026): Banque Misr Signs Escrow Account Agreement with MIDAR and SODIC for the Eastvale Project",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "g_developer_account": {
+     "value_en": "As escrow agent the bank oversees the project's collections and disbursements among master developer (MIDAR, Mostakbal City/MADA) and developer (SODIC) via digital banking solutions.",
+     "value_ar": "بصفته وكيل الضمان يدير البنك تحصيلات ومدفوعات المشروع بين المطور العام (ميدار – مستقبل سيتي/مدى) والمطور (سوديك) عبر حلول مصرفية رقمية.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/en/ABOUT-US/News/Midar-and-sodic-agreement",
+     "source_title": "Banque Misr news (3 May 2026): Banque Misr Signs Escrow Account Agreement with MIDAR and SODIC for the Eastvale Project",
+     "accessed": "2026-11-25",
+     "note_en": "Tri-party escrow evidenced; a developer-named controlled account (structure B) is not described.",
+     "note_ar": "الحساب الثلاثي مثبت؛ حساب مُدار باسم المطور (الهيكل ب) غير موصوف."
+    },
+    "p_reserve": {
+     "value_en": "In the EGP 8bn Palm Hills loan (Aug 2026) Banque Misr acts as account bank and escrow-account bank.",
+     "value_ar": "في تمويل بالم هيلز 8 مليارات جنيه (أغسطس 2026) بنك مصر هو بنك الحساب وبنك حساب الوسيط.",
+     "status": "bank_to_confirm",
+     "source_url": "https://banquemisr.com/ar-EG/ABOUT-US/News/Joint-financing-agreement-for-the-Palm-Hills-New-Cairo-project",
+     "source_title": "Banque Misr news: بنك مصر والبنك الأهلي يوقعان عقد تمويل مشترك 8 مليارات جنيه لمشروع بالم هيلز القاهرة الجديدة (19 Aug 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Shows structured-account capability; a blocked reserve sub-account for cheque cover is not specifically published.",
+     "note_ar": "يدل على قدرة هيكلة الحسابات؛ حساب احتياطي مجمَّد لتغطية الشيكات غير منشور تحديدًا."
+    },
+    "p_sweep": {
+     "value_en": "'Cash management solutions' listed under Transactional Banking Solutions.",
+     "value_ar": "«حلول إدارة النقد» مدرجة ضمن حلول المعاملات المصرفية.",
+     "status": "bank_to_confirm",
+     "source_url": "https://banquemisr.com/en/SMEs/Corporate-Banking/Corporate-Banking-services",
+     "source_title": "Banque Misr - Corporate Banking services",
+     "accessed": "2026-11-25",
+     "note_en": "No detail; sweep / standing instruction / pooling not described on the pages opened.",
+     "note_ar": "بلا تفاصيل؛ التحويل التلقائي/التعليمات المستديمة/تجميع السيولة غير موصوفة في الصفحات المفتوحة."
+    },
+    "p_alerts": {
+     "value_en": "BM Online Business: monitor balances, view statements, online cheque monitoring (collected / rejected / withdrawn).",
+     "value_ar": "BM Online Business: متابعة الأرصدة وكشوف الحساب ومتابعة الشيكات إلكترونيًا (محصل/مرفوض/مسحوب).",
+     "status": "bank_to_confirm",
+     "source_url": "https://banquemisr.com/en/Pages/BM-Corporate-Online",
+     "source_title": "Banque Misr - BM Corporate Online (BM Online Business)",
+     "accessed": "2026-11-25",
+     "note_en": "Monitoring is established; push balance alerts (SMS/e-mail) for corporates are not stated.",
+     "note_ar": "المتابعة مثبتة؛ تنبيهات الرصيد (رسائل/بريد) للشركات غير مذكورة."
+    },
+    "p_overdraft": {
+     "value_en": "Overdraft listed among corporate short-term facilities; tariff: debit interest on direct credit facility accounts = applicable interest rate + 1%.",
+     "value_ar": "السحب على المكشوف مدرج ضمن التسهيلات قصيرة الأجل للشركات؛ التعريفة: العائد المدين لحسابات التسهيلات المباشرة = السعر المطبق + 1%.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/en/SMEs/Corporate-Banking/Corporate-Banking-services",
+     "source_title": "Banque Misr - Corporate Banking services",
+     "accessed": "2026-11-25",
+     "note_en": "Subject to credit approval; no standby line tied to an escrow is described. Rate wording from corporate tariff (20/09/2026).",
+     "note_ar": "يخضع للموافقة الائتمانية؛ لا يوجد خط احتياطي مرتبط بحساب الضمان. صياغة السعر من تعريفة الشركات."
+    },
+    "p_certified": {
+     "value_en": "Bank cheque in local currency debited from customer's account: 0.2%, min EGP 100, max EGP 600 + EGP 10 fees. Tariff also refers to 'bank cheque - certified cheque'.",
+     "value_ar": "إصدار شيك مصرفي بالعملة المحلية خصمًا من حساب العميل: 2 في الألف بحد أدنى 100 جنيه وأقصى 600 جنيه + 10 جنيهات. التعريفة تشير أيضًا إلى «شيك مصرفي – شيك مقبول الدفع».",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "No separate fee line for certifying a customer's own cheque.",
+     "note_ar": "لا يوجد بند رسوم مستقل لاعتماد شيك العميل نفسه."
+    },
+    "p_sigverify": {
+     "value_en": "Tariff lists 'issuance of authentication for existing postdated cheques': EGP 100 per authentication; 'postdated crossed cheques' accepted for collection.",
+     "value_ar": "التعريفة تتضمن «إصدار مصادقة على الشيكات الآجلة القائمة»: 100 جنيه لكل مصادقة؛ وتُقبل «الشيكات الآجلة المسطرة» للتحصيل.",
+     "status": "bank_to_confirm",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Whether this equals signature verification (sehat tawqee3) on the drawer's cheques must be confirmed.",
+     "note_ar": "يجب التأكد مما إذا كان ذلك يعادل «صحة التوقيع» على شيكات الساحب."
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "Postdated crossed cheques for collection: 0.1%, min EGP 15, max EGP 350 per cheque + EGP 5 custody per cheque per 3 months or fraction; deferral EGP 50 per cheque.",
+     "value_ar": "الشيكات الآجلة المسطرة برسم التحصيل: 1 في الألف بحد أدنى 15 وأقصى 350 جنيهًا للشيك + 5 جنيهات حفظ لكل شيك كل 3 أشهر أو كسورها؛ تأجيل التحصيل 50 جنيهًا للشيك.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Corporate tariff applied from 20/09/2026.",
+     "note_ar": "تعريفة الشركات السارية من 20/09/2026."
+    },
+    "c_pos": {
+     "value_en": "Merchant Services via BM Online Business: real-time POS and e-commerce transaction, settlement, batch and instalment reports.",
+     "value_ar": "خدمات التجار عبر BM Online Business: تقارير لحظية لعمليات نقاط البيع والتجارة الإلكترونية والتسويات والدفعات والتقسيط.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/Home/Pages/BM%20Corporate%20Online/Merchant%20Services",
+     "source_title": "Banque Misr - BM Corporate Online: Merchant Services",
+     "accessed": "2026-11-25",
+     "note_en": "Merchant discount rates not published on this page.",
+     "note_ar": "عمولات التاجر غير منشورة في هذه الصفحة."
+    },
+    "c_online": {
+     "value_en": "'Secured Payment Link' (buyer pays by any bank card, with collection reports) and 'Request to Pay' (for buyers who are Banque Misr customers).",
+     "value_ar": "«رابط الدفع الآمن» (يدفع المشتري بأي بطاقة بنكية مع تقارير تحصيل) و«طلب الدفع» (للمشترين من عملاء بنك مصر).",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/Home/Pages/BM%20Corporate%20Online/Secured%20Payment%20Link",
+     "source_title": "Banque Misr - BM Corporate Online: Secured Payment Link",
+     "accessed": "2026-11-25",
+     "note_en": "Fawry / eFinance bill-presentment integration not stated.",
+     "note_ar": "الربط مع فوري/إي فاينانس لعرض الفواتير غير مذكور."
+    },
+    "c_instapay": {
+     "value_en": "BM Online Business offers instant transfers 24/7; tariff: IPN transfers 0.2%, min EGP 60, max EGP 150 per transaction (+EGP 50 on holidays).",
+     "value_ar": "BM Online Business يتيح تحويلات لحظية 24/7؛ التعريفة: تحويلات شبكة المدفوعات اللحظية 2 في الألف بحد أدنى 60 وأقصى 150 جنيهًا للعملية (+50 جنيهًا في العطلات).",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Fee is for outgoing corporate IPN; handling/identification of inbound InstaPay receipts not described.",
+     "note_ar": "الرسم للتحويلات الصادرة؛ آلية استقبال وتمييز المتحصلات اللحظية الواردة غير موصوفة."
+    },
+    "c_branches": {
+     "value_en": "901 branches and units in Egypt and about 6,700 ATMs as of end of August 2026.",
+     "value_ar": "901 فرع ووحدة داخل مصر ونحو 6,700 ماكينة صراف آلي في نهاية أغسطس 2026.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/en/ABOUT-US/News/Financial-Statement-2025",
+     "source_title": "Banque Misr news: Financial Statement 2025",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_fx": {
+     "value_en": "Foreign-currency corporate accounts (min 1,000 FCY units); outgoing FCY transfers abroad 0.3%, min USD 40, max USD 200 + USD 35 SWIFT.",
+     "value_ar": "حسابات شركات بالعملة الأجنبية (حد أدنى 1,000 وحدة)؛ التحويلات الصادرة للخارج 3 في الألف بحد أدنى 40 وأقصى 200 دولار + 35 دولارًا سويفت.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Fee for incoming SWIFT transfers not listed in this tariff.",
+     "note_ar": "رسوم التحويلات الواردة بالسويفت غير مدرجة في هذه التعريفة."
+    },
+    "c_recon": {
+     "value_en": "Periodic SWIFT statement (MT940/MT950): USD 50 monthly per account; periodic statements free via internet banking (EGP 150 per quarter at branch).",
+     "value_ar": "كشف حساب دوري بالسويفت (MT940/MT950): 50 دولارًا شهريًا لكل حساب؛ الكشوف الدورية مجانًا عبر الإنترنت البنكي (150 جنيهًا كل ثلاثة أشهر بالفرع).",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "Online Express Business Account exists for individual business owners and single-person LLCs only.",
+     "value_ar": "حساب Express Business الإلكتروني متاح لأصحاب المنشآت الفردية وشركات الشخص الواحد فقط.",
+     "status": "bank_to_confirm",
+     "source_url": "https://banquemisr.com/en/Digital-Services/Online-Express-Business-Account-Opening",
+     "source_title": "Banque Misr - Online Express Business Account Opening",
+     "accessed": "2026-11-25",
+     "note_en": "No published document list for opening an LLC corporate account or an escrow was found.",
+     "note_ar": "لم يُعثر على قائمة مستندات منشورة لفتح حساب شركة ذات مسؤولية محدودة أو حساب ضمان."
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "Signed escrow agreement with MIDAR/SODIC (May 2026) shows the bank has working escrow documentation.",
+     "value_ar": "اتفاقية حساب الضمان الموقعة مع ميدار/سوديك (مايو 2026) تدل على وجود مستندات ضمان معمول بها لدى البنك.",
+     "status": "bank_to_confirm",
+     "source_url": "https://banquemisr.com/en/ABOUT-US/News/Midar-and-sodic-agreement",
+     "source_title": "Banque Misr news (3 May 2026): Banque Misr Signs Escrow Account Agreement with MIDAR and SODIC for the Eastvale Project",
+     "accessed": "2026-11-25",
+     "note_en": "No standard template is published.",
+     "note_ar": "لا يوجد نموذج قياسي منشور."
+    },
+    "k_setup": {
+     "value_en": "Corporate current account opening: EGP 200 per account at branch, EGP 120 via internet banking; daily-interest (VIP) account EGP 500 once.",
+     "value_ar": "فتح حساب جاري شركات: 200 جنيه للحساب بالفرع، 120 جنيهًا عبر الإنترنت البنكي؛ حساب العائد اليومي (VIP) 500 جنيه مرة واحدة.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Escrow set-up fee is not published.",
+     "note_ar": "رسوم تأسيس حساب الضمان غير منشورة."
+    },
+    "k_annual": {
+     "value_en": "Account management fee EGP 50 every 3 months per corporate current account (EGP 100 for daily-interest VIP account); internet banking EGP 300 per user per year.",
+     "value_ar": "مصاريف إدارة الحساب 50 جنيهًا كل 3 أشهر للحساب الجاري شركات (100 جنيه لحساب العائد اليومي VIP)؛ الإنترنت البنكي 300 جنيه سنويًا لكل مستخدم.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Annual escrow agency fee is not published.",
+     "note_ar": "أتعاب وكيل الضمان السنوية غير منشورة."
+    },
+    "k_txn": {
+     "value_en": "Internal transfer at branch EGP 70; ACH 0.2% (min 50, max 300) + EGP 20, or 0.15% (min 37.5, max 75) + EGP 20 online; clearing cheque collection 0.1% (min 10, max 40) + EGP 10.",
+     "value_ar": "تحويل داخلي بالفرع 70 جنيهًا؛ ACH بنسبة 2 في الألف (أدنى 50 وأقصى 300) + 20 جنيهًا، أو 1.5 في الألف (أدنى 37.5 وأقصى 75) + 20 جنيهًا إلكترونيًا؛ تحصيل شيكات المقاصة 1 في الألف (أدنى 10 وأقصى 40) + 10 جنيهات.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Local SWIFT in EGP: 0.2% (min 50, max 300) + USD 10. Applied from 20/09/2026.",
+     "note_ar": "سويفت محلي بالجنيه: 2 في الألف (أدنى 50 وأقصى 300) + 10 دولارات. سارية من 20/09/2026."
+    },
+    "k_cheque": {
+     "value_en": "Chequebook EGP 10 per cheque at branch / EGP 6 via internet banking (books of 12/24/48); inward clearing bounced cheque EGP 30; bank cheque 0.2% (min 100, max 600) + EGP 10.",
+     "value_ar": "دفتر الشيكات 10 جنيهات للشيك بالفرع / 6 جنيهات عبر الإنترنت البنكي (دفاتر 12/24/48)؛ الشيك المرتد بالمقاصة الواردة 30 جنيهًا؛ الشيك المصرفي 2 في الألف (أدنى 100 وأقصى 600) + 10 جنيهات.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_minbal": {
+     "value_en": "Corporate current account: EGP 7,000 or 1,000 units of foreign currency; below-minimum commission EGP 100 monthly. Daily-interest (VIP) account: EGP 1,000,000.",
+     "value_ar": "الحساب الجاري شركات: 7,000 جنيه أو 1,000 وحدة عملة أجنبية؛ عمولة النزول عن الحد الأدنى 100 جنيه شهريًا. حساب العائد اليومي (VIP): 1,000,000 جنيه.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "Corporate current account: without interest. 'Account with Daily Interest (VIP)': interest accrues from a EGP 1,000,000 minimum.",
+     "value_ar": "الحساب الجاري شركات: بدون عائد. «حساب العائد اليومي (VIP)»: يُحتسب العائد من حد أدنى 1,000,000 جنيه.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/Home/SMEs/Corporate-Banking/-/media/Corporate%20Tarrif/Corporate Tarrif- Eng",
+     "source_title": "Banque Misr - Fees and charges for accounts and services, Legal Entities (applied from 20/09/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Interest rate itself is not published in the tariff.",
+     "note_ar": "سعر العائد نفسه غير منشور في التعريفة."
+    },
+    "s_finance": {
+     "value_en": "Led EGP 8bn long-term syndicated loan to Palm for Investment & Real Estate Development (Palm Hills New Cairo), signed 19 Aug 2026; roles: initial MLA, facility agent, account bank, escrow-account bank.",
+     "value_ar": "قاد تمويلًا مشتركًا طويل الأجل 8 مليارات جنيه لشركة بالم للاستثمار والتنمية العقارية (بالم هيلز القاهرة الجديدة) وُقّع 19 أغسطس 2026؛ الأدوار: مرتب رئيسي أولي ووكيل التمويل وبنك الحساب وبنك حساب الوسيط.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/ABOUT-US/News/Joint-financing-agreement-for-the-Palm-Hills-New-Cairo-project",
+     "source_title": "Banque Misr news: بنك مصر والبنك الأهلي يوقعان عقد تمويل مشترك 8 مليارات جنيه لمشروع بالم هيلز القاهرة الجديدة (19 Aug 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_discount": {
+     "value_en": "'Receivables Discounting' listed among corporate short-term facilities; Supply Chain Finance offered on BM Online Business.",
+     "value_ar": "«خصم المستحقات» مدرج ضمن التسهيلات قصيرة الأجل للشركات؛ وتمويل سلاسل الإمداد متاح عبر BM Online Business.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/en/SMEs/Corporate-Banking/Corporate-Banking-services",
+     "source_title": "Banque Misr - Corporate Banking services",
+     "accessed": "2026-11-25",
+     "note_en": "Discounting of a developer's customer-cheque portfolio or securitization is not specifically described.",
+     "note_ar": "خصم محفظة شيكات عملاء المطور أو التوريق غير موصوف تحديدًا."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "Escrow agent for MIDAR and SODIC (2026); statement cites a 'strong strategic relationship with both companies'. Real estate is a named specialised corporate segment.",
+     "value_ar": "وكيل ضمان لميدار وسوديك (2026)؛ البيان يشير إلى «علاقة استراتيجية قوية مع الشركتين». والعقارات قطاع متخصص مسمى لدى ائتمان الشركات.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/en/ABOUT-US/News/Midar-and-sodic-agreement",
+     "source_title": "Banque Misr news (3 May 2026): Banque Misr Signs Escrow Account Agreement with MIDAR and SODIC for the Eastvale Project",
+     "accessed": "2026-11-25",
+     "note_en": "See also s_finance (Palm Hills).",
+     "note_ar": "انظر أيضًا s_finance (بالم هيلز)."
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No shareholding or lending link to Al Ahly Sabbour found in the sources opened.",
+     "note_ar": "لم يُعثر على علاقة مساهمة أو تمويل مع الأهلي صبور في المصادر المفتوحة."
+    },
+    "n_conflict": {
+     "value_en": "Equity participation list ('Housing projects') includes El Mostakbal for Urban Development, Nasr City Housing and Construction, Misr Al Ameria for Real Estate Investment, and others.",
+     "value_ar": "قائمة المساهمات («مشروعات الإسكان») تضم المستقبل للتنمية العمرانية، مدينة نصر للإسكان والتعمير، مصر العامرية للاستثمار العقاري، وغيرها.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/en/CAPITAL-MARKETS/Equity-Participation",
+     "source_title": "Banque Misr - Equity Participation",
+     "accessed": "2026-11-25",
+     "note_en": "Stake percentages are not shown on the page. El Mostakbal is the Mostakbal City master developer.",
+     "note_ar": "نسب المساهمة غير معروضة في الصفحة. المستقبل هي المطور العام لمستقبل سيتي."
+    }
+   }
+  },
+  {
+   "id": "bdc",
+   "name_en": "Banque du Caire",
+   "name_ar": "بنك القاهرة",
+   "type": "public",
+   "website": "https://www.bdc.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No public evidence of escrow-agent services found on the bank's corporate pages or in press searched.",
+     "note_ar": "لم يُعثر على دليل علني لخدمات وكيل حساب ضمان في صفحات الشركات أو الصحافة التي بُحثت."
+    },
+    "g_developer_account": {
+     "value_en": "Acts as account bank (also facility and security agent) in the EGP 3.2bn syndicated loan to Tameer's UBL North/South (Nov 2026).",
+     "value_ar": "يقوم بدور بنك الحساب (ووكيل التمويل ووكيل الضمان) في القرض المشترك 3.2 مليار جنيه لشركتي UBL التابعتين لتعمير (نوفمبر 2026).",
+     "status": "bank_to_confirm",
+     "source_url": "https://enterpriseam.com/egypt/2026/11/11/banque-du-caire-arranges-egp-3-2-bn-syndicated-loan-for-tameers-ubl-project/",
+     "source_title": "Enterprise (11 Nov 2026): Banque du Caire arranges EGP 3.2 bn syndicated loan for Tameer's UBL project",
+     "accessed": "2026-11-25",
+     "note_en": "Loan-related project account only; a revenue-share collection account between landowner and developer is not evidenced.",
+     "note_ar": "حساب مشروع مرتبط بقرض فقط؛ لا دليل على حساب تحصيل لتقاسم الإيراد بين المالك والمطور."
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "BDCbusiness offers 'Standing transactions setup'; cash management page lists tier-based call accounts and treasury optimisation.",
+     "value_ar": "منصة BDCbusiness تتيح «إعداد المعاملات المستديمة»؛ وصفحة إدارة النقد تذكر حسابات تحت الطلب بشرائح وتعظيم عائد الخزانة.",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/digital-products/bdcbusiness.html",
+     "source_title": "Banque du Caire - BDCbusiness (corporate online banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Automatic balance sweep / cash pooling is not listed.",
+     "note_ar": "التحويل التلقائي للأرصدة/تجميع السيولة غير مدرج."
+    },
+    "p_alerts": {
+     "value_en": "BDCbusiness: 24/7 access to account summary, statements and cash-flow tracking.",
+     "value_ar": "BDCbusiness: اطلاع على ملخص الحساب والكشوف ومتابعة التدفقات النقدية على مدار الساعة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/digital-products/bdcbusiness.html",
+     "source_title": "Banque du Caire - BDCbusiness (corporate online banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Balance alerts (SMS/e-mail) for corporate accounts not stated; instant alerts are mentioned only for the corporate card app.",
+     "note_ar": "تنبيهات الرصيد لحسابات الشركات غير مذكورة؛ التنبيهات الفورية مذكورة لتطبيق بطاقات الشركات فقط."
+    },
+    "p_overdraft": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_certified": {
+     "value_en": "'Bank draft request' available on BDCbusiness. Individuals tariff: bank/authenticated cheque issuance 0.2%, min EGP 40, max EGP 500.",
+     "value_ar": "«طلب شيك مصرفي» متاح عبر BDCbusiness. تعريفة الأفراد: إصدار شيك مصرفي/مقبول الدفع 2 في الألف بحد أدنى 40 وأقصى 500 جنيه.",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/digital-products/bdcbusiness.html",
+     "source_title": "Banque du Caire - BDCbusiness (corporate online banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Availability is from the corporate page; the fee is from the individuals tariff (19-10-2026), corporate fee to be confirmed.",
+     "note_ar": "الإتاحة من صفحة الشركات؛ الرسم من تعريفة الأفراد (19-10-2026) ويُؤكد رسم الشركات."
+    },
+    "p_sigverify": {
+     "value_en": "Signature verification: EGP 50 per paper.",
+     "value_ar": "صحة التوقيع: 50 جنيهًا للورقة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/dam/jcr:8b3d6240-4399-4106-aa4f-d152ff539de8/Tariff-EN.pdf",
+     "source_title": "Banque du Caire - Tariff: Individual Products and Services Schedule of Charges (19-10-2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Figure is from the INDIVIDUALS tariff (19-10-2026); no corporate tariff was found published.",
+     "note_ar": "الرقم من تعريفة الأفراد (19-10-2026)؛ لم يُعثر على تعريفة شركات منشورة."
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "Corporate 'Cheques pickup and collection solution'. Individuals tariff: deferred cheque collection 0.2% (min EGP 50, max EGP 500) + EGP 5 courier; custody EGP 20 per paper per year.",
+     "value_ar": "«حل استلام وتحصيل الشيكات» للشركات. تعريفة الأفراد: تحصيل الشيكات الآجلة 2 في الألف (أدنى 50 وأقصى 500 جنيه) + 5 جنيهات بريد؛ الحفظ 20 جنيهًا للورقة سنويًا.",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/products/cash-liquidity-management.html",
+     "source_title": "Banque du Caire - Cash and Liquidity Management",
+     "accessed": "2026-11-25",
+     "note_en": "Service is on the corporate page; fees quoted are from the individuals tariff.",
+     "note_ar": "الخدمة من صفحة الشركات؛ الرسوم من تعريفة الأفراد."
+    },
+    "c_pos": {
+     "value_en": "Subsidiary Tally (99.99% owned) is a digital payments company offering omni-channel acceptance and cash management; 'QaheraCash for merchants' is listed.",
+     "value_ar": "الشركة التابعة «تالي» (99.99%) للمدفوعات الرقمية تقدم قبولًا متعدد القنوات وإدارة نقد؛ و«قاهرة كاش للتجار» مدرجة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/root-nav/about/overview.html",
+     "source_title": "Banque du Caire - Overview (subsidiaries)",
+     "accessed": "2026-11-25",
+     "note_en": "POS merchant-acquiring terms for corporates were not read on any page.",
+     "note_ar": "شروط نقاط البيع للشركات لم تُقرأ في أي صفحة."
+    },
+    "c_online": {
+     "value_en": "'e-collection via mobile', 'Mass Direct Debit', 'Direct Debit via ACH', 'Core Pay solution', 'Cash pickup solution'.",
+     "value_ar": "«التحصيل الإلكتروني عبر المحمول»، «الخصم المباشر المجمع»، «الخصم المباشر عبر المقاصة الآلية»، «كور باي»، «استلام النقدية».",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/products/cash-liquidity-management.html",
+     "source_title": "Banque du Caire - Cash and Liquidity Management",
+     "accessed": "2026-11-25",
+     "note_en": "Online payment gateway and Fawry / eFinance bill presentment not stated.",
+     "note_ar": "بوابة الدفع الإلكتروني والربط مع فوري/إي فاينانس غير مذكورين."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "244 branches in Egypt (separate financial statements for the period ended 30 June 2026).",
+     "value_ar": "244 فرعًا داخل مصر (القوائم المالية المستقلة عن الفترة المنتهية 30 يونيو 2026).",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/dam/jcr:39e04aab-5214-4db3-a997-cafe3f7f3d03/BDC-Separate-Jun-26-En.pdf",
+     "source_title": "Banque du Caire - Separate financial statements, 30 June 2026 (PDF)",
+     "accessed": "2026-11-25",
+     "note_en": "Sentence in the statements continues beyond 'branches' (offices/units).",
+     "note_ar": "الجملة في القوائم تتضمن أيضًا مكاتب ووحدات."
+    },
+    "c_fx": {
+     "value_en": "Domestic and international transfers in local and foreign currencies (ACH / SWIFT); cross-border SWIFT via BDCbusiness.",
+     "value_ar": "تحويلات محلية ودولية بالعملات المحلية والأجنبية (مقاصة آلية/سويفت)؛ وسويفت للخارج عبر BDCbusiness.",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/products/cash-liquidity-management.html",
+     "source_title": "Banque du Caire - Cash and Liquidity Management",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "'e-statement solution'; BDCbusiness provides account statements and states it simplifies accounts reconciliation.",
+     "value_ar": "«حل الكشف الإلكتروني»؛ ومنصة BDCbusiness توفر كشوف الحساب وتذكر تبسيط تسوية الحسابات.",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/products/cash-liquidity-management.html",
+     "source_title": "Banque du Caire - Cash and Liquidity Management",
+     "accessed": "2026-11-25",
+     "note_en": "MT940 / statement files not mentioned.",
+     "note_ar": "MT940 وملفات الكشوف غير مذكورة."
+    },
+    "c_api": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "Current account opening: EGP 120 + fiscal stamp (local currency).",
+     "value_ar": "فتح حساب جاري: 120 جنيهًا + الدمغة (عملة محلية).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/dam/jcr:8b3d6240-4399-4106-aa4f-d152ff539de8/Tariff-EN.pdf",
+     "source_title": "Banque du Caire - Tariff: Individual Products and Services Schedule of Charges (19-10-2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Figure is from the INDIVIDUALS tariff (19-10-2026); no corporate tariff was found published.",
+     "note_ar": "الرقم من تعريفة الأفراد (19-10-2026)؛ لم يُعثر على تعريفة شركات منشورة."
+    },
+    "k_annual": {
+     "value_en": "Current account maintenance: EGP 120 per quarter (local currency).",
+     "value_ar": "مصاريف الحساب الجاري: 120 جنيهًا كل ربع سنة (عملة محلية).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/dam/jcr:8b3d6240-4399-4106-aa4f-d152ff539de8/Tariff-EN.pdf",
+     "source_title": "Banque du Caire - Tariff: Individual Products and Services Schedule of Charges (19-10-2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Figure is from the INDIVIDUALS tariff (19-10-2026); no corporate tariff was found published.",
+     "note_ar": "الرقم من تعريفة الأفراد (19-10-2026)؛ لم يُعثر على تعريفة شركات منشورة."
+    },
+    "k_txn": {
+     "value_en": "Internal transfer EGP 50; outgoing ACH 0.2% (min EGP 50, max EGP 350) + ACH charges; outgoing SWIFT in EGP 0.3% (min 20, max 400) + SWIFT; incoming ACH free.",
+     "value_ar": "تحويل داخلي 50 جنيهًا؛ ACH صادر 2 في الألف (أدنى 50 وأقصى 350 جنيهًا) + مصاريف؛ سويفت صادر بالجنيه 3 في الألف (أدنى 20 وأقصى 400) + سويفت؛ ACH وارد مجانًا.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/dam/jcr:8b3d6240-4399-4106-aa4f-d152ff539de8/Tariff-EN.pdf",
+     "source_title": "Banque du Caire - Tariff: Individual Products and Services Schedule of Charges (19-10-2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Figure is from the INDIVIDUALS tariff (19-10-2026); no corporate tariff was found published.",
+     "note_ar": "الرقم من تعريفة الأفراد (19-10-2026)؛ لم يُعثر على تعريفة شركات منشورة."
+    },
+    "k_cheque": {
+     "value_en": "Cheque book EGP 12 per cheque; returned cheque EGP 30 + protest charges if applied; bank/authenticated cheque 0.2% (min EGP 40, max EGP 500).",
+     "value_ar": "دفتر الشيكات 12 جنيهًا للشيك؛ الشيك المرتد 30 جنيهًا + مصاريف البروتستو إن وجدت؛ شيك مصرفي/مقبول الدفع 2 في الألف (أدنى 40 وأقصى 500 جنيه).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/dam/jcr:8b3d6240-4399-4106-aa4f-d152ff539de8/Tariff-EN.pdf",
+     "source_title": "Banque du Caire - Tariff: Individual Products and Services Schedule of Charges (19-10-2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Figure is from the INDIVIDUALS tariff (19-10-2026); no corporate tariff was found published.",
+     "note_ar": "الرقم من تعريفة الأفراد (19-10-2026)؛ لم يُعثر على تعريفة شركات منشورة."
+    },
+    "k_minbal": {
+     "value_en": "Current account minimum opening balance: EGP 3,000.",
+     "value_ar": "الحد الأدنى لفتح الحساب الجاري: 3,000 جنيه.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/dam/jcr:8b3d6240-4399-4106-aa4f-d152ff539de8/Tariff-EN.pdf",
+     "source_title": "Banque du Caire - Tariff: Individual Products and Services Schedule of Charges (19-10-2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Figure is from the INDIVIDUALS tariff (19-10-2026); no corporate tariff was found published.",
+     "note_ar": "الرقم من تعريفة الأفراد (19-10-2026)؛ لم يُعثر على تعريفة شركات منشورة."
+    },
+    "k_yield": {
+     "value_en": "Corporate page lists 'Call accounts tier-based' and 'High yielding deposit instruments'.",
+     "value_ar": "صفحة الشركات تذكر «حسابات تحت الطلب بشرائح» و«أوعية إيداع مرتفعة العائد».",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/products/cash-liquidity-management.html",
+     "source_title": "Banque du Caire - Cash and Liquidity Management",
+     "accessed": "2026-11-25",
+     "note_en": "No rates published.",
+     "note_ar": "لا توجد أسعار منشورة."
+    },
+    "s_finance": {
+     "value_en": "Leads four-bank EGP 3.2bn medium-term syndicated loan to Tameer subsidiaries UBL North/South (Urban Business Lane, New Cairo), Nov 2026; BdC share EGP 1.33bn; initial MLA, facility agent, security agent, account bank.",
+     "value_ar": "يقود قرضًا مشتركًا متوسط الأجل 3.2 مليار جنيه من أربعة بنوك لشركتي UBL التابعتين لتعمير (القاهرة الجديدة) نوفمبر 2026؛ حصة البنك 1.33 مليار؛ مرتب رئيسي أولي ووكيل التمويل ووكيل الضمان وبنك الحساب.",
+     "status": "verified",
+     "source_url": "https://enterpriseam.com/egypt/2026/11/11/banque-du-caire-arranges-egp-3-2-bn-syndicated-loan-for-tameers-ubl-project/",
+     "source_title": "Enterprise (11 Nov 2026): Banque du Caire arranges EGP 3.2 bn syndicated loan for Tameer's UBL project",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_discount": {
+     "value_en": "Debt & Structured Finance division lists Securitization; trade pages list receivables finance and discounting.",
+     "value_ar": "قطاع الدين والتمويل المهيكل يدرج التوريق؛ وصفحات التجارة تدرج تمويل المستحقات والخصم.",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/corporate/products/debt-structured-finance.html",
+     "source_title": "Banque du Caire - Debt & Structured Finance",
+     "accessed": "2026-11-25",
+     "note_en": "No named developer securitization / cheque-portfolio discounting deal was read.",
+     "note_ar": "لم تُقرأ صفقة توريق أو خصم محفظة شيكات لمطور بالاسم."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "Tameer (UBL project) - EGP 3.2bn syndicated loan, Nov 2026.",
+     "value_ar": "تعمير (مشروع UBL) – قرض مشترك 3.2 مليار جنيه، نوفمبر 2026.",
+     "status": "verified",
+     "source_url": "https://enterpriseam.com/egypt/2026/11/11/banque-du-caire-arranges-egp-3-2-bn-syndicated-loan-for-tameers-ubl-project/",
+     "source_title": "Enterprise (11 Nov 2026): Banque du Caire arranges EGP 3.2 bn syndicated loan for Tameer's UBL project",
+     "accessed": "2026-11-25",
+     "note_en": "Other developer deals appeared in search results only and were not opened.",
+     "note_ar": "صفقات أخرى ظهرت في نتائج البحث فقط ولم تُفتح."
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No link to Al Ahly Sabbour found.",
+     "note_ar": "لم يُعثر على علاقة مع الأهلي صبور."
+    },
+    "n_conflict": {
+     "value_en": "Subsidiaries listed on the bank's overview page: Cairo Leasing Corporation, Cairo Bank Uganda, Tally, Cairo Exchange Company - none is a real estate developer.",
+     "value_ar": "الشركات التابعة المذكورة في صفحة البنك: القاهرة للتأجير التمويلي، بنك القاهرة أوغندا، تالي، القاهرة للصرافة – ليس بينها مطور عقاري.",
+     "status": "verified",
+     "source_url": "https://www.bdc.com.eg/bdcwebsite/root-nav/about/overview.html",
+     "source_title": "Banque du Caire - Overview (subsidiaries)",
+     "accessed": "2026-11-25",
+     "note_en": "Minority equity stakes in real estate companies were not checked.",
+     "note_ar": "لم تُراجع المساهمات غير المسيطرة في شركات عقارية."
+    }
+   }
+  },
+  {
+   "id": "hdb",
+   "name_en": "Housing and Development Bank",
+   "name_ar": "بنك التعمير والإسكان",
+   "type": "public (state-controlled, EGX-listed)",
+   "website": "https://www.hdb-egy.com",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No public evidence of escrow-agent services found on the bank's site or tariff.",
+     "note_ar": "لم يُعثر على دليل علني لخدمات وكيل حساب ضمان في موقع البنك أو تعريفته."
+    },
+    "g_developer_account": {
+     "value_en": "Tariff has a section on online reservation/collection work for allocating land plots and units on behalf of third parties, and custody of buyers' post-dated cheques for NUCA units.",
+     "value_ar": "التعريفة تتضمن بندًا لأعمال الحجز الإلكتروني وتحصيل جدية الحجز لتخصيص الأراضي والوحدات لصالح الغير، وحفظ الشيكات الآجلة لمشتري وحدات هيئة المجتمعات العمرانية.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Shows collection services for real-estate owners; a controlled project/revenue-share account for a private developer is not described.",
+     "note_ar": "يدل على خدمات تحصيل لملاك عقارات؛ حساب مشروع مُدار لتقاسم الإيراد لمطور خاص غير موصوف."
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Standing orders for payment or transfer for legal entities: EGP 25 per instruction/amendment (plus applicable SWIFT/network costs).",
+     "value_ar": "الأوامر المستديمة للدفع أو التحويل للأشخاص الاعتبارية: 25 جنيهًا عند إصدار التعليمات/تعديلها (مع مصاريف الربط/السويفت المقررة).",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Automatic balance sweep / cash pooling not listed.",
+     "note_ar": "التحويل التلقائي للأرصدة/تجميع السيولة غير مدرج."
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_overdraft": {
+     "value_en": "Overdraft on credit current accounts (with credit-authority approval): 1% commission on highest debit balance, calculated monthly, plus interest per creditworthiness.",
+     "value_ar": "انكشاف الحسابات الجارية الدائنة (بموافقة السلطة الائتمانية): عمولة 1% على أعلى رصيد مدين تُحتسب شهريًا، مع فائدة حسب درجة الجدارة.",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Legal-entities section of tariff dated 12/10/2026; subject to credit approval.",
+     "note_ar": "من باب الأشخاص الاعتبارية بتعريفة 12/10/2026؛ يخضع للموافقة الائتمانية."
+    },
+    "p_certified": {
+     "value_en": "Bank cheques issued for companies: 0.2% of value, min EGP 20, max EGP 400; tariff section covers bank cheques and certified (accepted) cheques.",
+     "value_ar": "إصدار شيكات مصرفية (شركات): 2 في الألف من القيمة بحد أدنى 20 وأقصى 400 جنيه؛ والتعريفة تتناول الشيكات المصرفية والشيكات مقبولة الدفع.",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sigverify": {
+     "value_en": "Authentication of signatures on documents and cheques drawn by the customer: EGP 100; tariff states post-dated cheques may NOT be authenticated.",
+     "value_ar": "المصادقة على صحة التوقيعات على المحررات والشيكات المسحوبة بمعرفة العميل: 100 جنيه؛ والتعريفة تنص على أنه لا يجوز المصادقة على شيكات آجلة.",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "The ban on authenticating post-dated cheques matters for the landowner cheques.",
+     "note_ar": "حظر المصادقة على الشيكات الآجلة مهم لشيكات مالك الأرض."
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "Custody commission for post-dated cheques from customers representing the balance price of NUCA-owned units: EGP 10 per cheque per year; withdrawal of a post-dated cheque EGP 25.",
+     "value_ar": "عمولة حفظ الشيكات الآجلة المقدمة من العملاء عن باقي ثمن وحدات هيئة المجتمعات العمرانية: 10 جنيهات للشيك سنويًا؛ سحب شيك آجل 25 جنيهًا.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "General post-dated cheque warehousing for a private developer's buyers is not explicitly offered.",
+     "note_ar": "حفظ الشيكات الآجلة لعملاء مطور خاص غير معروض صراحةً."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "Cash management page lists an electronic collection service, Corpay direct credit/direct debit (ACH) and government payments via eFinance CPS.",
+     "value_ar": "صفحة إدارة النقد تذكر خدمة التحصيل الإلكتروني، وكورباي للإضافة/الخصم المباشر (ACH)، والمدفوعات الحكومية عبر CPS من إي فاينانس.",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/banking_services/page.php?permalink=Cash-Management-and-Digital-Channels",
+     "source_title": "HDB - إدارة النقد والقنوات الرقمية (Cash Management and Digital Channels)",
+     "accessed": "2026-11-25",
+     "note_en": "Online card payment gateway for the developer's buyers not stated.",
+     "note_ar": "بوابة دفع إلكتروني بالبطاقات لعملاء المطور غير مذكورة."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "More than 100 branches and more than 400 ATMs (bank website, undated).",
+     "value_ar": "أكثر من 100 فرع وأكثر من 400 ماكينة صراف آلي (موقع البنك، دون تاريخ).",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/about_bank/",
+     "source_title": "HDB - عن البنك",
+     "accessed": "2026-11-25",
+     "note_en": "No as-of date on the page.",
+     "note_ar": "لا يوجد تاريخ على الصفحة."
+    },
+    "c_fx": {
+     "value_en": "Domestic and international transfers in local and foreign currencies (ACH / SWIFT) for corporates.",
+     "value_ar": "تحويلات محلية ودولية بالعملات المحلية والأجنبية (مقاصة آلية/سويفت) للشركات.",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/banking_services/page.php?permalink=Cash-Management-and-Digital-Channels",
+     "source_title": "HDB - إدارة النقد والقنوات الرقمية (Cash Management and Digital Channels)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "Periodic statements for legal entities available daily (EGP 1,040/yr), weekly (520), monthly (200) or quarterly (120).",
+     "value_ar": "كشوف حساب دورية للأشخاص الاعتبارية: يومي (1,040 جنيهًا سنويًا)، أسبوعي (520)، شهري (200)، ربع سنوي (120).",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "MT940 / electronic statement files not mentioned.",
+     "note_ar": "MT940 وملفات الكشوف الإلكترونية غير مذكورة."
+    },
+    "c_api": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "Legal entities credit current account opening fee: EGP 150 (excl. stamp duties).",
+     "value_ar": "مصاريف فتح حساب جاري دائن للأشخاص الاعتبارية: 150 جنيهًا (غير شاملة الدمغات).",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Tariff dated 12/10/2026. No escrow fee line.",
+     "note_ar": "تعريفة 12/10/2026. لا يوجد بند لرسوم حساب ضمان."
+    },
+    "k_annual": {
+     "value_en": "Periodic fees EGP 80 quarterly + periodic statement fees EGP 80 quarterly; annual balance-confirmation fee EGP 35.",
+     "value_ar": "مصاريف دورية 80 جنيهًا ربع سنوي + مصاريف كشف الحساب الدوري 80 جنيهًا ربع سنوي؛ مصاريف المصادقات السنوية 35 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_txn": {
+     "value_en": "Legal entities local SWIFT transfer 0.1% (min EGP 30, max EGP 300) + EGP 35; cheques collected via clearing EGP 25 per cheque; outside clearing 0.2% (min 25, max 350).",
+     "value_ar": "تحويل محلي بالسويفت للأشخاص الاعتبارية 1 في الألف (أدنى 30 وأقصى 300 جنيه) + 35 جنيهًا؛ تحصيل شيكات المقاصة 25 جنيهًا للشيك؛ خارج المقاصة 2 في الألف (أدنى 25 وأقصى 350).",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "A corporate-specific ACH outgoing rate was not clearly readable in the tariff.",
+     "note_ar": "سعر ACH الصادر الخاص بالشركات لم يكن واضحًا في التعريفة."
+    },
+    "k_cheque": {
+     "value_en": "Chequebook EGP 10 per cheque (EGP 2 per cheque for large corporates) plus stamps; returned cheque (companies) EGP 25 per cheque per presentation; bank cheque 0.2% (min 20, max 400).",
+     "value_ar": "دفتر الشيكات 10 جنيهات للشيك (جنيهان للشيك للشركات الكبرى) مع الدمغات؛ الشيك المرتد (شركات) 25 جنيهًا للشيك في كل مرة تقديم؛ الشيك المصرفي 2 في الألف (أدنى 20 وأقصى 400).",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Chequebooks require the current account balance to be at least EGP 5,000.",
+     "note_ar": "يشترط لإصدار دفتر الشيكات ألا يقل رصيد الحساب عن 5,000 جنيه."
+    },
+    "k_minbal": {
+     "value_en": "EGP 5,000 or foreign-currency equivalent to open a credit current account; below-minimum fee EGP 20 monthly.",
+     "value_ar": "5,000 جنيه أو ما يعادلها بالعملات الأجنبية لفتح حساب جاري دائن؛ مصاريف النزول عن الحد الأدنى 20 جنيهًا شهريًا.",
+     "status": "verified",
+     "source_url": "https://www.hdb-egy.com/uploads/files/351TarrifFinalOctober2026.pdf",
+     "source_title": "HDB - تعريفة الخدمات المصرفية والإسكانية (12/10/2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "Participated in EGP 4.4bn seven-year syndicated financing to Saudi Egyptian Developers for 'Central', New Cairo (Nov 2024).",
+     "value_ar": "شارك في تمويل مشترك 4.4 مليار جنيه لمدة سبع سنوات للشركة السعودية المصرية للتعمير لمشروع «سنترال» بالقاهرة الجديدة (نوفمبر 2024).",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=823561",
+     "source_title": "Daily News Egypt (9 Nov 2024): HDB participates in granting joint financing worth EGP 4.4bn for Saudi Egyptian Developers",
+     "accessed": "2026-11-25",
+     "note_en": "HDB's share not stated; lead/agent roles were held by other banks.",
+     "note_ar": "حصة البنك غير مذكورة؛ أدوار الترتيب والوكالة كانت لبنوك أخرى."
+    },
+    "s_discount": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "Saudi Egyptian Developers (syndicate participant, 2024).",
+     "value_ar": "السعودية المصرية للتعمير (مشارك في تحالف، 2024).",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=823561",
+     "source_title": "Daily News Egypt (9 Nov 2024): HDB participates in granting joint financing worth EGP 4.4bn for Saudi Egyptian Developers",
+     "accessed": "2026-11-25",
+     "note_en": "Other developer deals seen only in search results.",
+     "note_ar": "صفقات أخرى ظهرت في نتائج البحث فقط."
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No link to Al Ahly Sabbour found.",
+     "note_ar": "لم يُعثر على علاقة مع الأهلي صبور."
+    },
+    "n_conflict": {
+     "value_en": "Yes. Housing and Development Properties (HDP) is described as the real estate arm of HD Bank; the bank's own site also markets housing projects and online unit reservation.",
+     "value_ar": "نعم. شركة التعمير والإسكان العقارية (HDP) توصف بأنها الذراع العقارية للبنك؛ وموقع البنك يسوّق مشروعات سكنية وحجز الوحدات إلكترونيًا.",
+     "status": "verified",
+     "source_url": "https://www.zawya.com/en/economy/north-africa/hd-banks-real-estate-arm-secures-289mln-financing-from-midbank-rg1dmuy9",
+     "source_title": "Zawya: HD Bank's real estate arm (HDP) secures financing from MIDBANK",
+     "accessed": "2026-11-25",
+     "note_en": "Ownership percentage and other real estate stakes not confirmed on an opened page.",
+     "note_ar": "نسبة الملكية والمساهمات العقارية الأخرى غير مؤكدة من صفحة مفتوحة."
+    }
+   }
+  },
+  {
+   "id": "alex",
+   "name_en": "ALEXBANK (Bank of Alexandria)",
+   "name_ar": "بنك الإسكندرية",
+   "type": "foreign subsidiary (Intesa Sanpaolo group)",
+   "website": "https://www.alexbank.com",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No mention of escrow on the enterprise / cash management pages opened or in press searched.",
+     "note_ar": "لا ذكر لحساب الضمان في صفحات الشركات/إدارة النقد المفتوحة أو في الصحافة التي بُحثت."
+    },
+    "g_developer_account": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Corporate internet banking allows scheduling and saving of fund transfers; SOC lists standing instructions (EGP 100 per transaction inside ALEXBANK).",
+     "value_ar": "الإنترنت البنكي للشركات يتيح جدولة وحفظ التحويلات؛ وجدول الرسوم يدرج التعليمات المستديمة (100 جنيه للعملية داخل البنك).",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/internet-banking.html",
+     "source_title": "ALEXBANK Enterprise - Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Automatic balance sweep / cash pooling not listed. Standing-instruction fee is from the Retail/SME/Micro SOC.",
+     "note_ar": "التحويل التلقائي/تجميع السيولة غير مدرج. رسم التعليمات المستديمة من تعريفة الأفراد/الصغيرة."
+    },
+    "p_alerts": {
+     "value_en": "Corporate internet banking gives 24/7 monitoring of accounts and transactions; SOC lists SMS alert packages for retail segments.",
+     "value_ar": "الإنترنت البنكي للشركات يتيح متابعة الحسابات والمعاملات 24/7؛ وجدول الرسوم يدرج باقات تنبيهات SMS لشرائح الأفراد.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/en/enterprise/internet-banking.html",
+     "source_title": "ALEXBANK Enterprise - Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "SMS/e-mail balance alerts for corporate accounts are not stated.",
+     "note_ar": "تنبيهات الرصيد لحسابات الشركات غير مذكورة."
+    },
+    "p_overdraft": {
+     "value_en": "Working capital finance includes clean overdraft, overdraft against receivables, and overdraft against assignment of contracts.",
+     "value_ar": "تمويل رأس المال العامل يشمل سحبًا على المكشوف بدون ضمان، وبضمان المستحقات، وبضمان التنازل عن العقود.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/corporate-and-investment-banking/corporate-products-and-services.html",
+     "source_title": "ALEXBANK Enterprise - Corporate Banking Services",
+     "accessed": "2026-11-25",
+     "note_en": "Subject to credit approval; pricing not published.",
+     "note_ar": "يخضع للموافقة الائتمانية؛ التسعير غير منشور."
+    },
+    "p_certified": {
+     "value_en": "Bank draft in local currency: 0.2%, min EGP 25, max EGP 1,000 + EGP 10 collection fee.",
+     "value_ar": "إصدار شيك مصرفي بالعملة المحلية: 2 في الألف بحد أدنى 25 وأقصى 1,000 جنيه + 10 جنيهات.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/document/documents/ALEX/2026/SOC/SOC-EN---July-14-2026.pdf",
+     "source_title": "ALEXBANK - Retail, SMEs and Micro Segment Schedule of Charges (14 July 2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "From the Retail/SME/Micro schedule of charges (14 Jul 2026); no separate large-corporate tariff found.",
+     "note_ar": "من تعريفة الأفراد/المشروعات الصغيرة والمتناهية (14 يوليو 2026)؛ لم يُعثر على تعريفة مستقلة للشركات الكبرى."
+    },
+    "p_sigverify": {
+     "value_en": "Signature verification EGP 50; signature verification stamp on inward cheque EGP 40.",
+     "value_ar": "صحة التوقيع 50 جنيهًا؛ ختم صحة التوقيع على شيك وارد 40 جنيهًا.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/document/documents/ALEX/2026/SOC/SOC-EN---July-14-2026.pdf",
+     "source_title": "ALEXBANK - Retail, SMEs and Micro Segment Schedule of Charges (14 July 2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "From the Retail/SME/Micro schedule of charges (14 Jul 2026); no separate large-corporate tariff found.",
+     "note_ar": "من تعريفة الأفراد/المشروعات الصغيرة والمتناهية (14 يوليو 2026)؛ لم يُعثر على تعريفة مستقلة للشركات الكبرى."
+    },
+    "c_virtual": {
+     "value_en": "'Special Deposit': corporate clients are reported online of their customers' deposits with the client's internal reference.",
+     "value_ar": "«الإيداع الخاص»: إخطار عملاء الشركات إلكترونيًا بإيداعات عملائهم مع الرقم المرجعي الداخلي للشركة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/en/enterprise/transaction-banking/cash-management-products.html",
+     "source_title": "ALEXBANK Enterprise - Cash Management Products",
+     "accessed": "2026-11-25",
+     "note_en": "Payer identification by reference is established; virtual accounts / virtual IBANs are not stated.",
+     "note_ar": "تمييز الدافع بالمرجع مثبت؛ الحسابات/الآيبان الافتراضية غير مذكورة."
+    },
+    "c_pdc": {
+     "value_en": "'Checks Collection' offered to enterprise customers. SOC: custody of post-dated cheque EGP 2 annually; outward clearing cheque collection EGP 25.",
+     "value_ar": "خدمة «تحصيل الشيكات» لعملاء الشركات. جدول الرسوم: حفظ الشيك الآجل 2 جنيه سنويًا؛ تحصيل شيكات المقاصة الصادرة 25 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/other-services.html",
+     "source_title": "ALEXBANK Enterprise - Other Services",
+     "accessed": "2026-11-25",
+     "note_en": "Fees are from the Retail/SME/Micro SOC; bulk post-dated cheque warehousing terms for corporates not described.",
+     "note_ar": "الرسوم من تعريفة الأفراد/الصغيرة؛ شروط حفظ محافظ الشيكات الآجلة للشركات غير موصوفة."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "'Direct Debit' for biller customers to collect instalments in EGP; 'Cash Collect' from client premises; CPS for governmental payments.",
+     "value_ar": "«الخصم المباشر» لعملاء الفوترة لتحصيل الأقساط بالجنيه؛ «تحصيل النقدية» من مقر العميل؛ CPS للمدفوعات الحكومية.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/transaction-banking/cash-management-products.html",
+     "source_title": "ALEXBANK Enterprise - Cash Management Products",
+     "accessed": "2026-11-25",
+     "note_en": "Online payment gateway / Fawry bill presentment for the developer's buyers not stated.",
+     "note_ar": "بوابة الدفع الإلكتروني/عرض الفواتير عبر فوري لعملاء المطور غير مذكورة."
+    },
+    "c_instapay": {
+     "value_en": "Corporate internet banking: instant transfers 24/7 over the Instant Payment Network; SOC: IPN outgoing for legal entities 0.5%, min EGP 100, max EGP 300.",
+     "value_ar": "الإنترنت البنكي للشركات: تحويلات لحظية 24/7 عبر شبكة المدفوعات اللحظية؛ جدول الرسوم: IPN صادر للأشخاص الاعتبارية 0.5% بحد أدنى 100 وأقصى 300 جنيه.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/internet-banking.html",
+     "source_title": "ALEXBANK Enterprise - Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Identification/reporting of inbound InstaPay receipts not described.",
+     "note_ar": "تمييز المتحصلات اللحظية الواردة والتقرير عنها غير موصوف."
+    },
+    "c_branches": {
+     "value_en": "More than 170 branches covering all governorates (bank website, undated).",
+     "value_ar": "أكثر من 170 فرعًا تغطي جميع المحافظات (موقع البنك، دون تاريخ).",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/corporate-and-investment-banking/corporate-products-and-services.html",
+     "source_title": "ALEXBANK Enterprise - Corporate Banking Services",
+     "accessed": "2026-11-25",
+     "note_en": "No as-of date on the page.",
+     "note_ar": "لا يوجد تاريخ على الصفحة."
+    },
+    "c_fx": {
+     "value_en": "Incoming and outgoing transfers inside and outside Egypt; corporate FCY accounts; SOC: incoming SWIFT in foreign currency USD 4 per transfer.",
+     "value_ar": "تحويلات واردة وصادرة داخل وخارج مصر؛ حسابات شركات بالعملة الأجنبية؛ جدول الرسوم: سويفت وارد بالعملة الأجنبية 4 دولارات للتحويل.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/other-services.html",
+     "source_title": "ALEXBANK Enterprise - Other Services",
+     "accessed": "2026-11-25",
+     "note_en": "Fee is from the Retail/SME/Micro SOC.",
+     "note_ar": "الرسم من تعريفة الأفراد/الصغيرة."
+    },
+    "c_recon": {
+     "value_en": "MT940 / MT942 reporting offered as a cash management product; statements exportable from corporate internet banking.",
+     "value_ar": "تقارير MT940 / MT942 ضمن منتجات إدارة النقد؛ وإمكانية تصدير الحركات من الإنترنت البنكي للشركات.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/transaction-banking/cash-management-products.html",
+     "source_title": "ALEXBANK Enterprise - Cash Management Products",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "Host to Host service: exchanges the client's reporting and payment files directly with the client's ERP, including ALEXBANK and third-party bank accounts.",
+     "value_ar": "خدمة Host to Host: تبادل ملفات التقارير والمدفوعات مباشرة مع نظام ERP للعميل، وتشمل حسابات بنك الإسكندرية وحسابات بنوك أخرى.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/transaction-banking/cash-management-products.html",
+     "source_title": "ALEXBANK Enterprise - Cash Management Products",
+     "accessed": "2026-11-25",
+     "note_en": "Open API not mentioned.",
+     "note_ar": "واجهات API المفتوحة غير مذكورة."
+    },
+    "o_time": {
+     "value_en": "Corporate internet banking activation takes on average 2 business days.",
+     "value_ar": "تفعيل الإنترنت البنكي للشركات يستغرق في المتوسط يومي عمل.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/en/enterprise/internet-banking.html",
+     "source_title": "ALEXBANK Enterprise - Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Time to open the corporate account itself is not stated.",
+     "note_ar": "مدة فتح حساب الشركة نفسه غير مذكورة."
+    },
+    "o_docs": {
+     "value_en": "For corporate internet banking: commercial register and tax card, plus valid national ID of the delegate.",
+     "value_ar": "للإنترنت البنكي للشركات: السجل التجاري والبطاقة الضريبية وبطاقة رقم قومي سارية للمفوض.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/en/enterprise/internet-banking.html",
+     "source_title": "ALEXBANK Enterprise - Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Document list for opening the corporate account is not published on the pages opened.",
+     "note_ar": "قائمة مستندات فتح حساب الشركة غير منشورة في الصفحات المفتوحة."
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "Current account opening fee EGP 200 (Alex Go Current Account).",
+     "value_ar": "مصاريف فتح الحساب الجاري 200 جنيه (حساب Alex Go).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/document/documents/ALEX/2026/SOC/SOC-EN---July-14-2026.pdf",
+     "source_title": "ALEXBANK - Retail, SMEs and Micro Segment Schedule of Charges (14 July 2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "From the Retail/SME/Micro schedule of charges (14 Jul 2026); no separate large-corporate tariff found.",
+     "note_ar": "من تعريفة الأفراد/المشروعات الصغيرة والمتناهية (14 يوليو 2026)؛ لم يُعثر على تعريفة مستقلة للشركات الكبرى."
+    },
+    "k_annual": {
+     "value_en": "Account operating fee EGP 150 quarterly; internet banking subscription for medium enterprises and large corporates: free.",
+     "value_ar": "مصاريف تشغيل الحساب 150 جنيهًا ربع سنويًا؛ اشتراك الإنترنت البنكي للشركات المتوسطة والكبرى: مجانًا.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/document/documents/ALEX/2026/SOC/SOC-EN---July-14-2026.pdf",
+     "source_title": "ALEXBANK - Retail, SMEs and Micro Segment Schedule of Charges (14 July 2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "From the Retail/SME/Micro schedule of charges (14 Jul 2026); no separate large-corporate tariff found.",
+     "note_ar": "من تعريفة الأفراد/المشروعات الصغيرة والمتناهية (14 يوليو 2026)؛ لم يُعثر على تعريفة مستقلة للشركات الكبرى."
+    },
+    "k_txn": {
+     "value_en": "Legal entities via online banking: ACH outgoing 0.25% (min EGP 25, max EGP 150); IPN outgoing 0.5% (min 100, max 300). ACH incoming free; incoming SWIFT in EGP EGP 15.",
+     "value_ar": "الأشخاص الاعتبارية عبر القنوات الإلكترونية: ACH صادر 0.25% (أدنى 25 وأقصى 150 جنيهًا)؛ IPN صادر 0.5% (أدنى 100 وأقصى 300). ACH وارد مجانًا؛ سويفت وارد بالجنيه 15 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/document/documents/ALEX/2026/SOC/SOC-EN---July-14-2026.pdf",
+     "source_title": "ALEXBANK - Retail, SMEs and Micro Segment Schedule of Charges (14 July 2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "Lines are labelled 'Legal entities' but the document is the Retail/SME/Micro SOC (14 Jul 2026). Branch SWIFT in EGP: 0.2% (min 25, max 350) + EGP 40.",
+     "note_ar": "البنود معنونة «أشخاص اعتبارية» لكن المستند تعريفة الأفراد/الصغيرة (14 يوليو 2026). سويفت بالفرع: 2 في الألف (أدنى 25 وأقصى 350) + 40 جنيهًا."
+    },
+    "k_cheque": {
+     "value_en": "Cheque issuance EGP 15 per cheque; returned/bounced inward clearing cheque EGP 30; bank draft 0.2% (min EGP 25, max EGP 1,000) + EGP 10.",
+     "value_ar": "إصدار الشيكات 15 جنيهًا للشيك؛ الشيك المرتد بالمقاصة الواردة 30 جنيهًا؛ الشيك المصرفي 2 في الألف (أدنى 25 وأقصى 1,000 جنيه) + 10 جنيهات.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/document/documents/ALEX/2026/SOC/SOC-EN---July-14-2026.pdf",
+     "source_title": "ALEXBANK - Retail, SMEs and Micro Segment Schedule of Charges (14 July 2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "From the Retail/SME/Micro schedule of charges (14 Jul 2026); no separate large-corporate tariff found.",
+     "note_ar": "من تعريفة الأفراد/المشروعات الصغيرة والمتناهية (14 يوليو 2026)؛ لم يُعثر على تعريفة مستقلة للشركات الكبرى."
+    },
+    "k_minbal": {
+     "value_en": "Minimum account opening balance EGP 2,500 or FCY equivalent ('for all segments', Alex Go Current Account).",
+     "value_ar": "الحد الأدنى لفتح الحساب 2,500 جنيه أو ما يعادلها («لكل الشرائح» – حساب Alex Go).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/document/documents/ALEX/2026/SOC/SOC-EN---July-14-2026.pdf",
+     "source_title": "ALEXBANK - Retail, SMEs and Micro Segment Schedule of Charges (14 July 2026), PDF",
+     "accessed": "2026-11-25",
+     "note_en": "From the Retail/SME/Micro schedule of charges (14 Jul 2026); no separate large-corporate tariff found.",
+     "note_ar": "من تعريفة الأفراد/المشروعات الصغيرة والمتناهية (14 يوليو 2026)؛ لم يُعثر على تعريفة مستقلة للشركات الكبرى."
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "Participant in EGP 4.261bn syndicated financing (led by Banque Misr) to Concrete Plus for construction of units at TMG's SouthMED, North Coast (2025).",
+     "value_ar": "مشارك في تمويل مشترك 4.261 مليار جنيه (بقيادة بنك مصر) لشركة كونكريت بلس لإنشاء وحدات بمشروع ساوث ميد لمجموعة طلعت مصطفى بالساحل الشمالي (2025).",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/retail/our-group/media-and-news/2025/Concrete-Plus-Joint.html",
+     "source_title": "ALEXBANK news (2025): EGP 4.261bn syndicated financing to Concrete Plus",
+     "accessed": "2026-11-25",
+     "note_en": "Borrower is a contractor, not a developer; no direct developer loan by ALEXBANK was found. ALEXBANK's share not stated.",
+     "note_ar": "المقترض مقاول وليس مطورًا؛ لم يُعثر على قرض مباشر لمطور. حصة البنك غير مذكورة."
+    },
+    "s_discount": {
+     "value_en": "Working capital finance lists 'Discounting' and 'Overdraft against Receivables'.",
+     "value_ar": "تمويل رأس المال العامل يدرج «الخصم» و«السحب على المكشوف بضمان المستحقات».",
+     "status": "verified",
+     "source_url": "https://www.alexbank.com/en/enterprise/corporate-and-investment-banking/corporate-products-and-services.html",
+     "source_title": "ALEXBANK Enterprise - Corporate Banking Services",
+     "accessed": "2026-11-25",
+     "note_en": "Developer cheque-portfolio discounting / securitization not specifically described.",
+     "note_ar": "خصم محفظة شيكات المطور/التوريق غير موصوف تحديدًا."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "Only real-estate-related deal found: Concrete Plus syndicate (contractor for TMG's SouthMED), 2025.",
+     "value_ar": "الصفقة الوحيدة ذات الصلة بالعقارات: تحالف كونكريت بلس (مقاول مشروع ساوث ميد لطلعت مصطفى) 2025.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.alexbank.com/en/retail/our-group/media-and-news/2025/Concrete-Plus-Joint.html",
+     "source_title": "ALEXBANK news (2025): EGP 4.261bn syndicated financing to Concrete Plus",
+     "accessed": "2026-11-25",
+     "note_en": "No named developer banking relationship established.",
+     "note_ar": "لم تثبت علاقة مصرفية مع مطور بالاسم."
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No link to Al Ahly Sabbour found.",
+     "note_ar": "لم يُعثر على علاقة مع الأهلي صبور."
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No real estate development subsidiary seen on pages opened; not positively verified.",
+     "note_ar": "لم تظهر شركة تطوير عقاري تابعة في الصفحات المفتوحة؛ غير مؤكد بشكل قاطع."
+    }
+   }
+  }
+ ]
+}

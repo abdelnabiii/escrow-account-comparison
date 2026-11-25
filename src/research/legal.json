@@ -1,0 +1,713 @@
+{
+ "legal_items": [
+  {
+   "id": "L01",
+   "topic_en": "In-force rule: separate project bank account (PM Decree 2184/2022)",
+   "topic_ar": "القاعدة السارية: حساب بنكي مستقل للمشروع (قرار رئيس الوزراء 2184 لسنة 2022)",
+   "finding_en": "PM Decree 2184 of 16 June 2022 requires the developer to open a separate bank account per project/phase in which all project revenues and expenses are deposited and paid, deposit a size-based financial cover, keep a 5% reserve of collections (or bank guarantee) and file an auditor-certified semi-annual report with the land authority. Art. 10 applies it to all development projects.",
+   "finding_ar": "يلزم قرار رئيس مجلس الوزراء رقم 2184 الصادر في 16 يونيو 2022 المطوّر بفتح حساب بنكي مستقل لكل مشروع/مرحلة تودع فيه وتصرف منه كل إيرادات ومصروفات المشروع، وإيداع غطاء مالي بحسب حجم المشروع، والاحتفاظ باحتياطي 5% من التحصيلات (أو خطاب ضمان)، وتقديم تقرير مالي نصف سنوي معتمد من مراقب الحسابات لجهة الولاية. وتسري أحكامه (م 10) على كافة مشروعات التطوير العقاري.",
+   "position": "in_force",
+   "status": "verified",
+   "as_of": "2022-06-16 (decree); text read 2026-11-25",
+   "sources": [
+    {
+     "url": "https://lawyeregypt.net/?p=22893",
+     "title": "PM Decree 2184/2022 on controls for selling units in real estate development projects (Arabic text, non-official reproduction)"
+    },
+    {
+     "url": "https://eg.andersen.com/ar/sale-units-real-estate-development-projects/",
+     "title": "Andersen Egypt - Conditions Regulating the Sale of Units in Real Estate Development Projects (17 Aug 2022)"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "topic_en": "Nature and enforcement of the Decree 2184 account (not a blocked escrow)",
+   "topic_ar": "طبيعة حساب القرار 2184 وإنفاذه (ليس حساب ضمان مغلقاً)",
+   "finding_en": "The decree text contains no general ban on withdrawals and no escrow agent; sanction (Art. 7) is a 6-month cure notice, then suspension of approvals to sell the next phase. Press reports enforcement lagged for about three years; NUCA said in Dec 2025 it began reviewing developers' bank statements under Decision 2184. Official Gazette copy not opened.",
+   "finding_ar": "لا يتضمن نص القرار حظراً عاماً على السحب ولا أمين حساب ضمان؛ والجزاء (م 7) إخطار ومهلة 6 أشهر ثم وقف موافقات بيع المرحلة التالية. وتذكر الصحافة أن التطبيق تأخر نحو ثلاث سنوات، وأن هيئة المجتمعات العمرانية أعلنت في ديسمبر 2025 بدء مراجعة كشوف حسابات المطورين استناداً للقرار 2184. لم يتم فتح نسخة الجريدة الرسمية.",
+   "position": "in_force",
+   "status": "verified",
+   "as_of": "2026-01-04",
+   "sources": [
+    {
+     "url": "https://lawyeregypt.net/?p=22893",
+     "title": "PM Decree 2184/2022 on controls for selling units in real estate development projects (Arabic text, non-official reproduction)"
+    },
+    {
+     "url": "https://dailynewsegypt.com/2026/01/04/escrow-accounts-gain-momentum-as-egypt-moves-to-enforce-real-estate-discipline/",
+     "title": "Daily News Egypt - Escrow accounts gain momentum (4 Jan 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "topic_en": "No dedicated mandatory escrow law or CBE escrow regulation found",
+   "topic_ar": "لم يُعثر على قانون ضمان (إسكرو) إلزامي أو تعليمات من البنك المركزي بشأنه",
+   "finding_en": "No statute or CBE rule imposing a true escrow regime on off-plan sales was found. Daily News Egypt (26 Jul 2026) refers to 'the absence of mandatory escrow accounts' and reports MP Ahmed Fayed's proposal that the CBE issue supervisory regulations for banks managing escrow accounts. CBE website could not be opened (request rejected).",
+   "finding_ar": "لم يُعثر على قانون أو قاعدة من البنك المركزي تفرض نظام حساب ضمان حقيقي على البيع على الخريطة. تشير ديلي نيوز إيجيبت (26 يوليو 2026) إلى «غياب حسابات الضمان الإلزامية» وتنقل مقترح النائب أحمد فايد بأن يصدر البنك المركزي ضوابط رقابية للبنوك التي تدير حسابات الضمان. تعذر فتح موقع البنك المركزي.",
+   "position": "not_found",
+   "status": "verified",
+   "as_of": "2026-07-26",
+   "sources": [
+    {
+     "url": "https://www.dailynewsegypt.com/?p=851498",
+     "title": "Daily News Egypt - Egypt's property market faces renewed push for mandatory escrow accounts (26 Jul 2026)"
+    },
+    {
+     "url": "https://dailynewsegypt.com/2026/01/04/escrow-accounts-gain-momentum-as-egypt-moves-to-enforce-real-estate-discipline/",
+     "title": "Daily News Egypt - Escrow accounts gain momentum (4 Jan 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "topic_en": "Pending: draft Egyptian Real Estate Developers Union law",
+   "topic_ar": "قيد الإعداد: مشروع قانون الاتحاد المصري للمطورين العقاريين",
+   "finding_en": "Housing Ministry draft: separate bank account per project/phase receiving buyers' payments only, funds ring-fenced, release in instalments on a consultant's report approved by the union; two buyer-protection funds; one-year regularisation after the executive regulations. PM reviewed it 5 Aug and 15 Sep 2026; as of late Sep/early Oct 2026 it was still in consultation, not yet sent to Cabinet or the House.",
+   "finding_ar": "مسودة وزارة الإسكان: حساب بنكي مستقل لكل مشروع/مرحلة تودع فيه مدفوعات العملاء فقط، مع حماية الأموال والصرف على دفعات وفق تقرير استشاري يعتمده الاتحاد؛ صندوقان لحماية العملاء؛ ومهلة سنة لتوفيق الأوضاع بعد اللائحة التنفيذية. استعرضها رئيس الوزراء في 5 أغسطس و15 سبتمبر 2026، وحتى أواخر سبتمبر/أوائل أكتوبر 2026 كانت قيد التشاور ولم تُعرض على مجلس الوزراء أو النواب.",
+   "position": "pending",
+   "status": "verified",
+   "as_of": "2026-10-04",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt/2026/09/29/draft-union-law-sets-registration-and-escrow-rules-for-developers-and-leaves-classification-to-regulations/",
+     "title": "EnterpriseAM - Draft union law sets registration and escrow rules (29 Sep 2026)"
+    },
+    {
+     "url": "https://www.dailynewsegypt.com/2026/10/04/egypt-drafts-new-real-estate-developers-law-with-escrow-accounts-buyer-protection-funds/",
+     "title": "Daily News Egypt - Egypt drafts new real estate developers' law with escrow accounts (4 Oct 2026)"
+    },
+    {
+     "url": "https://banker.news/153939",
+     "title": "Banker News - Draft Real Estate Developers Union law: 10 measures (27 Sep 2026)"
+    },
+    {
+     "url": "https://www.masrawy.com/news/news_egypt/details/2026/8/5/3028451/مدبولي-يستعرض-مشروع-قانون-اتحاد-المطورين-العقاريين-لتنظيم-السوق",
+     "title": "Masrawy - Madbouly reviews draft Real Estate Developers Union law (5 Aug 2026)"
+    },
+    {
+     "url": "https://www.dailynewsegypt.com/?p=853844",
+     "title": "Daily News Egypt - PM reviews draft real estate market regulation law (15 Sep 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "topic_en": "Pending: latest reported controls (October 2026)",
+   "topic_ar": "قيد الإعداد: أحدث الضوابط المعلنة (أكتوبر 2026)",
+   "finding_en": "Latest development found: 12 and 24 Oct 2026. Housing Minister Randa El Menshawy described proposed controls: separate account per project/phase, pre-sale financial cover of 20/15/10/5/3% of phase construction cost by area category, 5% collections reserve, semi-annual audited report within 45 days, separate maintenance account. Described as a draft being finalised; no approval date. No November 2026 development found.",
+   "finding_ar": "آخر تطور تم العثور عليه: 12 و24 أكتوبر 2026. عرضت وزيرة الإسكان راندة المنشاوي ضوابط مقترحة: حساب مستقل لكل مشروع/مرحلة، غطاء مالي قبل البيع بنسب 20/15/10/5/3% من التكلفة الإنشائية للمرحلة حسب فئة المساحة، احتياطي 5% من التحصيلات، تقرير مالي نصف سنوي خلال 45 يوماً، وحساب مستقل للصيانة. وُصفت بأنها مسودة قيد الانتهاء دون موعد للإقرار. لم يُعثر على تطور في نوفمبر 2026.",
+   "position": "pending",
+   "status": "verified",
+   "as_of": "2026-10-24",
+   "sources": [
+    {
+     "url": "https://almalnews.com/2140771/",
+     "title": "Al Mal - Randa El Menshawy: separate accounts for developers' projects (12 Oct 2026)"
+    },
+    {
+     "url": "https://www.masrawy.com/news/realestate-news/details/2026/10/24/3067878",
+     "title": "Masrawy - real estate development law controls (24 Oct 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "topic_en": "Parliamentary proposals for mandatory escrow",
+   "topic_ar": "مقترحات برلمانية لحسابات ضمان إلزامية",
+   "finding_en": "Senate members proposed in Nov 2025 a mandatory escrow system for every project, linked to a national digital platform the Central Bank could monitor. In July 2026 MP Ahmed Fayed submitted a proposal to require escrow accounts for all off-plan projects with CBE supervisory regulations. Neither is reported as enacted.",
+   "finding_ar": "اقترح أعضاء بمجلس الشيوخ في نوفمبر 2025 نظام حساب ضمان إلزامياً لكل مشروع مرتبطاً بمنصة رقمية وطنية يتابعها البنك المركزي. وفي يوليو 2026 تقدم النائب أحمد فايد بمقترح لإلزام كل مشروعات البيع على الخريطة بحسابات ضمان مع ضوابط رقابية من البنك المركزي. لم يرد ما يفيد إقرار أي منهما.",
+   "position": "pending",
+   "status": "verified",
+   "as_of": "2026-07-26",
+   "sources": [
+    {
+     "url": "https://dailynewsegypt.com/2026/01/04/escrow-accounts-gain-momentum-as-egypt-moves-to-enforce-real-estate-discipline/",
+     "title": "Daily News Egypt - Escrow accounts gain momentum (4 Jan 2026)"
+    },
+    {
+     "url": "https://www.dailynewsegypt.com/?p=851498",
+     "title": "Daily News Egypt - Egypt's property market faces renewed push for mandatory escrow accounts (26 Jul 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "topic_en": "NUCA / Mostakbal City contractual requirements on project accounts",
+   "topic_ar": "المتطلبات التعاقدية لهيئة المجتمعات العمرانية / مدينة المستقبل بشأن حسابات المشروعات",
+   "finding_en": "No published NUCA or El Mostakbal/MIDAR standard clause requiring an escrow account in co-development or revenue-share contracts was found. Decree 2184 obliges land authorities to apply its controls; the Housing Minister cited 'strict contracts and internal rules' at NUCA without detail. Actual contract terms are unknown.",
+   "finding_ar": "لم يُعثر على بند نموذجي منشور لهيئة المجتمعات العمرانية أو شركة المستقبل/ميدار يلزم بحساب ضمان في عقود التطوير المشترك أو المشاركة في الإيراد. يلزم القرار 2184 جهات الولاية بتطبيق ضوابطه، وأشارت وزيرة الإسكان إلى «عقود صارمة وقواعد داخلية» بالهيئة دون تفاصيل. الشروط التعاقدية الفعلية غير معروفة.",
+   "position": "not_found",
+   "status": "unknown",
+   "as_of": "2026-09-16",
+   "sources": [
+    {
+     "url": "https://lawyeregypt.net/?p=22893",
+     "title": "PM Decree 2184/2022 on controls for selling units in real estate development projects (Arabic text, non-official reproduction)"
+    },
+    {
+     "url": "https://enterpriseam.com/egypt/hardhats/the-government-is-tightening-the-rules-on-who-gets-to-build-sell-and-finance-real-estate/",
+     "title": "EnterpriseAM Hardhats - The government is tightening the rules (16 Sep 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "topic_en": "Market practice: tripartite escrow accounts in Mostakbal City revenue-share deals",
+   "topic_ar": "الممارسة السوقية: حسابات ضمان ثلاثية في صفقات المشاركة في الإيراد بمدينة المستقبل",
+   "finding_en": "Precedents: (1) Mar 2018 - El Mostakbal and Al Ahly for Real Estate Development signed an escrow-account contract with NBE for City of Odyssia, NBE 'depositing and distributing revenues among partners'; (2) Jan 2024 - MIDAR and Mountain View opened an escrow account at AAIB for ALIVA; (3) May 2026 - Banque Misr as account agent for MIDAR-SODIC Eastvale (MADA).",
+   "finding_ar": "سوابق: (1) مارس 2018 - وقّعت المستقبل والأهلي للتنمية العقارية عقد حساب ضمان مع البنك الأهلي لمشروع سيتي أوف أوديسيا، حيث يتولى البنك «إيداع وتوزيع الإيرادات بين الشركاء»؛ (2) يناير 2024 - فتحت ميدار وماونتن فيو حساب ضمان لدى البنك العربي الأفريقي لمشروع أليفا؛ (3) مايو 2026 - بنك مصر وكيل حساب لمشروع إيستفيل (ميدار-سوديك) بمدينة مدى.",
+   "position": "market_practice",
+   "status": "verified",
+   "as_of": "2026-05-03",
+   "sources": [
+    {
+     "url": "https://www.dailynewsegypt.com/?p=654853",
+     "title": "Daily News Egypt - El Mostakbal, Al Ahly Real Estate Development seal agreement with NBE for City of Odyssia (Mar 2018)"
+    },
+    {
+     "url": "https://www.dailynewsegypt.com/?p=808716",
+     "title": "Daily News Egypt - MIDAR, Mountain View open escrow account for ALIVA project in Mostakbal City (15 Jan 2024)"
+    },
+    {
+     "url": "https://invest-gate.me/?p=81881",
+     "title": "Invest-Gate - Banque Misr signs escrow account contract with MIDAR and SODIC for Eastvale (3 May 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "topic_en": "Is 'escrow' a recognised banking product under Egyptian law?",
+   "topic_ar": "هل «حساب الضمان/الإسكرو» منتج مصرفي معترف به في القانون المصري؟",
+   "finding_en": "No opened source shows 'escrow' defined in Banking Law 194/2020 or a CBE regulation; this could not be established. Chambers Project Finance 2026 (ADSERO-Ragy Soliman) states the trust concept 'is not generally recognised under Egyptian law', so agency/security-agent structures are used by contract. Escrow in practice is a contractual tripartite account-bank arrangement. Bank to confirm product terms.",
+   "finding_ar": "لم يُظهر أي مصدر تم فتحه تعريفاً لـ«الإسكرو» في قانون البنك المركزي 194 لسنة 2020 أو تعليمات البنك المركزي؛ وتعذر إثبات ذلك. يذكر دليل تشامبرز لتمويل المشروعات 2026 (أدسيرو-راجي سليمان) أن مفهوم الترست «غير معترف به عموماً في القانون المصري» ولذا تُستخدم هياكل الوكالة/وكيل الضمان تعاقدياً. عملياً الإسكرو ترتيب تعاقدي ثلاثي مع بنك الحساب. يُستكمل التأكيد من البنك.",
+   "position": "market_practice",
+   "status": "bank_to_confirm",
+   "as_of": "2026",
+   "sources": [
+    {
+     "url": "https://chambers.com/practice-guides/guides/project-finance-2026/egypt/law-and-practice",
+     "title": "Chambers Project Finance 2026 - Egypt (ADSERO-Ragy Soliman & Partners)"
+    },
+    {
+     "url": "https://www.dailynewsegypt.com/?p=654853",
+     "title": "Daily News Egypt - El Mostakbal, Al Ahly Real Estate Development seal agreement with NBE for City of Odyssia (Mar 2018)"
+    },
+    {
+     "url": "https://www.alborsaanews.com/?p=1981420",
+     "title": "Al Borsa - CIB and Suez Canal Bank arrange EGP 4.4bn for Al Ahly Sabbour (21 Jul 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "topic_en": "Bounced cheques: criminal liability, Trade Law 17/1999 Art. 534",
+   "topic_ar": "الشيكات المرتدة: المسؤولية الجنائية - المادة 534 من قانون التجارة 17 لسنة 1999",
+   "finding_en": "Art. 534: imprisonment and/or fine up to EGP 50,000 for intentionally issuing a cheque without available funds, withdrawing the funds, wrongly stopping payment, or bad-faith drafting; same for knowingly endorsing such a cheque. Repeat within five years: imprisonment and fine up to EGP 100,000. A recorded settlement with the victim ends the criminal case at any stage.",
+   "finding_ar": "المادة 534: الحبس و/أو غرامة لا تجاوز 50 ألف جنيه لمن يصدر عمداً شيكاً ليس له مقابل وفاء قابل للصرف، أو يسترد المقابل، أو يأمر بعدم الصرف بغير حق، أو يحرره بسوء نية؛ وكذلك من يظهّره وهو يعلم. في العود خلال خمس سنوات: الحبس وغرامة حتى 100 ألف جنيه. ويترتب على إثبات الصلح مع المجني عليه انقضاء الدعوى الجنائية في أي مرحلة.",
+   "position": "in_force",
+   "status": "verified",
+   "as_of": "text as reproduced 2021-09-08 / WIPO translation",
+   "sources": [
+    {
+     "url": "https://www.wipo.int/wipolex/en/text/492371",
+     "title": "WIPO Lex - Egypt Trade Law No. 17 of 1999 (English translation)"
+    },
+    {
+     "url": "https://www.vetogate.com/4419679",
+     "title": "Vetogate - text of Art. 534 Trade Law (8 Sep 2021)"
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "topic_en": "Cheques: drawn on banks only, certification, partial payment (Arts. 475, 482, 499, 533)",
+   "topic_ar": "الشيكات: السحب على بنك فقط، الاعتماد، الوفاء الجزئي (المواد 475، 482، 499، 533)",
+   "finding_en": "Art. 475: a cheque issued and payable in Egypt may be drawn only on a bank. Art. 482: no acceptance of a cheque, but the drawer may ask the drawee to certify it and the bank 'may not refuse certifying the check' if sufficient funds exist. Art. 499 already lets the bearer accept or refuse partial payment. Art. 533 fines bank employees EGP 3,000-10,000 for listed violations.",
+   "finding_ar": "المادة 475: لا يجوز سحب الشيك الصادر والمستحق الوفاء في مصر إلا على بنك. المادة 482: لا قبول في الشيك، ولكن يجوز للساحب طلب اعتماده من المسحوب عليه ولا يجوز للبنك رفض الاعتماد إذا وُجد مقابل وفاء كافٍ. المادة 499 تجيز للحامل قبول أو رفض الوفاء الجزئي. المادة 533 تعاقب موظف البنك بغرامة 3,000-10,000 جنيه عن مخالفات محددة.",
+   "position": "in_force",
+   "status": "verified",
+   "as_of": "WIPO Lex translation read 2026-11-25",
+   "sources": [
+    {
+     "url": "https://www.wipo.int/wipolex/en/text/492371",
+     "title": "WIPO Lex - Egypt Trade Law No. 17 of 1999 (English translation)"
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "topic_en": "Recent amendments to cheque provisions (2024-2026)",
+   "topic_ar": "التعديلات الحديثة على أحكام الشيك (2024-2026)",
+   "finding_en": "Unknown. No enacted 2024-2026 amendment to Arts. 534/537 was found. A search result (Akhbar El-Yom) describes an MPs' bill referred to a joint committee to amend Arts. 534 and 537 (partial payment), but that page returned HTTP 403 and could not be opened, so its date and status are not established.",
+   "finding_ar": "غير معروف. لم يُعثر على تعديل صادر خلال 2024-2026 للمادتين 534/537. تشير نتيجة بحث (أخبار اليوم) إلى مشروع قانون مقدم من نواب أُحيل إلى لجنة مشتركة لتعديل المادتين 534 و537 (الوفاء الجزئي)، لكن الصفحة أعادت الخطأ 403 ولم يمكن فتحها، فلم يثبت تاريخه أو وضعه.",
+   "position": "not_found",
+   "status": "unknown",
+   "as_of": "2026-11-25",
+   "sources": [
+    {
+     "url": "https://akhbarelyom.com/news/newdetails/4028521/1/رئيس-مجلس-النواب-يحيل-مشروع-قانون-التجار",
+     "title": "Akhbar El-Yom - Speaker refers Trade Law amendment bill (NOT OPENED - HTTP 403; search snippet only)"
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "topic_en": "CBE rules on customers with returned cheques (I-Score / negative lists)",
+   "topic_ar": "قواعد البنك المركزي بشأن عملاء الشيكات المرتدة (آي سكور / القوائم السلبية)",
+   "finding_en": "Unknown. The CBE circular on returned cheques and negative listing could not be opened or located (cbe.org.eg rejected requests; CIB's chequebook terms PDF returned empty). The number of returned cheques triggering listing, cure periods and chequebook bans must be confirmed with the account bank.",
+   "finding_ar": "غير معروف. تعذر فتح أو تحديد تعليمات البنك المركزي بشأن الشيكات المرتدة والإدراج بالقوائم السلبية (موقع البنك المركزي رفض الطلبات؛ وملف شروط دفتر الشيكات لدى CIB ظهر فارغاً). يجب تأكيد عدد الشيكات المرتدة الموجب للإدراج ومهل التسوية وحظر دفاتر الشيكات من بنك الحساب.",
+   "position": "not_found",
+   "status": "bank_to_confirm",
+   "as_of": "2026-11-25",
+   "sources": [
+    {
+     "url": "https://www.bankygate.com/13016",
+     "title": "Banky - I-Score Q&A on CBE negative-list instructions (7 Jul 2020; no cheque detail)"
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "topic_en": "CBE overnight lending and deposit rates",
+   "topic_ar": "سعرا عائد الإقراض والإيداع لليلة واحدة لدى البنك المركزي",
+   "finding_en": "At its last reported MPC meeting (Thursday before 31 Oct 2026, i.e. 29 Oct 2026 by calendar; exact date not printed in the sources) the CBE raised rates 100 bps: overnight deposit 20.0%, overnight lending 21.0%, main operation and discount rates 20.5%. Next MPC meeting: 17 Dec 2026. Press-sourced; CBE website could not be opened.",
+   "finding_ar": "في آخر اجتماع معلن للجنة السياسة النقدية (الخميس السابق على 31 أكتوبر 2026، أي 29 أكتوبر 2026 وفق التقويم؛ التاريخ غير مذكور نصاً في المصادر) رفع البنك المركزي الفائدة 100 نقطة أساس: الإيداع لليلة واحدة 20.0%، الإقراض لليلة واحدة 21.0%، العملية الرئيسية والائتمان والخصم 20.5%. الاجتماع القادم 17 ديسمبر 2026. المصدر صحفي؛ تعذر فتح موقع البنك المركزي.",
+   "position": "reference_rate",
+   "status": "verified",
+   "as_of": "2026-10-29",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt/2026/11/01/cbe-hikes-for-the-first-time-since-march-2024-raising-rates-100-bps-and-moving-its-inflation-target-to-4q-2027/",
+     "title": "EnterpriseAM - CBE hikes for the first time since March 2024 (1 Nov 2026)"
+    },
+    {
+     "url": "https://www.dailynewsegypt.com/2026/10/31/cbe-rate-hike-aims-to-sustain-disinflation-ensure-2027-inflation-target-is-met/",
+     "title": "Daily News Egypt - CBE rate hike (31 Oct 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "topic_en": "InstaPay / Instant Payment Network limits",
+   "topic_ar": "حدود إنستاباي / شبكة المدفوعات اللحظية",
+   "finding_en": "Andersen Egypt's legal alert of 27 Jul 2026 states IPN limits are 'currently set at EGP 70,000 per transaction, EGP 120,000 per day, and EGP 400,000 per month', under the CBE Rules Regulating Services for the IPN. No later change found; CBE source not opened. Confirm with the bank, including any corporate-collection limits.",
+   "finding_ar": "يذكر التنبيه القانوني لأندرسن مصر بتاريخ 27 يوليو 2026 أن حدود الشبكة «حالياً 70,000 جنيه للمعاملة، 120,000 جنيه يومياً، و400,000 جنيه شهرياً» وفق قواعد البنك المركزي المنظمة لخدمات شبكة المدفوعات اللحظية. لم يُعثر على تغيير لاحق؛ ولم يُفتح مصدر البنك المركزي. يُؤكد مع البنك، بما يشمل حدود تحصيل الشركات.",
+   "position": "in_force",
+   "status": "bank_to_confirm",
+   "as_of": "2026-07-27",
+   "sources": [
+    {
+     "url": "https://eg.andersen.com/egypts-instant-payment-network/",
+     "title": "Andersen Egypt - Egypt's Instant Payment Network (legal alert, 27 Jul 2026)"
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "topic_en": "L'avenir, Mostakbal City - basic facts",
+   "topic_ar": "مشروع لافينير بمدينة المستقبل - حقائق أساسية",
+   "finding_en": "L'Avenir is developed by Al Ahly for Real Estate Development (Sabbour) on 100 feddans in Mostakbal City; in Sep 2018 the company said 90% was marketed and 15% built. In May 2018 its chairman said the company 'owns four pieces of lands in Mostakbal City with an area of 100 feddans each'. Title/land arrangement for the specific commercial plot is unknown.",
+   "finding_ar": "تطور «لافينير» شركة الأهلي للتنمية العقارية (صبور) على 100 فدان بمدينة المستقبل؛ وفي سبتمبر 2018 ذكرت الشركة تسويق 90% وتنفيذ 15%. وفي مايو 2018 قال رئيسها إن الشركة «تملك أربع قطع أراضٍ بمدينة المستقبل مساحة كل منها 100 فدان». وضع ملكية/ترتيب الأرض للقطعة التجارية المحددة غير معروف.",
+   "position": "market_practice",
+   "status": "verified",
+   "as_of": "2018-09-04",
+   "sources": [
+    {
+     "url": "https://www.dailynewsegypt.com/?p=671991",
+     "title": "Daily News Egypt - Al Ahly directs EGP 1bn in projects' construction works (Sep 2018)"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=70364",
+     "title": "Amwal Al Ghad - Al Ahly For Real Estate develops a project in Mostakbal City (10 May 2018)"
+    },
+    {
+     "url": "https://enterpriseam.com/egypt/2017/08/03/el-mostakbal-sabbour-announce-partnership-in-egp-35-bn-project",
+     "title": "EnterpriseAM - El Mostakbal, Sabbour announce partnership in EGP 35 bn project (3 Aug 2017)"
+    }
+   ]
+  }
+ ],
+ "legal_summary_en": "As of 25 November 2026 no Egyptian statute or CBE regulation imposing a true escrow regime on off-plan sales was found. What is in force is Prime Minister's Decree 2184 of 2022, which requires a separate bank account per project or phase for all project revenues and expenses, a size-based financial cover, a 5% collections reserve and semi-annual audited reports to the land authority; press reports say enforcement lagged and NUCA began reviewing developers' bank statements in December 2025. A Housing Ministry draft law creating an Egyptian Real Estate Developers Union would add ring-fenced project accounts with releases against consultant reports and buyer-protection funds; the latest reports found (October 2026) describe it as still being finalised, not yet approved by Cabinet or parliament. Escrow accounts are used in practice by contract, including three reported tripartite accounts for Mostakbal City/MIDAR revenue-share projects at NBE (2018), AAIB (2024) and Banque Misr (2026); whether escrow is defined in Banking Law 194/2020 could not be established, and a law-firm guide states that trusts are not generally recognised in Egypt. Issuing a cheque without funds remains a crime under Art. 534 of Trade Law 17/1999, extinguished by settlement; banks must certify a cheque on the drawer's request when funds exist (Art. 482). No enacted 2024-2026 cheque amendment and no CBE returned-cheque circular could be verified. The CBE overnight lending rate is 21.0% and the deposit rate 20.0% after a 100 bps rise at the late-October 2026 MPC meeting; the next meeting is 17 December 2026. InstaPay limits are reported as EGP 70,000 per transaction, 120,000 per day and 400,000 per month (July 2026).",
+ "legal_summary_ar": "حتى 25 نوفمبر 2026 لم يُعثر على قانون مصري أو تعليمات من البنك المركزي تفرض نظام حساب ضمان (إسكرو) حقيقياً على البيع على الخريطة. الساري هو قرار رئيس مجلس الوزراء رقم 2184 لسنة 2022 الذي يلزم بحساب بنكي مستقل لكل مشروع أو مرحلة لكل إيرادات ومصروفات المشروع، وغطاء مالي بحسب الحجم، واحتياطي 5% من التحصيلات، وتقارير نصف سنوية معتمدة لجهة الولاية؛ وتذكر الصحافة أن التطبيق تأخر وأن هيئة المجتمعات العمرانية بدأت مراجعة كشوف حسابات المطورين في ديسمبر 2025. وهناك مشروع قانون من وزارة الإسكان لإنشاء الاتحاد المصري للمطورين العقاريين يضيف حسابات مشروع محمية يُصرف منها وفق تقارير استشارية وصناديق لحماية العملاء؛ وآخر التقارير (أكتوبر 2026) تصفه بأنه ما زال قيد الانتهاء ولم يقره مجلس الوزراء أو البرلمان. تُستخدم حسابات الضمان عملياً على أساس تعاقدي، ومنها ثلاثة حسابات ثلاثية معلنة لمشروعات مشاركة في الإيراد بمدينة المستقبل/ميدار لدى البنك الأهلي (2018) والعربي الأفريقي (2024) وبنك مصر (2026)؛ وتعذر إثبات ورود تعريف للإسكرو في قانون 194 لسنة 2020، ويذكر دليل لمكتب محاماة أن الترست غير معترف به عموماً في مصر. إصدار شيك بدون رصيد ما زال جريمة وفق المادة 534 من قانون التجارة 17 لسنة 1999 وتنقضي الدعوى بالصلح؛ ولا يجوز للبنك رفض اعتماد الشيك بطلب الساحب متى وُجد الرصيد (م 482). لم يمكن التحقق من تعديل صادر للشيكات خلال 2024-2026 ولا من تعليمات البنك المركزي بشأن الشيكات المرتدة. سعر الإقراض لليلة واحدة لدى البنك المركزي 21.0% والإيداع 20.0% بعد رفع 100 نقطة أساس في اجتماع أواخر أكتوبر 2026؛ والاجتماع القادم 17 ديسمبر 2026. حدود إنستاباي المعلنة 70,000 جنيه للمعاملة و120,000 يومياً و400,000 شهرياً (يوليو 2026).",
+ "sabbour_shareholders": [
+  {
+   "holder_en": "National Bank of Egypt (NBE)",
+   "holder_ar": "البنك الأهلي المصري",
+   "stake": "40%",
+   "status": "verified",
+   "as_of": "2026-05-10",
+   "note_en": "Reported 40% in May 2018, Nov 2024 and May 2026. No NBE annual-report page could be read to confirm; whether held directly or via Al Ahly Capital Holding is not stated.",
+   "note_ar": "ورد 40% في مايو 2018 ونوفمبر 2024 ومايو 2026. تعذر قراءة تقرير سنوي للبنك للتأكيد؛ ولم يُذكر إن كانت الحصة مباشرة أم عبر الأهلي كابيتال القابضة.",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt/?p=700732",
+     "title": "EnterpriseAM IPO Watch - Al Ahly Sabbour IPO on hold (10 May 2026)"
+    },
+    {
+     "url": "https://enterpriseam.com/egypt/2024/11/19/al-ahly-sabbour-plans-to-offer-up-to-a-25-stake-on-the-egx/",
+     "title": "EnterpriseAM - Al Ahly Sabbour plans to offer up to a 25% stake on the EGX (19 Nov 2024)"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=70364",
+     "title": "Amwal Al Ghad - Al Ahly For Real Estate develops a project in Mostakbal City (10 May 2018)"
+    }
+   ]
+  },
+  {
+   "holder_en": "Sabbour family",
+   "holder_ar": "عائلة صبور",
+   "stake": "60%",
+   "status": "verified",
+   "as_of": "2026-05-10",
+   "note_en": "Chairman and MD: Ahmed Sabbour. Company founded 1994 as a joint stock company under Law 159/1981. Individual family holders not published.",
+   "note_ar": "رئيس مجلس الإدارة والعضو المنتدب: أحمد صبور. تأسست الشركة عام 1994 شركة مساهمة وفق القانون 159 لسنة 1981. أسماء المساهمين من العائلة غير منشورة.",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt/?p=700732",
+     "title": "EnterpriseAM IPO Watch - Al Ahly Sabbour IPO on hold (10 May 2026)"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=70364",
+     "title": "Amwal Al Ghad - Al Ahly For Real Estate develops a project in Mostakbal City (10 May 2018)"
+    }
+   ]
+  },
+  {
+   "holder_en": "Al Ahly Capital Holding",
+   "holder_ar": "الأهلي كابيتال القابضة",
+   "stake": "unknown",
+   "status": "unknown",
+   "as_of": "2026-11-25",
+   "note_en": "No evidence found that Al Ahly Capital Holding is the registered holder of any stake; sources name NBE itself.",
+   "note_ar": "لم يُعثر على دليل بأن الأهلي كابيتال القابضة هي المالك المسجل لأي حصة؛ المصادر تذكر البنك الأهلي نفسه.",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt/?p=700732",
+     "title": "EnterpriseAM IPO Watch - Al Ahly Sabbour IPO on hold (10 May 2026)"
+    }
+   ]
+  },
+  {
+   "holder_en": "Changes 2020-2026 / IPO plan",
+   "holder_ar": "التغيرات 2020-2026 / خطة الطرح",
+   "stake": "planned float 20-25% (not executed)",
+   "status": "verified",
+   "as_of": "2026-05-10",
+   "note_en": "No stake sale reported. IPO in pipeline since 2017; Nov 2024 plan to list 20-25% with adviser in early 2025; May 2026: IPO on hold until the regional conflict subsides.",
+   "note_ar": "لم يُعلن بيع حصص. الطرح مطروح منذ 2017؛ خطة نوفمبر 2024 لطرح 20-25% مع تعيين مستشار مطلع 2025؛ مايو 2026: الطرح معلّق لحين انحسار الصراع الإقليمي.",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt/?p=700732",
+     "title": "EnterpriseAM IPO Watch - Al Ahly Sabbour IPO on hold (10 May 2026)"
+    },
+    {
+     "url": "https://enterpriseam.com/egypt/2024/11/19/al-ahly-sabbour-plans-to-offer-up-to-a-25-stake-on-the-egx/",
+     "title": "EnterpriseAM - Al Ahly Sabbour plans to offer up to a 25% stake on the EGX (19 Nov 2024)"
+    }
+   ]
+  },
+  {
+   "holder_en": "Board members representing banks",
+   "holder_ar": "أعضاء مجلس الإدارة ممثلو البنوك",
+   "stake": "n/a",
+   "status": "unknown",
+   "as_of": "2026-11-25",
+   "note_en": "Unknown - no published list of NBE representatives on the Al Ahly Sabbour board was found.",
+   "note_ar": "غير معروف - لم يُعثر على قائمة منشورة بممثلي البنك الأهلي في مجلس إدارة الأهلي صبور.",
+   "sources": []
+  }
+ ],
+ "mostakbal_shareholders": [
+  {
+   "holder_en": "Misr Financial Investments Co.",
+   "holder_ar": "شركة مصر المالية للاستثمارات",
+   "stake": "35.35% (2015)",
+   "status": "verified",
+   "as_of": "2015-03-09",
+   "note_en": "Per Al Borsa, 9 Mar 2015. A Sep 2023 profile of MIDAR lists 'Misr Capital' (Banque Misr investment arm) as shareholder, no percentage. Current stake unknown - no source later than 2018 with percentages could be opened.",
+   "note_ar": "وفق البورصة، 9 مارس 2015. ملف تعريفي لميدار في سبتمبر 2023 يذكر «مصر كابيتال» (ذراع بنك مصر الاستثمارية) مساهماً دون نسبة. الحصة الحالية غير معروفة - لم يمكن فتح مصدر بنسب أحدث من 2018.",
+   "sources": [
+    {
+     "url": "https://www.alborsaanews.com/?p=667737",
+     "title": "Al Borsa - El Mostakbal offers 6,000 feddans (9 Mar 2015), incl. ownership structure"
+    },
+    {
+     "url": "https://amwalalghad.com/bp28",
+     "title": "Amwal Al Ghad - MIDAR profile incl. shareholders (26 Sep 2023)"
+    }
+   ]
+  },
+  {
+   "holder_en": "National Investment Bank (NIB)",
+   "holder_ar": "بنك الاستثمار القومي",
+   "stake": "34.42% (2015)",
+   "status": "verified",
+   "as_of": "2015-03-09",
+   "note_en": "Per Al Borsa 2015; named as shareholder in 2018 and 2023 sources without percentage. Current stake unknown - no source later than 2018 with percentages could be opened.",
+   "note_ar": "وفق البورصة 2015؛ ورد مساهماً في مصادر 2018 و2023 دون نسبة. الحصة الحالية غير معروفة - لم يمكن فتح مصدر بنسب أحدث من 2018.",
+   "sources": [
+    {
+     "url": "https://www.alborsaanews.com/?p=667737",
+     "title": "Al Borsa - El Mostakbal offers 6,000 feddans (9 Mar 2015), incl. ownership structure"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=74830",
+     "title": "Amwal Al Ghad - AC sells 4% stake in Mostakbal City to NBE, Banque Misr (22 Jul 2018)"
+    },
+    {
+     "url": "https://amwalalghad.com/bp28",
+     "title": "Amwal Al Ghad - MIDAR profile incl. shareholders (26 Sep 2023)"
+    }
+   ]
+  },
+  {
+   "holder_en": "Arab Contractors",
+   "holder_ar": "المقاولون العرب",
+   "stake": "14.95% (2015); sold 4% in 2018",
+   "status": "verified",
+   "as_of": "2018-07-22",
+   "note_en": "Sold 4% to NBE and Banque Misr in 2018 (about EGP 2.5-3bn) with a reported right to buy back within two years; whether exercised is unknown. Current stake unknown - no source later than 2018 with percentages could be opened.",
+   "note_ar": "باعت 4% للبنك الأهلي وبنك مصر في 2018 (نحو 2.5-3 مليار جنيه) مع حق معلن لإعادة الشراء خلال عامين؛ وغير معروف إن تم استخدامه. الحصة الحالية غير معروفة - لم يمكن فتح مصدر بنسب أحدث من 2018.",
+   "sources": [
+    {
+     "url": "https://www.alborsaanews.com/?p=667737",
+     "title": "Al Borsa - El Mostakbal offers 6,000 feddans (9 Mar 2015), incl. ownership structure"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=74830",
+     "title": "Amwal Al Ghad - AC sells 4% stake in Mostakbal City to NBE, Banque Misr (22 Jul 2018)"
+    },
+    {
+     "url": "https://enterpriseam.com/egypt/?p=629039",
+     "title": "EnterpriseAM - Arab Contractors to sell 4% of Mostakbal Urban Developments (21 May 2018)"
+    }
+   ]
+  },
+  {
+   "holder_en": "Banque Misr",
+   "holder_ar": "بنك مصر",
+   "stake": "10.30% (2015) + 2% acquired 2018",
+   "status": "verified",
+   "as_of": "2018-07-22",
+   "note_en": "A figure of 40% for Banque Misr appeared only in a search snippet (Zawya page returned HTTP 400, not opened) and is not verified. Current stake unknown - no source later than 2018 with percentages could be opened.",
+   "note_ar": "نسبة 40% لبنك مصر وردت فقط في مقتطف بحث (صفحة زاوية أعادت الخطأ 400 ولم تُفتح) وغير مؤكدة. الحصة الحالية غير معروفة - لم يمكن فتح مصدر بنسب أحدث من 2018.",
+   "sources": [
+    {
+     "url": "https://www.alborsaanews.com/?p=667737",
+     "title": "Al Borsa - El Mostakbal offers 6,000 feddans (9 Mar 2015), incl. ownership structure"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=74830",
+     "title": "Amwal Al Ghad - AC sells 4% stake in Mostakbal City to NBE, Banque Misr (22 Jul 2018)"
+    },
+    {
+     "url": "https://enterpriseam.com/egypt/?p=629039",
+     "title": "EnterpriseAM - Arab Contractors to sell 4% of Mostakbal Urban Developments (21 May 2018)"
+    }
+   ]
+  },
+  {
+   "holder_en": "National Bank of Egypt (NBE)",
+   "holder_ar": "البنك الأهلي المصري",
+   "stake": "4.98% (2015) + 2% acquired 2018",
+   "status": "verified",
+   "as_of": "2018-07-22",
+   "note_en": "Arithmetic total not confirmed by any source. Current stake unknown - no source later than 2018 with percentages could be opened.",
+   "note_ar": "المجموع الحسابي غير مؤكد من أي مصدر. الحصة الحالية غير معروفة - لم يمكن فتح مصدر بنسب أحدث من 2018.",
+   "sources": [
+    {
+     "url": "https://www.alborsaanews.com/?p=667737",
+     "title": "Al Borsa - El Mostakbal offers 6,000 feddans (9 Mar 2015), incl. ownership structure"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=74830",
+     "title": "Amwal Al Ghad - AC sells 4% stake in Mostakbal City to NBE, Banque Misr (22 Jul 2018)"
+    },
+    {
+     "url": "https://enterpriseam.com/egypt/?p=629039",
+     "title": "EnterpriseAM - Arab Contractors to sell 4% of Mostakbal Urban Developments (21 May 2018)"
+    }
+   ]
+  },
+  {
+   "holder_en": "Sovereign Fund of Egypt (pre-IPO fund) / government offering",
+   "holder_ar": "صندوق مصر السيادي (صندوق ما قبل الطروحات) / الطروحات الحكومية",
+   "stake": "planned sale of 25-30% (2023); outcome unknown",
+   "status": "unknown",
+   "as_of": "2023-07-09",
+   "note_en": "Company was on the Feb 2023 list of 32 state companies to be offered; July 2023 report said the sovereign fund added it to its pre-IPO fund and planned to sell 25-30% to a strategic investor. No completion found. MIDAR is described (May 2026) as master developer of Mostakbal City; the opened pages do not state that MIDAR is El Mostakbal's new name.",
+   "note_ar": "كانت الشركة ضمن قائمة 32 شركة حكومية للطرح في فبراير 2023؛ وذكر تقرير يوليو 2023 أن الصندوق السيادي أضافها لصندوق ما قبل الطروحات ويعتزم بيع 25-30% لمستثمر استراتيجي. لم يُعثر على إتمام. تُوصف ميدار (مايو 2026) بأنها المطور العام لمدينة المستقبل؛ والصفحات المفتوحة لا تذكر أن ميدار هو الاسم الجديد للمستقبل.",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2023/07/09/المستقبل-للتنمية-العمرانية-تنضم-لصند/",
+     "title": "EnterpriseAM (Arabic) - El Mostakbal joins sovereign fund pre-IPO fund (9 Jul 2023)"
+    },
+    {
+     "url": "https://amwalalghad.com/iuqk",
+     "title": "Amwal Al Ghad - profile of El Mostakbal for Urban Development, slated for government offering (9 Feb 2023)"
+    },
+    {
+     "url": "https://invest-gate.me/?p=81881",
+     "title": "Invest-Gate - Banque Misr signs escrow account contract with MIDAR and SODIC for Eastvale (3 May 2026)"
+    }
+   ]
+  }
+ ],
+ "bank_links": [
+  {
+   "bank_id": "nbe",
+   "link_en": "Shareholder of Al Ahly Sabbour (40%, reported May 2026). Shareholder of El Mostakbal (4.98% in 2015, +2% bought 2018; current stake unknown). Escrow bank for the El Mostakbal-Al Ahly City of Odyssia account (2018); article cites a 24-year cooperation with Al Ahly. No specific NBE loan to Al Ahly Sabbour found.",
+   "link_ar": "مساهم في الأهلي صبور (40% وفق مايو 2026). مساهم في المستقبل (4.98% في 2015 و+2% في 2018؛ الحصة الحالية غير معروفة). بنك حساب الضمان لمشروع سيتي أوف أوديسيا بين المستقبل والأهلي (2018)؛ ويذكر المقال تعاوناً ممتداً 24 عاماً مع الأهلي. لم يُعثر على قرض محدد من البنك للأهلي صبور.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt/?p=700732",
+     "title": "EnterpriseAM IPO Watch - Al Ahly Sabbour IPO on hold (10 May 2026)"
+    },
+    {
+     "url": "https://www.alborsaanews.com/?p=667737",
+     "title": "Al Borsa - El Mostakbal offers 6,000 feddans (9 Mar 2015), incl. ownership structure"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=74830",
+     "title": "Amwal Al Ghad - AC sells 4% stake in Mostakbal City to NBE, Banque Misr (22 Jul 2018)"
+    },
+    {
+     "url": "https://www.dailynewsegypt.com/?p=654853",
+     "title": "Daily News Egypt - El Mostakbal, Al Ahly Real Estate Development seal agreement with NBE for City of Odyssia (Mar 2018)"
+    }
+   ]
+  },
+  {
+   "bank_id": "bm",
+   "link_en": "Shareholder of El Mostakbal (10.30% in 2015, +2% bought 2018; current stake unknown; Misr Financial Investments held 35.35% in 2015). Named as MIDAR shareholder (2023) and escrow account agent for MIDAR-SODIC Eastvale (May 2026). No evidence of a stake in or loan to Al Ahly Sabbour.",
+   "link_ar": "مساهم في المستقبل (10.30% في 2015 و+2% في 2018؛ الحصة الحالية غير معروفة؛ وكانت مصر المالية للاستثمارات تملك 35.35% في 2015). ورد مساهماً في ميدار (2023) ووكيل حساب الضمان لمشروع إيستفيل ميدار-سوديك (مايو 2026). لا دليل على حصة في الأهلي صبور أو قرض لها.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.alborsaanews.com/?p=667737",
+     "title": "Al Borsa - El Mostakbal offers 6,000 feddans (9 Mar 2015), incl. ownership structure"
+    },
+    {
+     "url": "https://en.amwalalghad.com/?p=74830",
+     "title": "Amwal Al Ghad - AC sells 4% stake in Mostakbal City to NBE, Banque Misr (22 Jul 2018)"
+    },
+    {
+     "url": "https://amwalalghad.com/bp28",
+     "title": "Amwal Al Ghad - MIDAR profile incl. shareholders (26 Sep 2023)"
+    },
+    {
+     "url": "https://invest-gate.me/?p=81881",
+     "title": "Invest-Gate - Banque Misr signs escrow account contract with MIDAR and SODIC for Eastvale (3 May 2026)"
+    }
+   ]
+  },
+  {
+   "bank_id": "cib",
+   "link_en": "Lender to Al Ahly Sabbour: with Suez Canal Bank arranged a six-year EGP 4.4bn syndicated facility for the Summer project, North Coast (July 2026); CIB is first lead arranger, facility agent and account bank. No shareholding evidence.",
+   "link_ar": "مقرض للأهلي صبور: رتّب مع بنك قناة السويس تمويلاً مشتركاً بقيمة 4.4 مليار جنيه لأجل ست سنوات لمشروع Summer بالساحل الشمالي (يوليو 2026)؛ ويتولى CIB دور المرتب الرئيسي الأول ووكيل التمويل وبنك الحساب. لا دليل على مساهمة.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dailynewsegypt.com/?p=851426",
+     "title": "Daily News Egypt - CIB, Suez Canal Bank arrange EGP 4.4bn syndicated facility for Al Ahly Sabbour's Summer project (25 Jul 2026)"
+    },
+    {
+     "url": "https://www.alborsaanews.com/?p=1981420",
+     "title": "Al Borsa - CIB and Suez Canal Bank arrange EGP 4.4bn for Al Ahly Sabbour (21 Jul 2026)"
+    }
+   ]
+  },
+  {
+   "bank_id": "qnb",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "aaib",
+   "link_en": "No shareholding or lending evidence. Related fact: AAIB is the escrow account bank for the MIDAR-Mountain View ALIVA revenue-share project in Mostakbal City (Jan 2024).",
+   "link_ar": "لا دليل على مساهمة أو إقراض. واقعة ذات صلة: البنك العربي الأفريقي الدولي هو بنك حساب الضمان لمشروع أليفا (ميدار-ماونتن فيو) بنظام المشاركة في الإيراد بمدينة المستقبل (يناير 2024).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dailynewsegypt.com/?p=808716",
+     "title": "Daily News Egypt - MIDAR, Mountain View open escrow account for ALIVA project in Mostakbal City (15 Jan 2024)"
+    }
+   ]
+  },
+  {
+   "bank_id": "hsbc",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "enbd",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "fab",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "adib",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "hdb",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "bdc",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "alex",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "arab",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "mashreq",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  },
+  {
+   "bank_id": "attijari",
+   "link_en": "No evidence found of a shareholding in Al Ahly Sabbour or El Mostakbal for Urban Development, or of lending to Al Ahly Sabbour.",
+   "link_ar": "لم يُعثر على دليل على مساهمة في الأهلي صبور أو المستقبل للتنمية العمرانية أو على إقراض للأهلي صبور.",
+   "status": "unknown",
+   "sources": []
+  }
+ ]
+}

@@ -1,0 +1,1749 @@
+{
+ "banks": [
+  {
+   "id": "cib",
+   "name_en": "Commercial International Bank (CIB) Egypt",
+   "name_ar": "البنك التجاري الدولي (CIB) – مصر",
+   "type": "private (EGX-listed)",
+   "website": "https://www.cibeg.com",
+   "fields": {
+    "g_escrow": {
+     "value_en": "No escrow product found on CIB pages read. In Al Ahly Sabbour's EGP 4.4bn syndication CIB was facility agent and account bank; Suez Canal Bank was escrow agent.",
+     "value_ar": "لم يُعثر على منتج حساب ضمان (Escrow) في صفحات البنك المقروءة. في قرض الأهلي صبور المشترك (4.4 مليار جنيه) كان CIB وكيل التسهيل وبنك الحساب، وبنك قناة السويس وكيل حساب الضمان.",
+     "status": "bank_to_confirm",
+     "source_url": "https://scbank.com.eg/Press_SCB_AlAhlySabbour_Summer_2025.aspx",
+     "source_title": "Suez Canal Bank press release 27/07/2026 – CIB and Suez Canal Bank arrange EGP 4.4bn syndicated loan for Al Ahly Sabbour",
+     "accessed": "2026-11-25",
+     "note_en": "CIB also states it provides trustee services for securitization. Whether it acts as escrow agent for a tri-party developer/landowner structure is not established.",
+     "note_ar": "يذكر البنك تقديم خدمات أمين الحفظ لعمليات التوريق. لم يثبت قيامه بدور وكيل الضمان في هيكل ثلاثي بين المطور ومالك الأرض."
+    },
+    "g_developer_account": {
+     "value_en": "CIB acted as 'Bank Account' (account bank) and facility agent in the EGP 4.4bn syndicated loan for Al Ahly Sabbour's 'Summer' project.",
+     "value_ar": "قام CIB بدور بنك الحساب ووكيل التسهيل في القرض المشترك بقيمة 4.4 مليار جنيه لمشروع «سمر» للأهلي صبور.",
+     "status": "verified",
+     "source_url": "https://scbank.com.eg/Press_SCB_AlAhlySabbour_Summer_2025.aspx",
+     "source_title": "Suez Canal Bank press release 27/07/2026 – CIB and Suez Canal Bank arrange EGP 4.4bn syndicated loan for Al Ahly Sabbour",
+     "accessed": "2026-11-25",
+     "note_en": "This is an account-bank role inside a financing; a stand-alone controlled collection account product for developers is not described.",
+     "note_ar": "هذا دور بنك حساب ضمن تمويل؛ لا يوجد وصف لمنتج حساب تحصيل مُراقَب مستقل للمطورين."
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Liquidity management list: Domestic Fund Sweeping, Interest Optimization, Liquidity Management Reporting, Automated Investment Program; Standing Instructions listed under payments.",
+     "value_ar": "إدارة السيولة: تجميع الأرصدة محليًا (Sweeping)، تعظيم العائد، تقارير السيولة، برنامج استثمار آلي؛ والتعليمات المستديمة ضمن المدفوعات.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/institutional/products-and-services/cash-management",
+     "source_title": "CIB – Cash Management Services (Institutional)",
+     "accessed": "2026-11-25",
+     "note_en": "Fees and conditions not read.",
+     "note_ar": "لم تُقرأ الرسوم والشروط."
+    },
+    "p_alerts": {
+     "value_en": "Corporate mobile app offers consolidated balance reporting and intraday cash position alerts (per Euromoney, Nov 2026).",
+     "value_ar": "تطبيق الشركات يوفّر تقارير أرصدة مجمّعة وتنبيهات لحظية لمركز النقدية خلال اليوم (وفق يوروموني، نوفمبر 2026).",
+     "status": "verified",
+     "source_url": "https://www.euromoney.com/article/7fdz4kqssrggwg80ww0sw0w00/egypts-best-cash-management-bank-2026-commercial-international-bank-cib/",
+     "source_title": "Euromoney – Egypt's best cash management bank 2026: CIB (5 Nov 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Low-balance threshold alerts by SMS/e-mail are not explicitly described.",
+     "note_ar": "لم يُذكر صراحةً تنبيه انخفاض الرصيد عن حد معين عبر الرسائل أو البريد."
+    },
+    "p_overdraft": {
+     "value_en": "Business FAQ: CIB offers short and medium-term loans and unsecured overdraft facilities.",
+     "value_ar": "الأسئلة الشائعة للأعمال: يقدّم البنك قروضًا قصيرة ومتوسطة الأجل وتسهيلات سحب على المكشوف بدون ضمان.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/business/faqs?pageno=2",
+     "source_title": "CIB – Business FAQs",
+     "accessed": "2026-11-25",
+     "note_en": "Business Banking segment wording; an overdraft tied to a project collection account is subject to credit approval and not described.",
+     "note_ar": "الصياغة خاصة بقطاع الأعمال؛ السحب على المكشوف المرتبط بحساب تحصيل المشروع يخضع للموافقة الائتمانية وغير موصوف."
+    },
+    "p_certified": {
+     "value_en": "'Cheques and Drafts' listed under payments; chequebook and draft cheque requests are made via CIB Business Online.",
+     "value_ar": "«الشيكات والشيكات المصرفية» ضمن خدمات المدفوعات؛ وطلبات دفاتر الشيكات والشيكات المصرفية تتم عبر CIB Business Online.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/institutional/products-and-services/cash-management",
+     "source_title": "CIB – Cash Management Services (Institutional)",
+     "accessed": "2026-11-25",
+     "note_en": "Certified (bank-accepted) cheque service and all fees not read.",
+     "note_ar": "خدمة الشيك المقبول الدفع والرسوم لم تُقرأ."
+    },
+    "p_sigverify": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.cibeg.com/-/media/project/downloads/terms-and-conditions/business-banking/cibcorporate-payment-servicesterms--conditionsen.pdf",
+     "source_title": "CIB Corporate Payment Services terms (search-result snippet only)",
+     "accessed": "2026-11-25",
+     "note_en": "A search snippet mentions a 'virtual account' on the government-payments (CPS) system only; document not opened. Virtual accounts for receivables identification are not established.",
+     "note_ar": "مقتطف بحث يذكر «حسابًا افتراضيًا» على منظومة المدفوعات الحكومية فقط؛ لم يُفتح المستند. الحسابات الافتراضية لتمييز المتحصلات غير مثبتة."
+    },
+    "c_pdc": {
+     "value_en": "Collections & Receivables include Post-Dated Cheque (PDC) Management, cash and cheque deposits, secured cash pick-up.",
+     "value_ar": "خدمات التحصيل تشمل إدارة الشيكات الآجلة (PDC) وإيداع النقد والشيكات ونقل الأموال المؤمَّن.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/institutional/products-and-services/cash-management",
+     "source_title": "CIB – Cash Management Services (Institutional)",
+     "accessed": "2026-11-25",
+     "note_en": "Fee schedule 'Collection - Cheques.pdf' exists but could not be opened.",
+     "note_ar": "يوجد ملف تعريفة «تحصيل الشيكات» لكن تعذر فتحه."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.cibeg.com/en/fees-and-charges/business-banking-fees-and-charges",
+     "source_title": "CIB – Corporate & Business Banking Fees and Charges (index of tariff PDFs)",
+     "accessed": "2026-11-25",
+     "note_en": "A 'Payment Acceptance' tariff PDF is listed for business customers (indicating merchant acquiring) but could not be opened; POS terms not verified.",
+     "note_ar": "يوجد ملف تعريفة «قبول المدفوعات» لعملاء الأعمال (مؤشر على خدمات نقاط البيع) لكن تعذر فتحه؛ الشروط غير موثقة."
+    },
+    "c_online": {
+     "value_en": "Direct Debit Services and EG-ACH online bulk collections; Corporate Payment Services for governmental payments.",
+     "value_ar": "خدمات الخصم المباشر والتحصيل المجمّع عبر غرفة المقاصة الآلية EG-ACH؛ وخدمة مدفوعات الشركات للمدفوعات الحكومية.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/institutional/products-and-services/cash-management",
+     "source_title": "CIB – Cash Management Services (Institutional)",
+     "accessed": "2026-11-25",
+     "note_en": "Online payment gateway / Fawry bill presentment for a developer's customers not established on pages read.",
+     "note_ar": "بوابة الدفع الإلكتروني أو عرض الفواتير عبر فوري لعملاء المطور غير مثبتة في الصفحات المقروءة."
+    },
+    "c_instapay": {
+     "value_en": "Corporate mobile app can initiate domestic ACH and instant payments and supports real-time collections (Euromoney, Nov 2026).",
+     "value_ar": "تطبيق الشركات يتيح تنفيذ مدفوعات ACH والمدفوعات اللحظية ويدعم التحصيل اللحظي (يوروموني، نوفمبر 2026).",
+     "status": "verified",
+     "source_url": "https://www.euromoney.com/article/7fdz4kqssrggwg80ww0sw0w00/egypts-best-cash-management-bank-2026-commercial-international-bank-cib/",
+     "source_title": "Euromoney – Egypt's best cash management bank 2026: CIB (5 Nov 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Article says 'instant payments', not 'InstaPay'; corporate IPN collection set-up and fees not stated.",
+     "note_ar": "المقال يذكر «مدفوعات لحظية» لا «إنستاباي»؛ ترتيبات ورسوم التحصيل اللحظي للشركات غير مذكورة."
+    },
+    "c_branches": {
+     "value_en": "208 branches and 11 units across Egypt, 1,494 ATMs (H1 2026 results).",
+     "value_ar": "208 فرعًا و11 وحدة مصرفية في مصر و1,494 ماكينة صراف آلي (نتائج النصف الأول 2026).",
+     "status": "verified",
+     "source_url": "https://kalkinemedia.com/uk/news/announcements/commercial-international-bank-posts-18-rise-in-net-income-to-egp-393-billion-in-h1-2026",
+     "source_title": "Kalkine Media 21 Jul 2026 – CIB H1 2026 results summary",
+     "accessed": "2026-11-25",
+     "note_en": "Secondary summary of CIB's earnings release; CIB's own release could not be opened.",
+     "note_ar": "ملخص ثانوي لبيان أرباح البنك؛ تعذر فتح بيان البنك نفسه."
+    },
+    "c_fx": {
+     "value_en": "Current accounts in local and foreign currency; inward remittances and international transfers listed.",
+     "value_ar": "حسابات جارية بالعملة المحلية والأجنبية؛ والتحويلات الواردة والدولية مدرجة ضمن الخدمات.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/institutional/products-and-services/cash-management",
+     "source_title": "CIB – Cash Management Services (Institutional)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "MT940 reporting, historical statements, online transaction inquiry; Business Online offers customizable reporting and spot reconciliation incl. MT940.",
+     "value_ar": "تقارير MT940 وكشوف تاريخية واستعلام إلكتروني؛ وCIB Business Online يوفّر تقارير قابلة للتخصيص وتسوية فورية بصيغة MT940.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/institutional/products-and-services/cash-management",
+     "source_title": "CIB – Cash Management Services (Institutional)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.cibeg.com/en/institutional/global-transaction-banking",
+     "source_title": "CIB – Global Transaction Banking",
+     "accessed": "2026-11-25",
+     "note_en": "GTB page lists 'System Integration' as a cash-management pillar; specific host-to-host / API / ERP connectivity for collections is not described.",
+     "note_ar": "صفحة المعاملات المصرفية تذكر «تكامل الأنظمة» كأحد محاور إدارة النقد؛ لا يوجد وصف محدد للربط Host-to-Host أو API أو ERP للتحصيل."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "Business current account: company legal documents (e.g. Commercial Registry) and product application form.",
+     "value_ar": "الحساب الجاري للأعمال: المستندات القانونية للشركة (مثل السجل التجاري) ونموذج طلب المنتج.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/business/accounts-and-deposits/accounts/current-account",
+     "source_title": "CIB – Business Current Account",
+     "accessed": "2026-11-25",
+     "note_en": "Business Banking page; full corporate KYC list not published there.",
+     "note_ar": "صفحة قطاع الأعمال؛ القائمة الكاملة لمستندات الشركات غير منشورة فيها."
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.cibeg.com/en/fees-and-charges/business-banking-fees-and-charges",
+     "source_title": "CIB – Corporate & Business Banking Fees and Charges (index of tariff PDFs)",
+     "accessed": "2026-11-25",
+     "note_en": "CIB tariff PDFs are listed on this page but could not be opened (site bot protection), so no figure is verified.",
+     "note_ar": "ملفات التعريفة مدرجة في هذه الصفحة لكن تعذر فتحها (حماية الموقع من الروبوتات)، لذا لا يوجد رقم موثق."
+    },
+    "k_annual": {
+     "value_en": "Business Banking current account: no monthly fees.",
+     "value_ar": "الحساب الجاري لقطاع الأعمال: بدون مصاريف شهرية.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/business/accounts-and-deposits/accounts/current-account",
+     "source_title": "CIB – Business Current Account",
+     "accessed": "2026-11-25",
+     "note_en": "Business Banking (SME) segment; corporate/institutional tariff and any escrow fee not read.",
+     "note_ar": "خاص بقطاع الأعمال (الصغيرة والمتوسطة)؛ تعريفة الشركات الكبرى وأي رسوم ضمان لم تُقرأ."
+    },
+    "k_txn": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.cibeg.com/en/fees-and-charges/business-banking-fees-and-charges",
+     "source_title": "CIB – Corporate & Business Banking Fees and Charges (index of tariff PDFs)",
+     "accessed": "2026-11-25",
+     "note_en": "CIB tariff PDFs are listed on this page but could not be opened (site bot protection), so no figure is verified. A search snippet (unverified) cited ACH via corporate online at 0.1%, min EGP 40, max EGP 350.",
+     "note_ar": "ملفات التعريفة مدرجة في هذه الصفحة لكن تعذر فتحها (حماية الموقع من الروبوتات)، لذا لا يوجد رقم موثق. مقتطف بحث غير موثق ذكر تحويل ACH إلكترونيًا بنسبة 0.1% بحد أدنى 40 وأقصى 350 جنيهًا."
+    },
+    "k_cheque": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.cibeg.com/en/fees-and-charges/business-banking-fees-and-charges",
+     "source_title": "CIB – Corporate & Business Banking Fees and Charges (index of tariff PDFs)",
+     "accessed": "2026-11-25",
+     "note_en": "CIB tariff PDFs are listed on this page but could not be opened (site bot protection), so no figure is verified.",
+     "note_ar": "ملفات التعريفة مدرجة في هذه الصفحة لكن تعذر فتحها (حماية الموقع من الروبوتات)، لذا لا يوجد رقم موثق."
+    },
+    "k_minbal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "Lead arranger of EGP 4.4bn ~6-year syndicated loan to Al Ahly Sabbour (Summer project); led EGP 9bn Madinet Masr syndication (CIB share EGP 4.5bn, Dec 2024).",
+     "value_ar": "المرتب الرئيسي لقرض مشترك 4.4 مليار جنيه لمدة نحو 6 سنوات للأهلي صبور (مشروع سمر)؛ وقاد قرض مدينة مصر المشترك 9 مليارات جنيه (حصة CIB 4.5 مليار، ديسمبر 2024).",
+     "status": "verified",
+     "source_url": "https://scbank.com.eg/Press_SCB_AlAhlySabbour_Summer_2025.aspx",
+     "source_title": "Suez Canal Bank press release 27/07/2026 – CIB and Suez Canal Bank arrange EGP 4.4bn syndicated loan for Al Ahly Sabbour",
+     "accessed": "2026-11-25",
+     "note_en": "Madinet Masr deal source: Daily News Egypt 25 Dec 2024 (https://www.dailynewsegypt.com/?p=825935).",
+     "note_ar": "مصدر صفقة مدينة مصر: ديلي نيوز إيجيبت 25 ديسمبر 2024."
+    },
+    "s_discount": {
+     "value_en": "Large-corporate offering includes securitization and forfaiting; supply chain finance with invoice discounting; trustee services for securitization.",
+     "value_ar": "خدمات الشركات الكبرى تشمل التوريق والفورفيتنج؛ وتمويل سلاسل الإمداد مع خصم الفواتير؛ وخدمات أمين الحفظ للتوريق.",
+     "status": "verified",
+     "source_url": "https://www.cibeg.com/en/Institutional/Large-Corporate-Clients",
+     "source_title": "CIB – Large Corporate Clients",
+     "accessed": "2026-11-25",
+     "note_en": "Discounting of a developer's customer-cheque portfolio is not specifically stated.",
+     "note_ar": "خصم محفظة شيكات عملاء المطور غير مذكور تحديدًا."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.cibeg.com/en/business/digital-banking-services/business-online",
+     "source_title": "CIB – CIB Business Online",
+     "accessed": "2026-11-25",
+     "note_en": "Business Online lets the company assign access rights and permissions to its staff; view-only access for an external counterparty/auditor is not stated.",
+     "note_ar": "المنصة تتيح للشركة تحديد صلاحيات موظفيها؛ لم يُذكر منح طرف خارجي صلاحية اطلاع فقط."
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "Al Ahly Sabbour (EGP 4.4bn, Summer project); Madinet Masr (EGP 9bn syndication for Taj City and Sarai).",
+     "value_ar": "الأهلي صبور (4.4 مليار جنيه، مشروع سمر)؛ مدينة مصر (قرض مشترك 9 مليارات لتاج سيتي وسراي).",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=825935",
+     "source_title": "Daily News Egypt 25 Dec 2024 – CIB leads EGP 9bn syndicated loan for Madinet Masr",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_sabbour": {
+     "value_en": "Lending link: CIB is lead arranger, facility agent and account bank of the EGP 4.4bn syndicated loan to Al Ahly Sabbour. No shareholding found.",
+     "value_ar": "علاقة إقراض: CIB هو المرتب الرئيسي ووكيل التسهيل وبنك الحساب لقرض 4.4 مليار جنيه للأهلي صبور. لم يُعثر على مساهمة.",
+     "status": "verified",
+     "source_url": "https://scbank.com.eg/Press_SCB_AlAhlySabbour_Summer_2025.aspx",
+     "source_title": "Suez Canal Bank press release 27/07/2026 – CIB and Suez Canal Bank arrange EGP 4.4bn syndicated loan for Al Ahly Sabbour",
+     "accessed": "2026-11-25",
+     "note_en": "Enterprise (19 Nov 2024) reports Al Ahly Sabbour is owned by National Bank of Egypt and the Sabbour family.",
+     "note_ar": "ذكرت إنتربرايز (19 نوفمبر 2024) أن الأهلي صبور مملوكة للبنك الأهلي المصري وعائلة صبور."
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  },
+  {
+   "id": "qnb",
+   "name_en": "QNB Egypt (formerly QNB Alahli)",
+   "name_ar": "بنك QNB مصر (QNB الأهلي سابقًا)",
+   "type": "foreign subsidiary (QNB Group, Qatar; EGX-listed)",
+   "website": "https://www.qnb.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/eninvestmentbanking.html",
+     "source_title": "QNB Egypt – Investment Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Page states QNB performs agency roles (Facility Agent, Security Agent 'among others'); escrow agent is not named and no escrow product page was found.",
+     "note_ar": "الصفحة تذكر قيام البنك بأدوار الوكالة (وكيل التسهيل ووكيل الضمانات «وغيرها»)؛ لم يُذكر وكيل حساب الضمان ولم يُعثر على صفحة منتج."
+    },
+    "g_developer_account": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://ib.qnb.com.eg/MainFaq/corpIB/about.htm",
+     "source_title": "QNB – About Corporate Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Corporate Internet Banking gives 24/7 real-time inquiry on accounts and cheques; push/SMS balance alerts are not stated.",
+     "note_ar": "الإنترنت البنكي للشركات يوفّر استعلامًا لحظيًا على مدار الساعة عن الحسابات والشيكات؛ التنبيهات بالرسائل غير مذكورة."
+    },
+    "p_overdraft": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/enfinancingegpandfcy.html",
+     "source_title": "QNB Egypt – Financing (in EGP and FCY)",
+     "accessed": "2026-11-25",
+     "note_en": "Page lists short-term credit facilities and working capital finance; the word overdraft and any standby line against a collection account are not stated.",
+     "note_ar": "الصفحة تذكر تسهيلات قصيرة الأجل وتمويل رأس المال العامل؛ لم يُذكر السحب على المكشوف أو خط احتياطي مقابل حساب التحصيل."
+    },
+    "p_certified": {
+     "value_en": "Corporate Internet Banking allows requesting issuance of chequebooks and bank drafts.",
+     "value_ar": "الإنترنت البنكي للشركات يتيح طلب إصدار دفاتر الشيكات والشيكات المصرفية.",
+     "status": "verified",
+     "source_url": "https://ib.qnb.com.eg/MainFaq/corpIB/about.htm",
+     "source_title": "QNB – About Corporate Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Certified (bank-accepted) cheque service and fees not read (tariff blocked).",
+     "note_ar": "خدمة الشيك المقبول الدفع والرسوم لم تُقرأ (التعريفة محجوبة)."
+    },
+    "p_sigverify": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://ib.qnb.com.eg/MainFaq/corpIB/about.htm",
+     "source_title": "QNB – About Corporate Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Internet banking shows 'Checks paid and under collection'; custody/warehousing of post-dated cheques is not stated.",
+     "note_ar": "الإنترنت البنكي يعرض «الشيكات المدفوعة وتحت التحصيل»؛ حفظ الشيكات الآجلة غير مذكور."
+    },
+    "c_pos": {
+     "value_en": "POS terminals incl. contactless and QR wallet acceptance; proceeds credited to bank account; e-merchant portal with statements; DCC; installment program.",
+     "value_ar": "ماكينات نقاط بيع تدعم اللاتلامسية ورمز QR للمحافظ؛ تُضاف المتحصلات للحساب؛ بوابة التاجر مع كشف حساب؛ تحويل العملة DCC؛ برنامج تقسيط.",
+     "status": "verified",
+     "source_url": "https://bebasata.qnb.com.eg/sites/qnb/qnbegypt/page/en/enpos.html",
+     "source_title": "QNB Egypt – Point Of Sale (POS)",
+     "accessed": "2026-11-25",
+     "note_en": "Merchant fees not published on the page.",
+     "note_ar": "عمولات التاجر غير منشورة في الصفحة."
+    },
+    "c_online": {
+     "value_en": "E-commerce payment gateway integrated with website/app (cards and e-wallets), 'Request to pay'; Corpay ACH bulk collections by direct debit in EGP.",
+     "value_ar": "بوابة دفع إلكتروني تتكامل مع الموقع أو التطبيق (بطاقات ومحافظ) وخدمة «طلب الدفع»؛ وتحصيل مجمّع بالخصم المباشر عبر ACH (Corpay) بالجنيه.",
+     "status": "verified",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/enecommerce.html",
+     "source_title": "QNB Egypt – E-commerce",
+     "accessed": "2026-11-25",
+     "note_en": "Direct debit source: QNB ACH page (enach.html). Fawry/eFinance bill presentment not stated.",
+     "note_ar": "مصدر الخصم المباشر: صفحة ACH لدى البنك. عرض الفواتير عبر فوري/إي فاينانس غير مذكور."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "241 branches (after three additions in 2026); 907 active ATMs as of September 2026.",
+     "value_ar": "241 فرعًا (بعد إضافة ثلاثة فروع في 2026)؛ و907 ماكينة صراف آلي نشطة حتى سبتمبر 2026.",
+     "status": "verified",
+     "source_url": "https://www.bankygate.com/en/77992",
+     "source_title": "Bankygate 11 Oct 2026 – QNB Egypt results for period ended September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Press report of the bank's results statement.",
+     "note_ar": "تقرير صحفي عن بيان نتائج البنك."
+    },
+    "c_fx": {
+     "value_en": "Corporate current account in EGP and/or major foreign currencies; internet banking executes transfers in local and foreign currency inside or outside Egypt.",
+     "value_ar": "حساب جارٍ للشركات بالجنيه و/أو العملات الأجنبية الرئيسية؛ والإنترنت البنكي ينفّذ تحويلات بالعملة المحلية والأجنبية داخل وخارج مصر.",
+     "status": "verified",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/encurrentaccountbus.html",
+     "source_title": "QNB Egypt – Current Account (Corporate)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "Account summary and statements viewable/printable in different formats including MT940 and MT942; transaction summaries in Excel, PDF, Word, CSV.",
+     "value_ar": "كشوف وملخصات الحساب بصيغ مختلفة منها MT940 وMT942؛ وملخصات العمليات بصيغ Excel وPDF وWord وCSV.",
+     "status": "verified",
+     "source_url": "https://ib.qnb.com.eg/MainFaq/corpIB/about.htm",
+     "source_title": "QNB – About Corporate Internet Banking",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "'Swift for Corporate': integration between the company's accounting system and the bank over SWIFT, periodic statements, direct instructions.",
+     "value_ar": "خدمة «سويفت للشركات»: ربط النظام المحاسبي للشركة بالبنك عبر سويفت، وكشوف دورية، وتعليمات مباشرة.",
+     "status": "verified",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/enswiftforcorporate.html",
+     "source_title": "QNB Egypt – Swift for Corporate",
+     "accessed": "2026-11-25",
+     "note_en": "For large companies with their own SWIFT membership; host-to-host file or API channel not stated.",
+     "note_ar": "للشركات الكبرى العضوة في سويفت؛ قناة الملفات Host-to-Host أو API غير مذكورة."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/document/en/enBusinessTariff",
+     "source_title": "QNB Egypt Business Tariff (document blocked – HTTP 403)",
+     "accessed": "2026-11-25",
+     "note_en": "QNB publishes a Business Tariff at this URL but it returned HTTP 403 to automated access; no figure verified.",
+     "note_ar": "ينشر البنك تعريفة الأعمال على هذا الرابط لكنه أعاد الخطأ 403 للوصول الآلي؛ لا يوجد رقم موثق."
+    },
+    "k_annual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/document/en/enBusinessTariff",
+     "source_title": "QNB Egypt Business Tariff (document blocked – HTTP 403)",
+     "accessed": "2026-11-25",
+     "note_en": "QNB publishes a Business Tariff at this URL but it returned HTTP 403 to automated access; no figure verified.",
+     "note_ar": "ينشر البنك تعريفة الأعمال على هذا الرابط لكنه أعاد الخطأ 403 للوصول الآلي؛ لا يوجد رقم موثق."
+    },
+    "k_txn": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/document/en/enBusinessTariff",
+     "source_title": "QNB Egypt Business Tariff (document blocked – HTTP 403)",
+     "accessed": "2026-11-25",
+     "note_en": "QNB publishes a Business Tariff at this URL but it returned HTTP 403 to automated access; no figure verified.",
+     "note_ar": "ينشر البنك تعريفة الأعمال على هذا الرابط لكنه أعاد الخطأ 403 للوصول الآلي؛ لا يوجد رقم موثق."
+    },
+    "k_cheque": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/document/en/enBusinessTariff",
+     "source_title": "QNB Egypt Business Tariff (document blocked – HTTP 403)",
+     "accessed": "2026-11-25",
+     "note_en": "QNB publishes a Business Tariff at this URL but it returned HTTP 403 to automated access; no figure verified.",
+     "note_ar": "ينشر البنك تعريفة الأعمال على هذا الرابط لكنه أعاد الخطأ 403 للوصول الآلي؛ لا يوجد رقم موثق."
+    },
+    "k_minbal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/document/en/enBusinessTariff",
+     "source_title": "QNB Egypt Business Tariff (document blocked – HTTP 403)",
+     "accessed": "2026-11-25",
+     "note_en": "QNB publishes a Business Tariff at this URL but it returned HTTP 403 to automated access; no figure verified.",
+     "note_ar": "ينشر البنك تعريفة الأعمال على هذا الرابط لكنه أعاد الخطأ 403 للوصول الآلي؛ لا يوجد رقم موثق."
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "EGP 5.5bn medium-term financing agreement with MARAKEZ for District 5 (reported 26 Apr 2026).",
+     "value_ar": "اتفاقية تمويل متوسط الأجل بقيمة 5.5 مليار جنيه مع «مراكز» لمشروع ديستريكت 5 (نُشر 26 أبريل 2026).",
+     "status": "verified",
+     "source_url": "https://arabfinance.com/en/news/newdetails/qnb-egypt-inks-financing-deal-with-marakez",
+     "source_title": "Arab Finance 26 Apr 2026 – QNB Egypt inks EGP 5.5B financing deal with MARAKEZ",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_discount": {
+     "value_en": "Factoring services through subsidiary QNB Factoring (est. 2012); leasing via QNB Leasing.",
+     "value_ar": "خدمات التخصيم عبر الشركة التابعة QNB للتخصيم (تأسست 2012)؛ والتأجير التمويلي عبر QNB للتأجير.",
+     "status": "verified",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/enfinancingegpandfcy.html",
+     "source_title": "QNB Egypt – Financing (in EGP and FCY)",
+     "accessed": "2026-11-25",
+     "note_en": "Discounting or securitization of a developer's customer-cheque portfolio is not specifically stated.",
+     "note_ar": "خصم أو توريق محفظة شيكات عملاء المطور غير مذكور تحديدًا."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "MARAKEZ (EGP 5.5bn facility for District 5, April 2026).",
+     "value_ar": "مراكز (تسهيل 5.5 مليار جنيه لديستريكت 5، أبريل 2026).",
+     "status": "verified",
+     "source_url": "https://invest-gate.me/?p=81577",
+     "source_title": "Invest-Gate – QNB Egypt and MARAKEZ sign EGP 5.5bn facility agreement for District 5",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_conflict": {
+     "value_en": "Subsidiaries page lists QNB Leasing, QNB Life Insurance and QNB Factoring; no real estate development subsidiary is listed.",
+     "value_ar": "صفحة الشركات التابعة تذكر QNB للتأجير وQNB لتأمينات الحياة وQNB للتخصيم؛ ولا توجد شركة تطوير عقاري تابعة مدرجة.",
+     "status": "verified",
+     "source_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/ensubsidiaries.html",
+     "source_title": "QNB Egypt – Subsidiaries",
+     "accessed": "2026-11-25",
+     "note_en": "Minority stakes or investments not checked in financial statements.",
+     "note_ar": "لم تُراجع الحصص الأقلية أو الاستثمارات في القوائم المالية."
+    }
+   }
+  },
+  {
+   "id": "aaib",
+   "name_en": "Arab African International Bank (AAIB)",
+   "name_ar": "البنك العربي الأفريقي الدولي",
+   "type": "private joint venture (Central Bank of Egypt / Kuwait Investment Authority), established by special treaty",
+   "website": "https://www.aaib.com",
+   "fields": {
+    "g_escrow": {
+     "value_en": "Lists 'Escrow Agency Services' among investment banking services; opened an escrow account for MIDAR and Mountain View's ALIVA project in Mostakbal City (Jan 2024).",
+     "value_ar": "يدرج «خدمات وكيل حساب الضمان» ضمن خدمات بنوك الاستثمار؛ وفتح حساب ضمان لمشروع «أليفا» لميدار وماونتن فيو بمستقبل سيتي (يناير 2024).",
+     "status": "verified",
+     "source_url": "https://www.aaib.com/corporate/investments-finance",
+     "source_title": "AAIB – Corporate Investments & Finance",
+     "accessed": "2026-11-25",
+     "note_en": "ALIVA deal source: Daily News Egypt (https://www.dailynewsegypt.com/?p=808716). Annual Report 2024 also cites escrow services executed by its investment banking unit.",
+     "note_ar": "مصدر صفقة أليفا: ديلي نيوز إيجيبت. وتقرير 2024 السنوي يذكر تنفيذ خدمات حسابات الضمان."
+    },
+    "g_developer_account": {
+     "value_en": "Escrow account for ALIVA (Mostakbal City) guarantees MIDAR and Mountain View each receive their share of sales revenue under the revenue-sharing development contract.",
+     "value_ar": "حساب الضمان لمشروع أليفا (مستقبل سيتي) يضمن حصول ميدار وماونتن فيو على نصيب كل منهما من إيرادات المبيعات وفق عقد التطوير بنظام المشاركة في الإيراد.",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=808716",
+     "source_title": "Daily News Egypt 15 Jan 2024 – MIDAR, Mountain View open escrow account for ALIVA project in Mostakbal City",
+     "accessed": "2026-11-25",
+     "note_en": "Account mechanics, waterfall and fees were not disclosed.",
+     "note_ar": "آلية الحساب وترتيب التوزيع والرسوم لم يُفصح عنها."
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Standing instructions: EGP 150 set-up + EGP 10 on every executed transaction, plus the transaction's regular fees.",
+     "value_ar": "التعليمات المستديمة: 150 جنيهًا عند الاشتراك + 10 جنيهات لكل عملية منفذة، إضافة إلى رسوم العملية المعتادة.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "Automatic sweeping / cash pooling is not published; site refers only to 'liquidity management solutions'.",
+     "note_ar": "التجميع الآلي للأرصدة غير منشور؛ الموقع يشير فقط إلى «حلول إدارة السيولة»."
+    },
+    "p_alerts": {
+     "value_en": "SMS alerts on business debit card: EGP 10 monthly (USD 0.5).",
+     "value_ar": "رسائل نصية لبطاقة الخصم للشركات: 10 جنيهات شهريًا (0.5 دولار).",
+     "status": "bank_to_confirm",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "These are card-transaction alerts; account balance/threshold alerts for corporates are not established.",
+     "note_ar": "هذه تنبيهات لمعاملات البطاقة؛ تنبيهات رصيد الحساب للشركات غير مثبتة."
+    },
+    "p_overdraft": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.aaib.com/pdfs/business-solutions.pdf",
+     "source_title": "AAIB Business Solutions brochure",
+     "accessed": "2026-11-25",
+     "note_en": "Brochure offers short-term Working Capital facilities; tariff has a 'high debit interest commission' line. An overdraft/standby line against a collection account is not specifically described.",
+     "note_ar": "الكتيّب يعرض تسهيلات رأس المال العامل قصيرة الأجل؛ والتعريفة بها «عمولة أعلى رصيد مدين». خط سحب على المكشوف مقابل حساب التحصيل غير موصوف تحديدًا."
+    },
+    "p_certified": {
+     "value_en": "Bank draft (private companies) in EGP: 0.2%, min EGP 40, max EGP 400 per cheque; draft/certified cheque cancellation EGP 25.",
+     "value_ar": "شيك مصرفي (شركات القطاع الخاص) بالجنيه: 0.2% بحد أدنى 40 وأقصى 400 جنيه للشيك؛ إلغاء شيك مصرفي/مقبول الدفع 25 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "No separate fee line for certifying a customer's own cheque.",
+     "note_ar": "لا يوجد بند رسوم مستقل لاعتماد شيك العميل نفسه."
+    },
+    "p_sigverify": {
+     "value_en": "Signature Authentication Certificate / stamping: EGP 50 per stamp.",
+     "value_ar": "شهادة/ختم مصادقة التوقيع: 50 جنيهًا للختم.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "Applies to signature authentication certificates; a per-cheque signature confirmation service is not described.",
+     "note_ar": "يخص شهادات مصادقة التوقيع؛ خدمة تأكيد التوقيع لكل شيك غير موصوفة."
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "Post-dated cheque warehousing (custody) offered; custody commission for PDCs in EGP 0.2% per cheque, min EGP 40, max EGP 300.",
+     "value_ar": "خدمة حفظ الشيكات الآجلة متاحة؛ عمولة الحفظ بالجنيه 0.2% للشيك بحد أدنى 40 وأقصى 300 جنيه.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "Service description in Business Solutions brochure. Clearing fee EGP 30 per EGP cheque in the tariff.",
+     "note_ar": "وصف الخدمة في كتيّب حلول الأعمال. ورسم المقاصة 30 جنيهًا للشيك بالتعريفة."
+    },
+    "c_pos": {
+     "value_en": "Merchant POS: N-Genius Android terminals, mPOS, dynamic QR, dynamic currency conversion; 'competitive POS commission'.",
+     "value_ar": "نقاط بيع للتجار: أجهزة N-Genius أندرويد وmPOS ورمز QR ديناميكي وتحويل العملة؛ «عمولة تنافسية».",
+     "status": "verified",
+     "source_url": "https://www.aaib.com/pdfs/business-solutions.pdf",
+     "source_title": "AAIB Business Solutions brochure",
+     "accessed": "2026-11-25",
+     "note_en": "Commission rate not published.",
+     "note_ar": "نسبة العمولة غير منشورة."
+    },
+    "c_online": {
+     "value_en": "eCommerce Payment Gateway; Online Direct Debit Collections with online platform; cash pick-up; B2B receivables solutions with fintechs/payment providers.",
+     "value_ar": "بوابة دفع للتجارة الإلكترونية؛ تحصيل بالخصم المباشر عبر منصة إلكترونية؛ نقل النقدية؛ حلول تحصيل B2B مع شركات التكنولوجيا المالية.",
+     "status": "verified",
+     "source_url": "https://www.aaib.com/pdfs/business-solutions.pdf",
+     "source_title": "AAIB Business Solutions brochure",
+     "accessed": "2026-11-25",
+     "note_en": "Named Fawry/eFinance bill-presentment integration for collections is not stated.",
+     "note_ar": "التكامل المسمّى مع فوري/إي فاينانس لعرض الفواتير غير مذكور."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "96 branches and units in Egypt (plus 2 UAE branches, 1 Lebanon) per 2024 annual report.",
+     "value_ar": "96 فرعًا ووحدة في مصر (إضافة إلى فرعين بالإمارات وفرع بلبنان) وفق التقرير السنوي 2024.",
+     "status": "verified",
+     "source_url": "https://www.aaib.com/pdfs/annual-report-2024.pdf",
+     "source_title": "AAIB Annual Report 2024",
+     "accessed": "2026-11-25",
+     "note_en": "Figure as at financial year 2024; later count not found.",
+     "note_ar": "الرقم عن السنة المالية 2024؛ لم يُعثر على رقم أحدث."
+    },
+    "c_fx": {
+     "value_en": "Incoming transfers free; company current account available in USD/EUR/GBP (min USD 1,000); outgoing FCY wire 0.3%, min USD 20, max USD 200 + SWIFT USD 40.",
+     "value_ar": "التحويلات الواردة مجانًا؛ حساب جارٍ للشركات بالدولار/اليورو/الإسترليني (حد أدنى 1,000 دولار)؛ التحويل الصادر بالعملة الأجنبية 0.3% بحد أدنى 20 وأقصى 200 دولار + سويفت 40 دولارًا.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "MT940/942 statements sent to the client's SWIFT address; consolidated collections reporting across cash, cheques, transfers and cards.",
+     "value_ar": "كشوف MT940/942 تُرسل إلى عنوان سويفت العميل؛ وتقارير تحصيل مجمّعة للنقد والشيكات والتحويلات والبطاقات.",
+     "status": "verified",
+     "source_url": "https://aaib.com/smes/global-transaction-banking",
+     "source_title": "AAIB – Global Transaction Banking",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "'H2H Payments Integration' with the client's ERP, supported by the GTB team; MT101 instructions accepted.",
+     "value_ar": "«تكامل المدفوعات H2H» مع نظام ERP للعميل بدعم فريق المعاملات المصرفية؛ وقبول تعليمات MT101.",
+     "status": "verified",
+     "source_url": "https://aaib.com/smes/global-transaction-banking",
+     "source_title": "AAIB – Global Transaction Banking",
+     "accessed": "2026-11-25",
+     "note_en": "Described for payments; H2H/API for collections data not stated.",
+     "note_ar": "موصوف للمدفوعات؛ الربط لبيانات التحصيل غير مذكور."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.dailynewsegypt.com/?p=808716",
+     "source_title": "Daily News Egypt 15 Jan 2024 – MIDAR, Mountain View open escrow account for ALIVA project in Mostakbal City",
+     "accessed": "2026-11-25",
+     "note_en": "Only indication: Mountain View's CEO said the ALIVA escrow account was opened 'a few months' after the partnership contract. No bank-stated turnaround.",
+     "note_ar": "المؤشر الوحيد: رئيس ماونتن فيو ذكر أن حساب ضمان أليفا فُتح بعد «أشهر قليلة» من عقد الشراكة. لا توجد مدة معلنة من البنك."
+    },
+    "o_docs": {
+     "value_en": "Entity account: opening form, 2 signature cards, valid ID/passport copy, recent commercial register, valid tax card, national IDs of partners/shareholders holding 10% or more.",
+     "value_ar": "حساب الكيانات: نموذج فتح الحساب، بطاقتا توقيع، صورة بطاقة أو جواز سارٍ، سجل تجاري حديث، بطاقة ضريبية سارية، بطاقات الشركاء/المساهمين بنسبة 10% فأكثر.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.aaib.com/corporate/accounts",
+     "source_title": "AAIB – Corporate Accounts (site content)",
+     "accessed": "2026-11-25",
+     "note_en": "Listed for the 'Day today account for Entities'; additional documents may be required. Text read in the AAIB website content payload delivered with this page; dedicated product-page URL and date not identified – confirm it is current.",
+     "note_ar": "مدرجة لحساب «داي توداي للكيانات»؛ وقد تُطلب مستندات إضافية. النص مقروء من محتوى موقع البنك المحمَّل مع هذه الصفحة؛ لم يُحدَّد رابط صفحة المنتج ولا تاريخه – يلزم التأكد من سريانه."
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.aaib.com/corporate/investments-finance",
+     "source_title": "AAIB – Corporate Investments & Finance",
+     "accessed": "2026-11-25",
+     "note_en": "Escrow agency is an advertised service and a retail real-estate escrow product exists, suggesting standard documentation, but no corporate escrow template is published.",
+     "note_ar": "خدمة وكيل الضمان معلنة ويوجد منتج ضمان عقاري للأفراد، ما يوحي بوجود مستندات نمطية، لكن لا يوجد نموذج منشور للشركات."
+    },
+    "k_setup": {
+     "value_en": "Opening fee for corporate current/call account: EGP 300 or USD 10, once, stamp duty included.",
+     "value_ar": "عمولة فتح الحساب الجاري/تحت الطلب للشركات: 300 جنيه أو 10 دولارات مرة واحدة شاملة الدمغة.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "Corporate escrow fee not published. Site content shows a retail real-estate escrow for individuals at 0.5%, max EGP 2,000 per transaction + EGP 500 admin (not corporate).",
+     "note_ar": "رسوم حساب الضمان للشركات غير منشورة. محتوى الموقع يعرض حساب ضمان عقاري للأفراد بنسبة 0.5% بحد أقصى 2,000 جنيه للعملية + 500 مصاريف إدارية (ليس للشركات)."
+    },
+    "k_annual": {
+     "value_en": "Current account maintenance: EGP 65 monthly (FCY: USD 2 monthly); account statement EGP 120 per cycle; e-statement free.",
+     "value_ar": "مصاريف الحساب الجاري: 65 جنيهًا شهريًا (بالعملة الأجنبية 2 دولار شهريًا)؛ كشف الحساب 120 جنيهًا لكل دورة؛ الكشف الإلكتروني مجانًا.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "Annual escrow fee not published.",
+     "note_ar": "الرسم السنوي لحساب الضمان غير منشور."
+    },
+    "k_txn": {
+     "value_en": "Internal transfer EGP 50; domestic EGP wire 0.2% (min 75, max 500) + ACH EGP 10 or SWIFT EGP 50; incoming free; cheque via clearing EGP 30.",
+     "value_ar": "تحويل داخلي 50 جنيهًا؛ تحويل محلي بالجنيه 0.2% (حد أدنى 75 وأقصى 500) + ACH 10 جنيهات أو سويفت 50؛ الوارد مجانًا؛ شيك عبر المقاصة 30 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "All fees exclude stamp duty; tariff PDF carries no effective date (file name '30-9').",
+     "note_ar": "الرسوم لا تشمل الدمغة؛ ملف التعريفة بلا تاريخ سريان (اسم الملف 30-9)."
+    },
+    "k_cheque": {
+     "value_en": "Cheque book EGP 10 per leaf; returned cheque drawn on AAIB client EGP 50 + collection fees; stop cheque EGP 100; protest EGP 80 + mail; bank draft 0.2% (min 40, max 400).",
+     "value_ar": "دفتر الشيكات 10 جنيهات للورقة؛ شيك مرتد مسحوب على عميل البنك 50 جنيهًا + مصاريف التحصيل؛ إيقاف شيك 100 جنيه؛ البروتستو 80 جنيهًا + البريد؛ شيك مصرفي 0.2% (40–400).",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_minbal": {
+     "value_en": "Regular current account (companies): EGP 20,000 / USD 1,000 or equivalent; below-minimum fee EGP 100 monthly.",
+     "value_ar": "الحساب الجاري العادي (شركات): 20,000 جنيه / 1,000 دولار أو ما يعادلها؛ رسم الرصيد الأقل من الحد 100 جنيه شهريًا.",
+     "status": "verified",
+     "source_url": "https://aaib.com/pdfs/business-tariffs-final-30-9.pdf",
+     "source_title": "AAIB Business Tariffs & Charges (PDF linked from aaib.com/tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "'Day today account for Entities' (EGP, daily interest) tiers: 0% below 250k; 6% 250k–<1m; 8% 1–<5m; 10% 5–<15m; 13.5% 15–<50m; 14.75% 50–<150m; 15.5% 150m+.",
+     "value_ar": "حساب «داي توداي للكيانات» (بالجنيه، عائد يومي) بالشرائح: 0% أقل من 250 ألف؛ 6% حتى أقل من مليون؛ 8% من 1 إلى أقل من 5 ملايين؛ 10% حتى أقل من 15 مليونًا؛ 13.5% حتى أقل من 50 مليونًا؛ 14.75% حتى أقل من 150 مليونًا؛ 15.5% من 150 مليونًا.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.aaib.com/corporate/accounts",
+     "source_title": "AAIB – Corporate Accounts (site content)",
+     "accessed": "2026-11-25",
+     "note_en": "Minimum opening EGP 20,000; cheque book on request. Text read in the AAIB website content payload delivered with this page; dedicated product-page URL and date not identified – confirm it is current.",
+     "note_ar": "حد أدنى للفتح 20,000 جنيه؛ دفتر شيكات عند الطلب. النص مقروء من محتوى موقع البنك المحمَّل مع هذه الصفحة؛ لم يُحدَّد رابط صفحة المنتج ولا تاريخه – يلزم التأكد من سريانه."
+    },
+    "s_finance": {
+     "value_en": "EGP 3.5bn medium-term facility to Tatweer Misr for Ain Sokhna and Mostakbal City projects (Nov 2023); with NBE raised Roya Developments loan to EGP 5.6bn (Apr 2024).",
+     "value_ar": "تسهيل متوسط الأجل 3.5 مليار جنيه لتطوير مصر لمشروعي العين السخنة ومستقبل سيتي (نوفمبر 2023)؛ ومع البنك الأهلي رفع قرض رؤية للتطوير إلى 5.6 مليار جنيه (أبريل 2024).",
+     "status": "verified",
+     "source_url": "https://mea-finance.com/egypts-tatweer-misr-secures-egp-3-5-billion-loan-facility",
+     "source_title": "MEA Finance 8 Nov 2023 – Tatweer Misr secures EGP 3.5 billion loan facility",
+     "accessed": "2026-11-25",
+     "note_en": "Roya source: Daily News Egypt 29 Apr 2024 (https://www.dailynewsegypt.com/2024/04/29/aaib-nbe-alliance-grants-roya-developments-egp-5-6bn-loan).",
+     "note_ar": "مصدر رؤية: ديلي نيوز إيجيبت 29 أبريل 2024."
+    },
+    "s_discount": {
+     "value_en": "Brochure: short-term liquidity by discounting post-dated cheques held in custody; bank arranges and underwrites securitization bonds with custody/collection services.",
+     "value_ar": "الكتيّب: سيولة قصيرة الأجل بخصم الشيكات الآجلة المحفوظة؛ والبنك يرتّب ويغطي سندات التوريق مع خدمات الحفظ والتحصيل.",
+     "status": "verified",
+     "source_url": "https://www.aaib.com/pdfs/business-solutions.pdf",
+     "source_title": "AAIB Business Solutions brochure",
+     "accessed": "2026-11-25",
+     "note_en": "Securitization statement is on the Investments & Finance page. Terms/pricing for developer portfolios not published.",
+     "note_ar": "بيان التوريق في صفحة الاستثمار والتمويل. الشروط والتسعير لمحافظ المطورين غير منشورة."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "MIDAR and Mountain View (ALIVA escrow account, Mostakbal City); Tatweer Misr (EGP 3.5bn); Roya Developments (EGP 5.6bn with NBE).",
+     "value_ar": "ميدار وماونتن فيو (حساب ضمان أليفا بمستقبل سيتي)؛ تطوير مصر (3.5 مليار جنيه)؛ رؤية للتطوير (5.6 مليار مع البنك الأهلي).",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=808716",
+     "source_title": "Daily News Egypt 15 Jan 2024 – MIDAR, Mountain View open escrow account for ALIVA project in Mostakbal City",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  },
+  {
+   "id": "hsbc",
+   "name_en": "HSBC Bank Egypt",
+   "name_ar": "بنك HSBC مصر",
+   "type": "foreign subsidiary (HSBC Group, UK)",
+   "website": "https://www.business.hsbc.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.zawya.com/en/press-release/hsbc-launches-issuer-services-in-uae-and-egypt-mto0uqok",
+     "source_title": "Zawya press release – HSBC launches issuer services in UAE and Egypt (search-result snippet; page returned 'not found' when opened)",
+     "accessed": "2026-11-25",
+     "note_en": "Search snippet says HSBC Issuer Services (Egypt) offers escrow for M&A and agency/account-bank services; not opened. No escrow line in the Egypt corporate tariff; real-estate project escrow not established.",
+     "note_ar": "مقتطف بحث يذكر أن خدمات المُصدرين لدى HSBC (مصر) تقدّم حسابات ضمان لصفقات الاستحواذ وخدمات الوكالة وبنك الحساب؛ لم تُفتح الصفحة. لا يوجد بند ضمان في تعريفة الشركات بمصر؛ ضمان المشروعات العقارية غير مثبت."
+    },
+    "g_developer_account": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Domestic cash concentration: daily/weekly/monthly sweep USD 100 / EGP 1,400 per account per month; set-up USD 2,500 / EGP 35,000. Standing instruction set-up EGP 75.",
+     "value_ar": "تركيز النقدية محليًا: تجميع يومي/أسبوعي/شهري 100 دولار / 1,400 جنيه لكل حساب شهريًا؛ رسم التأسيس 2,500 دولار / 35,000 جنيه. تأسيس تعليمات مستديمة 75 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Notional pooling also listed at USD 150 / EGP 2,100 per account per month.",
+     "note_ar": "التجميع الافتراضي (Notional Pooling) مدرج أيضًا بـ150 دولارًا / 2,100 جنيه لكل حساب شهريًا."
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Tariff lists HSBCnet, MT942 intraday statements and e-mail advising under receivables service; a low-balance alert feature is not explicitly stated.",
+     "note_ar": "التعريفة تذكر HSBCnet وكشوف MT942 اللحظية وإشعارات البريد ضمن خدمة المتحصلات؛ خاصية تنبيه انخفاض الرصيد غير مذكورة صراحة."
+    },
+    "p_overdraft": {
+     "value_en": "Overdraft listed among credit and lending solutions; unauthorized EGP overdraft priced at CBE overnight lending rate + 3.5% p.a.",
+     "value_ar": "السحب على المكشوف ضمن حلول الائتمان؛ والسحب غير المصرح به بالجنيه يُسعَّر بسعر الإقراض لليلة واحدة للبنك المركزي + 3.5% سنويًا.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Overdraft product listed at https://www.business.hsbc.com.eg/en-gb/solutions/credit-and-lending; an authorised facility is subject to credit approval.",
+     "note_ar": "منتج السحب على المكشوف مدرج في صفحة الائتمان والإقراض؛ التسهيل المصرح به يخضع للموافقة الائتمانية."
+    },
+    "p_certified": {
+     "value_en": "Cashier order: EGP 100 electronic / EGP 150 manual; outward demand draft EGP 450 (electronic only).",
+     "value_ar": "أمر دفع مصرفي (Cashier Order): 100 جنيه إلكترونيًا / 150 يدويًا؛ حوالة مصرفية صادرة (Demand Draft) 450 جنيهًا (إلكترونيًا فقط).",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "No line for certifying a customer's own cheque.",
+     "note_ar": "لا يوجد بند لاعتماد شيك العميل نفسه."
+    },
+    "p_sigverify": {
+     "value_en": "Signature verification fees: EGP 50 per stamp.",
+     "value_ar": "رسوم التحقق من التوقيع: 50 جنيهًا للختم.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "A per-cheque signature confirmation service is not described.",
+     "note_ar": "خدمة تأكيد التوقيع لكل شيك غير موصوفة."
+    },
+    "c_virtual": {
+     "value_en": "Virtual Account: set-up EGP 1,500; monthly maintenance EGP 10 per virtual account. Receivable Management Service: set-up EGP 3,000, EGP 500 monthly.",
+     "value_ar": "الحساب الافتراضي: تأسيس 1,500 جنيه؛ صيانة شهرية 10 جنيهات لكل حساب افتراضي. خدمة إدارة المتحصلات: تأسيس 3,000 جنيه و500 شهريًا.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "A Virtual Account Agreement is listed in the download centre.",
+     "note_ar": "اتفاقية الحساب الافتراضي مدرجة في مركز التنزيلات."
+    },
+    "c_pdc": {
+     "value_en": "Post Dated Cheque (PDC) warehousing: one-time set-up EGP 500; EGP 50 per cheque; unscheduled withdrawal or change of presentment date EGP 50 per cheque.",
+     "value_ar": "حفظ الشيكات الآجلة: تأسيس لمرة واحدة 500 جنيه؛ 50 جنيهًا للشيك؛ السحب غير المجدول أو تغيير تاريخ التقديم 50 جنيهًا للشيك.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "LCY cheque clearing EGP 15 per cheque.",
+     "note_ar": "مقاصة الشيك بالعملة المحلية 15 جنيهًا."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.business.hsbc.com.eg/en-gb/solutions/global-receivables",
+     "source_title": "HSBC Egypt – Global receivables",
+     "accessed": "2026-11-25",
+     "note_en": "Page cites electronic fund transfer and bill payment services for collecting receivables; tariff prices e-Finance bill payment (EGP 50 + network fees). A payment gateway / Fawry collection link is not established.",
+     "note_ar": "الصفحة تذكر التحويل الإلكتروني وخدمات سداد الفواتير لتحصيل المتحصلات؛ والتعريفة تسعّر سداد الفواتير عبر إي فاينانس (50 جنيهًا + رسوم الشبكة). بوابة الدفع أو الربط مع فوري غير مثبت."
+    },
+    "c_instapay": {
+     "value_en": "Instant Transfers (IPN): inward local immediate payments free; outward EGP 75.",
+     "value_ar": "التحويلات اللحظية (IPN): الوارد مجانًا؛ الصادر 75 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "53 locations (2024) per Wikipedia.",
+     "value_ar": "53 موقعًا (2024) وفق ويكيبيديا.",
+     "status": "bank_to_confirm",
+     "source_url": "https://en.wikipedia.org/wiki/HSBC_Bank_Egypt",
+     "source_title": "Wikipedia – HSBC Bank Egypt",
+     "accessed": "2026-11-25",
+     "note_en": "Not confirmed against a bank publication.",
+     "note_ar": "غير مؤكد من مطبوعة للبنك."
+    },
+    "c_fx": {
+     "value_en": "Foreign-currency inward credits free; international transfer 0.15% (min USD 10, max USD 40) electronic, USD 50 manual; FCY accounts min USD 2,000.",
+     "value_ar": "التحويلات الواردة بالعملة الأجنبية مجانًا؛ التحويل الدولي 0.15% (حد أدنى 10 وأقصى 40 دولارًا) إلكترونيًا و50 دولارًا يدويًا؛ حد أدنى للحسابات الأجنبية 2,000 دولار.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Correspondent bank charges may be deducted from inward payments.",
+     "note_ar": "قد تُخصم مصاريف البنوك المراسلة من التحويلات الواردة."
+    },
+    "c_recon": {
+     "value_en": "MT940 outward EGP 350 and MT942 EGP 550 per account per month; inward MT940/942 EGP 150; Receivable Management Service with e-mail advising EGP 2 per instruction.",
+     "value_ar": "MT940 صادر 350 جنيهًا وMT942 550 جنيهًا لكل حساب شهريًا؛ MT940/942 وارد 150 جنيهًا؛ خدمة إدارة المتحصلات مع إشعار بريدي 2 جنيه لكل تعليمة.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "Tariff names electronic channels HSBC Connect, HSBCnet and SwiftNet; file upload EGP 40 per file.",
+     "value_ar": "التعريفة تسمّي القنوات الإلكترونية HSBC Connect وHSBCnet وSwiftNet؛ رفع الملف 40 جنيهًا للملف.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Set-up cost and scope of HSBC Connect / API integration for Egypt not published.",
+     "note_ar": "تكلفة ونطاق التكامل عبر HSBC Connect أو API في مصر غير منشورة."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.business.hsbc.com.eg/en-gb/products-and-solutions/transact",
+     "source_title": "HSBC Egypt – Transact (products and solutions)",
+     "accessed": "2026-11-25",
+     "note_en": "Site links a 'Corporate Account Opening Portal' and 'Document Tracker'; the required-documents list itself was not read.",
+     "note_ar": "الموقع يحيل إلى «بوابة فتح حسابات الشركات» و«متتبع المستندات»؛ قائمة المستندات نفسها لم تُقرأ."
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.business.hsbc.com.eg/en-gb/tools/download-centre",
+     "source_title": "HSBC Egypt – Download centre (documents and tariffs)",
+     "accessed": "2026-11-25",
+     "note_en": "Standard agreements are published for Virtual Account, Receivables, Cheque Outsourcing and CPS; no escrow agreement template is listed.",
+     "note_ar": "توجد اتفاقيات نمطية منشورة للحساب الافتراضي والمتحصلات وإسناد الشيكات وCPS؛ ولا يوجد نموذج اتفاقية ضمان."
+    },
+    "k_setup": {
+     "value_en": "Account opening fee EGP 30; cross-border account opening USD 200.",
+     "value_ar": "رسم فتح الحساب 30 جنيهًا؛ فتح حساب عابر للحدود 200 دولار.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "No escrow set-up fee published.",
+     "note_ar": "لا يوجد رسم تأسيس حساب ضمان منشور."
+    },
+    "k_annual": {
+     "value_en": "Monthly account fee EGP 16 (deducted quarterly, EGP 48); HSBCnet corporate package EGP 400 monthly, set-up EGP 1,500.",
+     "value_ar": "رسم الحساب الشهري 16 جنيهًا (يُخصم ربع سنويًا 48 جنيهًا)؛ باقة HSBCnet للشركات 400 جنيه شهريًا وتأسيس 1,500 جنيه.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "No annual escrow fee published.",
+     "note_ar": "لا يوجد رسم سنوي لحساب الضمان منشور."
+    },
+    "k_txn": {
+     "value_en": "Book transfer within HSBC Egypt free; local RTGS 0.1% (min EGP 100, max EGP 250) electronic, EGP 500 manual; ACH to other banks 0.2% (min 20, max 75); LCY cheque clearing EGP 15.",
+     "value_ar": "التحويل الداخلي داخل HSBC مصر مجانًا؛ التحويل المحلي RTGS 0.1% (100–250 جنيهًا) إلكترونيًا و500 يدويًا؛ ACH لبنوك أخرى 0.2% (20–75)؛ مقاصة الشيك المحلي 15 جنيهًا.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Inward local-currency credits free; SWIFT outward see c_fx.",
+     "note_ar": "الإضافات الواردة بالعملة المحلية مجانًا؛ السويفت الصادر في بند c_fx."
+    },
+    "k_cheque": {
+     "value_en": "Cheque book EGP 120 (24 leaves) / EGP 240 (48 leaves); stopped or lost cheque EGP 50; cashier order EGP 100 electronic / EGP 150 manual.",
+     "value_ar": "دفتر الشيكات 120 جنيهًا (24 ورقة) / 240 (48 ورقة)؛ إيقاف أو فقد شيك 50 جنيهًا؛ أمر دفع مصرفي 100 إلكترونيًا / 150 يدويًا.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "No returned (bounced) cheque fee line in the tariff.",
+     "note_ar": "لا يوجد بند رسوم للشيك المرتد في التعريفة."
+    },
+    "k_minbal": {
+     "value_en": "EGP 10,000 or USD 2,000 or equivalent; EGP 50 monthly service charge if below minimum.",
+     "value_ar": "10,000 جنيه أو 2,000 دولار أو ما يعادلها؛ 50 جنيهًا شهريًا إذا قل الرصيد عن الحد الأدنى.",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "Standard corporate current/call deposit rates: 0% for EUR, CHF, NOK, DKK, SEK, JPY; 'Nil' for other currencies (page dated 29 March 2023).",
+     "value_ar": "الأسعار المعيارية للحساب الجاري/تحت الطلب للشركات: 0% لليورو والفرنك والكرونات والين؛ «لا شيء» للعملات الأخرى (الصفحة مؤرخة 29 مارس 2023).",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/en-gb/regulations/standard-credit-interest-rates",
+     "source_title": "HSBC Egypt – Corporate deposit accounts: standard credit interest rates",
+     "accessed": "2026-11-25",
+     "note_en": "Old publication date; negotiated rates and the tariff's 'Interest Enhancement Facility' may differ.",
+     "note_ar": "تاريخ النشر قديم؛ الأسعار التفاوضية و«تسهيل تعظيم العائد» بالتعريفة قد تختلف."
+    },
+    "s_finance": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_discount": {
+     "value_en": "Tariff line 'Post Dated Cheques under Receivable Finance': service fee 0.2% of cheque value (min EGP 30, max EGP 1,500 per cheque).",
+     "value_ar": "بند التعريفة «الشيكات الآجلة ضمن تمويل المتحصلات»: رسم خدمة 0.2% من قيمة الشيك (حد أدنى 30 وأقصى 1,500 جنيه للشيك).",
+     "status": "verified",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Indicates PDC discounting under receivables finance; appetite for developers' customer-cheque portfolios and securitization not established.",
+     "note_ar": "يدل على خصم الشيكات الآجلة ضمن تمويل المتحصلات؛ الرغبة في محافظ شيكات عملاء المطورين والتوريق غير مثبتة."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.business.hsbc.com.eg/-/media/media/egypt/pdfs/hsbc-egypt-corporate-tariffs-and-charges-september-2026-final.pdf",
+     "source_title": "HSBC Egypt Corporate Tariffs and Charges – effective 1 September 2026",
+     "accessed": "2026-11-25",
+     "note_en": "Virtual accounts are priced (EGP 10 per virtual account monthly); real segregated sub-accounts under one customer are not described.",
+     "note_ar": "الحسابات الافتراضية مسعّرة (10 جنيهات شهريًا لكل حساب)؛ الحسابات الفرعية الفعلية المنفصلة غير موصوفة."
+    },
+    "s_track": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  },
+  {
+   "id": "arab",
+   "name_en": "Arab Bank (Egypt branches)",
+   "name_ar": "البنك العربي (فروع مصر)",
+   "type": "foreign bank (Arab Bank plc, Jordan)",
+   "website": "https://www.arabbank.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "g_developer_account": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Cash and Liquidity Management lists 'Sweeps', multiple account liquidity management and excess fund management.",
+     "value_ar": "إدارة النقد والسيولة تتضمن «التحويل التلقائي للأرصدة» وإدارة سيولة الحسابات المتعددة وإدارة فائض الأموال.",
+     "status": "verified",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "No fees or terms published.",
+     "note_ar": "لا رسوم أو شروط منشورة."
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_overdraft": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_certified": {
+     "value_en": "'Bank draft services' and domestic draft cheques are listed.",
+     "value_ar": "خدمات الشيكات المصرفية والشيكات المحلية مدرجة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "Certification of the customer's own cheques and fees not established.",
+     "note_ar": "اعتماد شيكات العميل نفسه والرسوم غير مثبتة."
+    },
+    "p_sigverify": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "'Collection and Reconciliation' and 'Multiple cheque solutions' are listed.",
+     "value_ar": "«التحصيل والتسوية» و«حلول الشيكات المتعددة» مدرجة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "Custody and collection of post-dated cheques is not named.",
+     "note_ar": "حفظ وتحصيل الشيكات الآجلة غير مذكور بالاسم."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "'Direct debit and multi-collection service' listed under Collection and Reconciliation.",
+     "value_ar": "«الخصم المباشر وخدمة التحصيل المتعدد» مدرجة ضمن التحصيل والتسوية.",
+     "status": "verified",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "Online payment gateway not mentioned.",
+     "note_ar": "بوابة الدفع الإلكتروني غير مذكورة."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "42 locations (2025) per Wikipedia.",
+     "value_ar": "42 موقعًا (2025) وفق ويكيبيديا.",
+     "status": "bank_to_confirm",
+     "source_url": "https://en.wikipedia.org/wiki/Arab_Bank_Egypt",
+     "source_title": "Wikipedia – Arab Bank Egypt",
+     "accessed": "2026-11-25",
+     "note_en": "Not confirmed against a bank publication; bank site unreachable.",
+     "note_ar": "غير مؤكد من مطبوعة للبنك؛ موقع البنك غير متاح."
+    },
+    "c_fx": {
+     "value_en": "Domestic and international single and bulk payments, multiple-currency cheques and FX rate services are listed.",
+     "value_ar": "المدفوعات المحلية والدولية المفردة والمجمعة والشيكات متعددة العملات وخدمات أسعار الصرف مدرجة.",
+     "status": "verified",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "Inbound FX fees not published.",
+     "note_ar": "رسوم التحويلات الواردة غير منشورة."
+    },
+    "c_recon": {
+     "value_en": "Balance and transaction reporting, statement retrieval and reconciliation reporting via the Corporate Digital Gateway; SWIFT MA-CUG listed.",
+     "value_ar": "تقارير الأرصدة والحركات واستخراج الكشوف وتقارير التسوية عبر البوابة الرقمية للشركات؛ وخدمة سويفت MA-CUG مدرجة.",
+     "status": "verified",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "MT940 not named.",
+     "note_ar": "MT940 غير مذكور بالاسم."
+    },
+    "c_api": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "A 'Fees And Charges' page exists on the bank's site but returned an error on 2026-11-25.",
+     "note_ar": "توجد صفحة «الرسوم والعمولات» على موقع البنك لكنها أعادت خطأ في 2026-11-25."
+    },
+    "k_annual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "A 'Fees And Charges' page exists on the bank's site but returned an error on 2026-11-25.",
+     "note_ar": "توجد صفحة «الرسوم والعمولات» على موقع البنك لكنها أعادت خطأ في 2026-11-25."
+    },
+    "k_txn": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "A 'Fees And Charges' page exists on the bank's site but returned an error on 2026-11-25.",
+     "note_ar": "توجد صفحة «الرسوم والعمولات» على موقع البنك لكنها أعادت خطأ في 2026-11-25."
+    },
+    "k_cheque": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "A 'Fees And Charges' page exists on the bank's site but returned an error on 2026-11-25.",
+     "note_ar": "توجد صفحة «الرسوم والعمولات» على موقع البنك لكنها أعادت خطأ في 2026-11-25."
+    },
+    "k_minbal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "Lead arranger (participant) in FABMISR-led EGP 4.2bn syndicated loan to Redcon Properties for Golden Gate, New Cairo (June 2025).",
+     "value_ar": "مرتب رئيسي (مشارك) في القرض المشترك بقيادة أبوظبي الأول مصر بقيمة 4.2 مليار جنيه لريدكون بروبرتيز لمشروع جولدن جيت بالقاهرة الجديدة (يونيو 2025).",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=832742",
+     "source_title": "Daily News Egypt 2 Jun 2025 – FABMISR leads EGP 4.2bn loan for Redcon's Golden Gate project",
+     "accessed": "2026-11-25",
+     "note_en": "Arab Bank's own share of the loan was not disclosed.",
+     "note_ar": "حصة البنك العربي في القرض لم يُفصح عنها."
+    },
+    "s_discount": {
+     "value_en": "Supply Chain Finance is listed.",
+     "value_ar": "تمويل سلاسل الإمداد مدرج.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "Discounting of a developer's customer cheques not established.",
+     "note_ar": "خصم شيكات عملاء المطوّر غير مثبت."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "'Multiple holding company accounts' and intra-company account management are listed.",
+     "value_ar": "«حسابات متعددة للشركة القابضة» وإدارة الحسابات بين شركات المجموعة مدرجة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.arabbank.com.eg/mainmenu/home/corporate-institutional-banking/corporate-solutions-and-channels",
+     "source_title": "Arab Bank Egypt: Corporate Solutions and Channels",
+     "accessed": "2026-11-25",
+     "note_en": "Sub-accounts under one legal entity not explicitly described.",
+     "note_ar": "الحسابات الفرعية تحت كيان قانوني واحد غير موصوفة صراحة."
+    },
+    "s_track": {
+     "value_en": "Redcon Properties (Golden Gate syndication, June 2025).",
+     "value_ar": "ريدكون بروبرتيز (القرض المشترك لجولدن جيت، يونيو 2025).",
+     "status": "verified",
+     "source_url": "https://www.fabmisr.com.eg/en/press-room/2025/FABMISR-X-REDCON",
+     "source_title": "FABMISR press release 2 June 2025 – FABMISR x Redcon",
+     "accessed": "2026-11-25",
+     "note_en": "A search snippet also names Arab Bank in a Saudi Egyptian Developers loan; not opened.",
+     "note_ar": "مقتطف بحث يذكر البنك أيضًا في قرض السعودية المصرية للتعمير؛ لم يُفتح."
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  }
+ ]
+}

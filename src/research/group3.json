@@ -1,0 +1,1749 @@
+{
+ "banks": [
+  {
+   "id": "enbd",
+   "name_en": "Emirates NBD Egypt",
+   "name_ar": "بنك الإمارات دبي الوطني – مصر",
+   "type": "foreign subsidiary",
+   "website": "https://www.emiratesnbd.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "Yes. Egypt site lists 'Escrow Solutions': bank acts as intermediary under a three-way contract; Real Estate Escrow and Commercial Escrow; EGP or foreign currency.",
+     "value_ar": "نعم. موقع البنك في مصر يعرض «حلول حساب الضمان»: البنك وسيط بموجب عقد ثلاثي؛ حساب ضمان عقاري وحساب ضمان تجاري؛ بالجنيه أو بالعملة الأجنبية.",
+     "status": "verified",
+     "source_url": "https://www.emiratesnbd.com.eg/en/corporate-banking/transaction-banking/cash-management",
+     "source_title": "Emirates NBD Egypt - Cash management (Transaction banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Published on the Egyptian subsidiary's own site; no named Egyptian escrow deals found.",
+     "note_ar": "منشور على موقع البنك التابع في مصر؛ لم نجد صفقات ضمان مسماة في مصر."
+    },
+    "g_developer_account": {
+     "value_en": "'Real Estate Escrow' is listed as an escrow account type; escrow accounts accept internal/external transfers via ACH or SWIFT.",
+     "value_ar": "«حساب الضمان العقاري» مدرج كنوع من حسابات الضمان؛ الحسابات تقبل التحويلات الداخلية والخارجية عبر ACH أو سويفت.",
+     "status": "verified",
+     "source_url": "https://www.emiratesnbd.com.eg/en/corporate-banking/transaction-banking/cash-management",
+     "source_title": "Emirates NBD Egypt - Cash management (Transaction banking)",
+     "accessed": "2026-11-25",
+     "note_en": "A non-escrow controlled collection account for developers is not described.",
+     "note_ar": "لا يوجد وصف لحساب تحصيل مُراقَب للمطورين خارج إطار حساب الضمان."
+    },
+    "p_reserve": {
+     "value_en": "Tariff lists a 'Pledge Registration Fees' line (EGP 50); no blocked/reserve sub-account product described.",
+     "value_ar": "التعريفة تتضمن بند «رسوم تسجيل الرهن» (50 جنيهاً)؛ لا يوجد وصف لحساب فرعي مجمّد/احتياطي.",
+     "status": "bank_to_confirm",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Lien/reserve sub-account mechanics not established.",
+     "note_ar": "آلية الحساب الفرعي المحجوز/الاحتياطي غير مثبتة."
+    },
+    "p_sweep": {
+     "value_en": "Standing instructions priced in tariff: internal transfer standing instruction EGP 5 per item (Corporate); outgoing transfer standing instruction EGP 50 per item.",
+     "value_ar": "التعليمات المستديمة مسعّرة في التعريفة: تعليمات مستديمة لتحويل داخلي 5 جنيهات للعملية (شركات)؛ لتحويل خارجي 50 جنيهاً للعملية.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Automatic balance sweeping / cash pooling is not mentioned on the Egypt pages.",
+     "note_ar": "التحويل الآلي للأرصدة (sweeping) أو تجميع النقد غير مذكور في صفحات مصر."
+    },
+    "p_alerts": {
+     "value_en": "businessONLINE sends notifications for transactions awaiting authorisation/release or rejected; balance alerts not described.",
+     "value_ar": "منصة businessONLINE ترسل إشعارات للمعاملات المنتظرة للاعتماد أو المرفوضة؛ تنبيهات الرصيد غير موصوفة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.emiratesnbd.com.eg/en/corporate-banking/business-online",
+     "source_title": "Emirates NBD Egypt - businessONLINE",
+     "accessed": "2026-11-25",
+     "note_en": "Low-balance SMS/e-mail alerts not established.",
+     "note_ar": "تنبيهات انخفاض الرصيد عبر الرسائل/البريد غير مثبتة."
+    },
+    "p_overdraft": {
+     "value_en": "Tariff states a 'high debit balance commission for overdrawn accounts' of 0.20% each month; facility terms not published.",
+     "value_ar": "التعريفة تنص على «عمولة أعلى رصيد مدين للحسابات المكشوفة» 0.20% شهرياً؛ شروط التسهيل غير منشورة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Availability of a standby overdraft against a project account is a credit decision; not established.",
+     "note_ar": "إتاحة سحب على المكشوف احتياطي على حساب المشروع قرار ائتماني؛ غير مثبت."
+    },
+    "p_certified": {
+     "value_en": "Yes. Certification of cheque (local): 0.50%, min EGP 350, max EGP 2,500. Manager's cheque (local): 0.20%, min EGP 150, max EGP 500.",
+     "value_ar": "نعم. اعتماد الشيك (محلي): 0.50% بحد أدنى 350 جنيهاً وأقصى 2,500 جنيه. شيك مصرفي (محلي): 0.20% بحد أدنى 150 وأقصى 500 جنيه.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sigverify": {
+     "value_en": "Signature authentication: EGP 100 per signature (local); USD 3 per signature (foreign).",
+     "value_ar": "التصديق على صحة التوقيع: 100 جنيه لكل توقيع (محلي)؛ 3 دولارات لكل توقيع (أجنبي).",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Crossed-cheque handling not described.",
+     "note_ar": "التعامل مع الشيكات المسطرة غير موصوف."
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "Yes. Custodial service for post-dated cheques. Custody commission 0.30% per cheque (min EGP 20, max EGP 350); collection EGP 50 per cheque.",
+     "value_ar": "نعم. خدمة حفظ الشيكات الآجلة. عمولة الحفظ 0.30% للشيك (حد أدنى 20 وأقصى 350 جنيهاً)؛ التحصيل 50 جنيهاً للشيك.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Rejection of post-dated cheque EGP 50 per cheque; in-house post-dated cheque collection free.",
+     "note_ar": "رفض الشيك الآجل 50 جنيهاً؛ تحصيل الشيكات الآجلة الداخلية مجاناً."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "E-Collection with Fawry: fees case by case (Fawry cost + bank margin, min 0.25%). Direct Debit System and cash/cheque pickup also listed.",
+     "value_ar": "التحصيل الإلكتروني مع فوري: الرسوم حسب كل حالة (تكلفة فوري + هامش البنك بحد أدنى 0.25%). نظام الخصم المباشر وخدمة نقل النقد والشيكات مدرجان أيضاً.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Online card payment gateway not mentioned.",
+     "note_ar": "بوابة دفع إلكتروني بالبطاقات غير مذكورة."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "64 branches (group press release dated 2-3 August 2026).",
+     "value_ar": "64 فرعاً (بيان صحفي للمجموعة بتاريخ 2-3 أغسطس 2026).",
+     "status": "verified",
+     "source_url": "https://www.emiratesnbd.com/en/media-center/emirates-nbd-to-acquire-retail-banking-business-of-hsbc-egypt",
+     "source_title": "Emirates NBD media centre - Emirates NBD to acquire retail banking business of HSBC Egypt",
+     "accessed": "2026-11-25",
+     "note_en": "Same release announces a pending acquisition of HSBC Egypt's retail business (branches not yet added).",
+     "note_ar": "البيان نفسه يعلن استحواذاً قيد التنفيذ على أعمال التجزئة لـ HSBC مصر (الفروع لم تُضف بعد)."
+    },
+    "c_fx": {
+     "value_en": "Yes. FCY current accounts; incoming foreign transfer USD 2; outgoing foreign transfer 0.60% (min USD 50, max USD 350).",
+     "value_ar": "نعم. حسابات جارية بالعملة الأجنبية؛ التحويل الوارد الأجنبي 2 دولار؛ التحويل الصادر الأجنبي 0.60% (حد أدنى 50 وأقصى 350 دولاراً).",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "Statements downloadable in MT940, CSV, PDF, Excel. MT940 for external SWIFT USD 50 monthly per account; MT942 USD 75 monthly per account.",
+     "value_ar": "كشوف الحساب بصيغ MT940 و CSV و PDF و Excel. ‏MT940 لسويفت خارجي 50 دولاراً شهرياً للحساب؛ MT942 بـ 75 دولاراً شهرياً للحساب.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Format list from the businessONLINE page; fees from the tariff.",
+     "note_ar": "قائمة الصيغ من صفحة businessONLINE؛ الرسوم من التعريفة."
+    },
+    "c_api": {
+     "value_en": "SWIFT for Corporates: MT101 (implementation EGP 5,000) and FileAct ('Swift scoring' implementation EGP 15,000 one time, EGP 1,500 monthly).",
+     "value_ar": "سويفت للشركات: MT101 (رسوم تفعيل 5,000 جنيه) و FileAct (تفعيل 15,000 جنيه مرة واحدة و1,500 جنيه شهرياً).",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Host-to-host / open API / ERP connector not mentioned on Egypt pages.",
+     "note_ar": "الربط المباشر host-to-host أو API أو ERP غير مذكور في صفحات مصر."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "Site describes a three-way escrow contract and the tariff has an 'Escrow Agreement' section; no template is published.",
+     "value_ar": "الموقع يصف عقد ضمان ثلاثي والتعريفة تتضمن قسم «اتفاقية حساب الضمان»؛ لا يوجد نموذج منشور.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.emiratesnbd.com.eg/en/corporate-banking/transaction-banking/cash-management",
+     "source_title": "Emirates NBD Egypt - Cash management (Transaction banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Existence of a standard template is implied, not stated.",
+     "note_ar": "وجود نموذج موحد مستنتج وليس منصوصاً عليه."
+    },
+    "k_setup": {
+     "value_en": "Escrow account opening fee: EGP 50,000 (one time). Ordinary corporate current account opening: EGP 200 or equivalent in FCY.",
+     "value_ar": "رسوم فتح حساب الضمان: 50,000 جنيه (مرة واحدة). فتح حساب جارٍ عادي للشركات: 200 جنيه أو ما يعادلها بالعملة الأجنبية.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_annual": {
+     "value_en": "Escrow account maintenance: EGP 10,000 per month; 'transaction commission for settlement' 2%; closure EGP 20,000 if deal moves to another escrow bank.",
+     "value_ar": "مصاريف حساب الضمان: 10,000 جنيه شهرياً؛ «عمولة المعاملة للتسوية» 2%؛ الإغلاق 20,000 جنيه إذا نُقلت الصفقة لبنك ضمان آخر.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Basis of the 2% is not defined in the tariff. Ordinary current account: maintenance EGP 100 monthly + service charges EGP 150 per quarter.",
+     "note_ar": "أساس احتساب 2% غير محدد في التعريفة. الحساب الجاري العادي: 100 جنيه شهرياً + مصاريف خدمة 150 جنيهاً كل ربع سنة."
+    },
+    "k_txn": {
+     "value_en": "Internal transfers free (Corporate). Outgoing ACH 0.20% (min EGP 50, max EGP 300). Outgoing local transfer 0.20% (min EGP 100, max EGP 500). Clearing cheque collection EGP 50.",
+     "value_ar": "التحويل الداخلي مجاني (شركات). الصادر عبر ACH ‏0.20% (حد أدنى 50 وأقصى 300 جنيه). تحويل محلي صادر 0.20% (حد أدنى 100 وأقصى 500 جنيه). تحصيل شيك مقاصة 50 جنيهاً.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "businessONLINE transfer charge (EGP) listed as EGP 200; SWIFT fee over the counter EGP 50 local (Corporate).",
+     "note_ar": "رسم التحويل بالجنيه عبر businessONLINE مدرج 200 جنيه؛ رسم سويفت على الشباك 50 جنيهاً محلياً (شركات)."
+    },
+    "k_cheque": {
+     "value_en": "Chequebook: 10 leaves EGP 200, 25 leaves EGP 300. Rejected cheque drawn on own account (inward clearing): EGP 50. Cheque certification 0.50% (min EGP 350, max EGP 2,500).",
+     "value_ar": "دفتر الشيكات: 10 ورقات 200 جنيه، 25 ورقة 300 جنيه. شيك مرتد مسحوب على حساب العميل (مقاصة واردة): 50 جنيهاً. اعتماد الشيك 0.50% (حد أدنى 350 وأقصى 2,500 جنيه).",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Stop payment EGP 100 per cheque; personalised cheques EGP 10 per cheque (min 500).",
+     "note_ar": "إيقاف صرف شيك 100 جنيه؛ الشيكات المخصصة 10 جنيهات للشيك (حد أدنى 500 شيك)."
+    },
+    "k_minbal": {
+     "value_en": "Corporate current account: minimum opening balance EGP 10,000; drop-balance fee EGP 200 if average monthly balance falls below EGP 10,000. Escrow accounts: no minimum balance.",
+     "value_ar": "الحساب الجاري للشركات: حد أدنى للفتح 10,000 جنيه؛ رسم 200 جنيه إذا قل متوسط الرصيد الشهري عن 10,000 جنيه. حسابات الضمان: بلا حد أدنى للرصيد.",
+     "status": "verified",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "'No minimum balance' for escrow is from the cash management page.",
+     "note_ar": "عبارة «بلا حد أدنى» لحساب الضمان من صفحة إدارة النقد."
+    },
+    "k_yield": {
+     "value_en": "Call account (min opening EGP 250,000 / USD 50,000) and 'Upfront Time Deposit' (EGP, min EGP 1 million, 1/3/6/12 months) exist; no rates published.",
+     "value_ar": "يوجد حساب تحت الطلب (حد أدنى للفتح 250,000 جنيه / 50,000 دولار) و«وديعة بعائد مقدم» (بالجنيه، حد أدنى مليون جنيه، 1/3/6/12 شهراً)؛ لا توجد أسعار منشورة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Interest rates not published; yield on escrow balances not established.",
+     "note_ar": "أسعار العائد غير منشورة؛ العائد على أرصدة حساب الضمان غير مثبت."
+    },
+    "s_finance": {
+     "value_en": "Lead arranger and underwriter in EGP 4bn additional syndicated financing for Ora Developers Egypt (ZED Sheikh Zayed), 9 Jul 2026, led by Banque Misr.",
+     "value_ar": "مرتب رئيسي وضامن تغطية في تمويل مشترك إضافي بـ 4 مليارات جنيه لأورا ديفلوبرز إيجيبت (زد الشيخ زايد)، 9 يوليو 2026، بقيادة بنك مصر.",
+     "status": "verified",
+     "source_url": "https://banquemisr.com/ar-EG/ABOUT-US/News/Banque-Misr-is-leading-a-banking-coalition-financing-of-4-billion-pounds",
+     "source_title": "Banque Misr press release, 9 Jul 2026 - EGP 4bn additional syndicated financing for Ora Developers Egypt",
+     "accessed": "2026-11-25",
+     "note_en": "Also EGP 750mn share in the EGP 4.4bn Saudi Egyptian Developers loan (Enterprise, 3 Nov 2024). Its own share in the Ora deal is not stated.",
+     "note_ar": "وكذلك حصة 750 مليون جنيه في قرض السعودية المصرية للتعمير 4.4 مليار (إنتربرايز، 3 نوفمبر 2024). حصته في صفقة أورا غير مذكورة."
+    },
+    "s_discount": {
+     "value_en": "Tariff lists 'Purchased Cheque' (immediate credit): local 0.60%, min EGP 30, no max.",
+     "value_ar": "التعريفة تتضمن «شراء الشيكات» (إضافة فورية): محلي 0.60% بحد أدنى 30 جنيهاً وبلا حد أقصى.",
+     "status": "bank_to_confirm",
+     "source_url": "https://cdn.emiratesnbd.com/egypt-en/assets/file/egypt_corporate_tariff.pdf",
+     "source_title": "Emirates NBD Egypt - Simplified Bank Tariff for Corporate & Business Banking (dated 22.11.2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Discounting of a developer's cheque portfolio or securitisation not established.",
+     "note_ar": "خصم محفظة شيكات المطور أو التوريق غير مثبت."
+    },
+    "s_view": {
+     "value_en": "businessONLINE has an 'Enquiry Only' user who can check balances and download statements for assigned accounts.",
+     "value_ar": "منصة businessONLINE تتيح مستخدماً «للاستعلام فقط» يمكنه الاطلاع على الأرصدة وتنزيل الكشوف للحسابات المخصصة له.",
+     "status": "verified",
+     "source_url": "https://www.emiratesnbd.com.eg/en/corporate-banking/business-online",
+     "source_title": "Emirates NBD Egypt - businessONLINE",
+     "accessed": "2026-11-25",
+     "note_en": "Whether this user may be a third party (landowner/auditor) is not stated.",
+     "note_ar": "لم يُذكر ما إذا كان يمكن منح هذا المستخدم لطرف ثالث (مالك الأرض/المراجع)."
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "Ora Developers Egypt (lead arranger, Jul 2026); Saudi Egyptian Developers (EGP 750mn, Nov 2024); Redcon Properties Golden Gate (lead arranger, Jun 2025).",
+     "value_ar": "أورا ديفلوبرز إيجيبت (مرتب رئيسي، يوليو 2026)؛ السعودية المصرية للتعمير (750 مليون جنيه، نوفمبر 2024)؛ ريدكون بروبرتيز – جولدن جيت (مرتب رئيسي، يونيو 2025).",
+     "status": "verified",
+     "source_url": "https://enterpriseam.com/egypt/2024/11/03/saudi-egyptian-developers-secures-egp-4-4-bn-from-eight-banks/",
+     "source_title": "Enterprise, 3 Nov 2024 - Saudi Egyptian Developers secures EGP 4.4 bn from eight banks",
+     "accessed": "2026-11-25",
+     "note_en": "Redcon role from Daily News Egypt (2 Jun 2025); Ora from Banque Misr release. Reported lead role on Tameer 'Azad Views' EGP 2.1bn (Oct 2025) not verified on an opened page.",
+     "note_ar": "دور ريدكون من ديلي نيوز إيجيبت؛ أورا من بيان بنك مصر. قيادة تمويل «آزاد فيوز» 2.1 مليار (أكتوبر 2025) لم تُتحقق من صفحة مفتوحة."
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No shareholding or lending link found in searches; absence of evidence only.",
+     "note_ar": "لم يظهر في البحث أي ارتباط ملكية أو إقراض؛ هذا غياب دليل فقط."
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  },
+  {
+   "id": "fab",
+   "name_en": "FABMISR (First Abu Dhabi Bank Misr)",
+   "name_ar": "بنك أبوظبي الأول مصر",
+   "type": "foreign subsidiary",
+   "website": "https://www.fabmisr.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "Yes, advertised: the Egypt cash management page lists 'Escrow Management' among its services.",
+     "value_ar": "نعم، معلن: صفحة إدارة النقد في مصر تدرج «إدارة حسابات الضمان» ضمن الخدمات.",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Listed by name only; no terms, fees or real estate specifics published.",
+     "note_ar": "مذكورة بالاسم فقط؛ لا شروط ولا رسوم ولا تفاصيل عقارية منشورة."
+    },
+    "g_developer_account": {
+     "value_en": "Acted as 'account bank' (plus facility and security agent) on the EGP 4.2bn syndicated loan for Redcon Properties' Golden Gate project, June 2025.",
+     "value_ar": "قام بدور «بنك الحساب» (ووكيل التمويل والضمان) في القرض المشترك 4.2 مليار جنيه لمشروع جولدن جيت لريدكون بروبرتيز، يونيو 2025.",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=832742",
+     "source_title": "Daily News Egypt, 2 Jun 2025 - FABMISR leads EGP 4.2bn loan for Redcon's Golden Gate project",
+     "accessed": "2026-11-25",
+     "note_en": "Account-bank role under a lending syndicate; a standalone developer collection account product is not described.",
+     "note_ar": "دور بنك الحساب ضمن تحالف إقراض؛ لا يوجد وصف لمنتج حساب تحصيل مستقل للمطورين."
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Liquidity management modules listed: 'Target balance account' and 'Zero balance account'.",
+     "value_ar": "وحدات إدارة السيولة المدرجة: «حساب الرصيد المستهدف» و«حساب الرصيد الصفري».",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "The word 'sweeping' and standing-order terms are not on the page.",
+     "note_ar": "كلمة sweeping وشروط التعليمات المستديمة غير واردة في الصفحة."
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_overdraft": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_certified": {
+     "value_en": "'Bank draft' and 'Cheques (Regular cheques - Customized Cheques)' listed under payment services; no fee published.",
+     "value_ar": "«الشيك المصرفي» و«الشيكات (عادية – مخصصة)» مدرجة ضمن خدمات المدفوعات؛ لا رسوم منشورة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Certified (bank-accepted) customer cheques and their fee not established.",
+     "note_ar": "الشيكات المعتمدة (مقبولة الدفع) ورسومها غير مثبتة."
+    },
+    "p_sigverify": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_virtual": {
+     "value_en": "Yes. 'Virtual Accounts' listed; described as centralising cash into a single physical account with automated reconciliation.",
+     "value_ar": "نعم. «الحسابات الافتراضية» مدرجة؛ توصف بأنها تجمّع النقد في حساب فعلي واحد مع تسوية آلية.",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Fees and virtual-IBAN format not published.",
+     "note_ar": "الرسوم وصيغة الآيبان الافتراضي غير منشورة."
+    },
+    "c_pdc": {
+     "value_en": "Yes. 'Post-dated cheque (PDC) management', 'Cash and cheques pickup' and cheque collections are listed.",
+     "value_ar": "نعم. «إدارة الشيكات الآجلة» و«نقل النقد والشيكات» وتحصيل الشيكات مدرجة.",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "No custody/collection fees published.",
+     "note_ar": "لا توجد رسوم حفظ/تحصيل منشورة."
+    },
+    "c_pos": {
+     "value_en": "Yes. FABMISR launched a POS payment (merchant acquiring) service for physical stores on 19 January 2026.",
+     "value_ar": "نعم. أطلق البنك خدمة نقاط البيع (قبول المدفوعات للتجار) للمتاجر في 19 يناير 2026.",
+     "status": "verified",
+     "source_url": "https://www.fabmisr.com.eg/en/press-room/2026/FABMISR-POS",
+     "source_title": "FABMISR press room - FABMISR POS (19 Jan 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "'Access by FABMISR' online payment gateway; 'E-Finance services (Unified accounts)' and Direct debit listed for collections.",
+     "value_ar": "بوابة الدفع الإلكتروني «Access by FABMISR»؛ و«خدمات إي فاينانس (الحسابات الموحدة)» والخصم المباشر ضمن التحصيل.",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/digital-solutions",
+     "source_title": "FABMISR - Corporate digital solutions",
+     "accessed": "2026-11-25",
+     "note_en": "Fawry integration not mentioned.",
+     "note_ar": "الربط مع فوري غير مذكور."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "74 branches (press release dated 8 April 2026).",
+     "value_ar": "74 فرعاً (بيان صحفي بتاريخ 8 أبريل 2026).",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/press-room/2026/Elsadat-Branch",
+     "source_title": "FABMISR press room - El Sadat City branch (8 Apr 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_fx": {
+     "value_en": "Yes. 'Cash collection and inward remittance (LCY - FCY)'; single and bulk payments in LCY and FCY.",
+     "value_ar": "نعم. «التحصيل النقدي والحوالات الواردة (عملة محلية – أجنبية)»؛ مدفوعات فردية ومجمعة بالعملتين.",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "No fees published.",
+     "note_ar": "لا رسوم منشورة."
+    },
+    "c_recon": {
+     "value_en": "'Collection and Reconciliation Services'; virtual accounts described as enabling 100% automated reconciliation.",
+     "value_ar": "«خدمات التحصيل والتسوية»؛ الحسابات الافتراضية توصف بأنها تحقق تسوية آلية 100%.",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "E-Connect channel press release mentions MT940 for viewing accounts at other banks; MT940 export of FABMISR statements not explicit.",
+     "note_ar": "بيان قناة E-Connect يذكر MT940 لعرض حسابات البنوك الأخرى؛ تصدير كشوف البنك بصيغة MT940 غير صريح."
+    },
+    "c_api": {
+     "value_en": "Yes. Host-to-Host: 'a secure and automated method ... to seamlessly integrate your ERP system with the bank'.",
+     "value_ar": "نعم. الربط المباشر Host-to-Host: وسيلة آمنة وآلية لربط نظام ERP للشركة بالبنك.",
+     "status": "verified",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/digital-solutions",
+     "source_title": "FABMISR - Corporate digital solutions",
+     "accessed": "2026-11-25",
+     "note_en": "Open API not mentioned.",
+     "note_ar": "واجهات API المفتوحة غير مذكورة."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No corporate tariff found on the site (only a personal banking schedule surfaced).",
+     "note_ar": "لم نجد تعريفة للشركات على الموقع (ظهرت تعريفة الأفراد فقط)."
+    },
+    "k_annual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_txn": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_cheque": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_minbal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "Led EGP 4.4bn syndicated loan for Saudi Egyptian Developers ('Central', New Cairo), Nov 2024, own share EGP 800mn; led EGP 4.2bn for Redcon Properties, Jun 2025.",
+     "value_ar": "قاد قرضاً مشتركاً 4.4 مليار جنيه للسعودية المصرية للتعمير («سنترال»، القاهرة الجديدة)، نوفمبر 2024، بحصة 800 مليون؛ وقاد 4.2 مليار لريدكون بروبرتيز، يونيو 2025.",
+     "status": "verified",
+     "source_url": "https://enterpriseam.com/egypt/2024/11/03/saudi-egyptian-developers-secures-egp-4-4-bn-from-eight-banks/",
+     "source_title": "Enterprise, 3 Nov 2024 - Saudi Egyptian Developers secures EGP 4.4 bn from eight banks",
+     "accessed": "2026-11-25",
+     "note_en": "Redcon deal from Daily News Egypt, 2 Jun 2025.",
+     "note_ar": "صفقة ريدكون من ديلي نيوز إيجيبت، 2 يونيو 2025."
+    },
+    "s_discount": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "Virtual accounts under a single physical account are advertised.",
+     "value_ar": "الحسابات الافتراضية تحت حساب فعلي واحد معلن عنها.",
+     "status": "bank_to_confirm",
+     "source_url": "https://fabmisr.com.eg/en/corporate-banking/global-transaction-banking/cash-management",
+     "source_title": "FABMISR - Cash Management (Global Transaction Banking)",
+     "accessed": "2026-11-25",
+     "note_en": "Real ledger sub-accounts (e.g. a blocked reserve sub-account) not established.",
+     "note_ar": "الحسابات الفرعية الفعلية (مثل حساب احتياطي مجمّد) غير مثبتة."
+    },
+    "s_track": {
+     "value_en": "Saudi Egyptian Developers (Nov 2024); Redcon Properties - Golden Gate (Jun 2025), as initial mandated lead arranger, facility agent, security agent and account bank.",
+     "value_ar": "السعودية المصرية للتعمير (نوفمبر 2024)؛ ريدكون بروبرتيز – جولدن جيت (يونيو 2025) بصفته المرتب الرئيسي الأولي ووكيل التمويل ووكيل الضمان وبنك الحساب.",
+     "status": "verified",
+     "source_url": "https://www.dailynewsegypt.com/?p=832742",
+     "source_title": "Daily News Egypt, 2 Jun 2025 - FABMISR leads EGP 4.2bn loan for Redcon's Golden Gate project",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No shareholding or lending link found in searches; absence of evidence only.",
+     "note_ar": "لم يظهر في البحث أي ارتباط ملكية أو إقراض؛ هذا غياب دليل فقط."
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  },
+  {
+   "id": "adib",
+   "name_en": "Abu Dhabi Islamic Bank (ADIB) Egypt",
+   "name_ar": "مصرف أبوظبي الإسلامي – مصر",
+   "type": "Islamic (foreign subsidiary, EGX-listed)",
+   "website": "https://www.adib.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No ADIB Egypt escrow page found. Parent ADIB (UAE) markets escrow management, which does not establish it for Egypt.",
+     "note_ar": "لم نجد صفحة لحسابات الضمان لدى المصرف في مصر. المصرف الأم في الإمارات يسوّق إدارة حسابات الضمان، وهذا لا يثبتها لمصر."
+    },
+    "g_developer_account": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Yes. Internet banking offers automatic sweeping: sweep to zero, to minimum threshold, to maximum threshold, to main or multiple accounts. Standing orders also available.",
+     "value_ar": "نعم. الإنترنت البنكي يتيح التحويل الآلي للأرصدة: إلى صفر، إلى حد أدنى، إلى حد أقصى، إلى حساب رئيسي أو عدة حسابات. التعليمات المستديمة متاحة أيضاً.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/383478/ADIBCorporateEN.pdf",
+     "source_title": "ADIB Egypt - Corporate Internet Banking brochure (PDF; file metadata May 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Schedule: standing order set-up EGP 50 one time, EGP 20 per transaction. Brochure dated 2022.",
+     "note_ar": "التعريفة: إعداد التعليمات المستديمة 50 جنيهاً مرة واحدة و20 جنيهاً للعملية. الكتيب مؤرخ 2022."
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_overdraft": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_certified": {
+     "value_en": "Yes. Issuing bank drafts / certified cheques in local currency: 0.2%, min EGP 10, max EGP 350.",
+     "value_ar": "نعم. إصدار شيكات مصرفية / شيكات معتمدة بالعملة المحلية: 0.2% بحد أدنى 10 وأقصى 350 جنيهاً.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/157794/CorporateScheduleofFeesandCharges.pdf",
+     "source_title": "ADIB Egypt - Corporate Schedule of Fees and Charges (PDF currently on adib.eg; file metadata July 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Published schedule's file metadata is July 2022; confirm it is current.",
+     "note_ar": "بيانات ملف التعريفة تعود ليوليو 2022؛ يجب التأكد من سريانها."
+    },
+    "p_sigverify": {
+     "value_en": "Signature verification: EGP 20 per signature.",
+     "value_ar": "التحقق من صحة التوقيع: 20 جنيهاً لكل توقيع.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/157794/CorporateScheduleofFeesandCharges.pdf",
+     "source_title": "ADIB Egypt - Corporate Schedule of Fees and Charges (PDF currently on adib.eg; file metadata July 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Published schedule's file metadata is July 2022; confirm it is current.",
+     "note_ar": "بيانات ملف التعريفة تعود ليوليو 2022؛ يجب التأكد من سريانها."
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "Internet banking shows 'Clearing & PDCs positions' and cheque status and has a 'Collection Module'; schedule prices postponing / early withdrawal of bills under collection at EGP 20.",
+     "value_ar": "الإنترنت البنكي يعرض «مراكز المقاصة والشيكات الآجلة» وحالة الشيكات ويتضمن «وحدة التحصيل»؛ التعريفة تسعّر تأجيل/سحب الأوراق تحت التحصيل بـ 20 جنيهاً.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/383478/ADIBCorporateEN.pdf",
+     "source_title": "ADIB Egypt - Corporate Internet Banking brochure (PDF; file metadata May 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "A separate PDC custody fee is not itemised in the schedule.",
+     "note_ar": "لا يوجد بند مستقل لرسوم حفظ الشيكات الآجلة في التعريفة."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "Internet banking includes 'FAWRY Services' (utility/government payments) and a 'Collection Module'; e-Finance payments priced in schedule.",
+     "value_ar": "الإنترنت البنكي يتضمن «خدمات فوري» (سداد مرافق/حكومي) و«وحدة التحصيل»؛ مدفوعات إي فاينانس مسعّرة في التعريفة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.adib.eg/media/383478/ADIBCorporateEN.pdf",
+     "source_title": "ADIB Egypt - Corporate Internet Banking brochure (PDF; file metadata May 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Fawry is described for making payments, not for collecting from the developer's customers.",
+     "note_ar": "فوري موصوف لسداد المدفوعات وليس لتحصيل مستحقات المطور من عملائه."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "75 branches (FY2025 results release, 9 February 2026).",
+     "value_ar": "75 فرعاً (بيان نتائج 2025، 9 فبراير 2026).",
+     "status": "verified",
+     "source_url": "https://www.zawya.com/en/press-release/companies-news/adib-egypt-leads-islamic-banking-market-in-2025-reporting-egp-126bln-in-net-profit-d5lp085e",
+     "source_title": "Zawya press release - ADIB Egypt FY2025 results",
+     "accessed": "2026-11-25",
+     "note_en": "A search snippet of the June 2026 interim statements cites 79 'branches and delegates'; not opened.",
+     "note_ar": "مقتطف بحث من قوائم يونيو 2026 يذكر 79 «فرعاً ومندوبية»؛ لم تُفتح الصفحة."
+    },
+    "c_fx": {
+     "value_en": "Yes. Inward foreign-currency transfers free for corporate customers; FCY account maintenance USD 30 per quarter; outward FCY 0.3% (min USD 10, max USD 100) + SWIFT USD 25.",
+     "value_ar": "نعم. الحوالات الواردة بالعملة الأجنبية مجانية لعملاء الشركات؛ مصاريف حساب العملة الأجنبية 30 دولاراً كل ربع سنة؛ الصادر 0.3% (10–100 دولار) + سويفت 25 دولاراً.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/157794/CorporateScheduleofFeesandCharges.pdf",
+     "source_title": "ADIB Egypt - Corporate Schedule of Fees and Charges (PDF currently on adib.eg; file metadata July 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Published schedule's file metadata is July 2022; confirm it is current.",
+     "note_ar": "بيانات ملف التعريفة تعود ليوليو 2022؛ يجب التأكد من سريانها."
+    },
+    "c_recon": {
+     "value_en": "E-statements downloadable in PDF, Excel and MT940; 'Cash Reconciliation' module on internet banking.",
+     "value_ar": "كشوف إلكترونية بصيغ PDF و Excel و MT940؛ وحدة «التسوية النقدية» على الإنترنت البنكي.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/383478/ADIBCorporateEN.pdf",
+     "source_title": "ADIB Egypt - Corporate Internet Banking brochure (PDF; file metadata May 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Reconciliation module is described for payables.",
+     "note_ar": "وحدة التسوية موصوفة للمدفوعات المستحقة."
+    },
+    "c_api": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "No account-opening fee line appears in the published corporate schedule.",
+     "value_ar": "لا يظهر بند لرسوم فتح الحساب في تعريفة الشركات المنشورة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.adib.eg/media/157794/CorporateScheduleofFeesandCharges.pdf",
+     "source_title": "ADIB Egypt - Corporate Schedule of Fees and Charges (PDF currently on adib.eg; file metadata July 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Absence of a line is not confirmation that opening is free. Published schedule's file metadata is July 2022; confirm it is current.",
+     "note_ar": "غياب البند لا يؤكد مجانية الفتح. بيانات ملف التعريفة تعود ليوليو 2022؛ يجب التأكد من سريانها."
+    },
+    "k_annual": {
+     "value_en": "Maintenance fee, current/investment accounts: EGP 150 per quarter per legal entity (local currency); USD 30 per quarter (foreign currency).",
+     "value_ar": "مصاريف الحساب الجاري/الاستثماري: 150 جنيهاً كل ربع سنة لكل كيان قانوني (عملة محلية)؛ 30 دولاراً كل ربع سنة (عملة أجنبية).",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/157794/CorporateScheduleofFeesandCharges.pdf",
+     "source_title": "ADIB Egypt - Corporate Schedule of Fees and Charges (PDF currently on adib.eg; file metadata July 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Published schedule's file metadata is July 2022; confirm it is current.",
+     "note_ar": "بيانات ملف التعريفة تعود ليوليو 2022؛ يجب التأكد من سريانها."
+    },
+    "k_txn": {
+     "value_en": "Book (internal) transfers free. Outward local-currency transfers 0.2% (min EGP 20, max EGP 300) + EGP 25 SWIFT. Outward clearing cheques EGP 10 per cheque.",
+     "value_ar": "التحويل الداخلي مجاني. التحويل الصادر بالعملة المحلية 0.2% (حد أدنى 20 وأقصى 300 جنيه) + 25 جنيهاً سويفت. شيكات المقاصة الصادرة 10 جنيهات للشيك.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/157794/CorporateScheduleofFeesandCharges.pdf",
+     "source_title": "ADIB Egypt - Corporate Schedule of Fees and Charges (PDF currently on adib.eg; file metadata July 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "No separate ACH line in the schedule. Published schedule's file metadata is July 2022; confirm it is current.",
+     "note_ar": "لا يوجد بند مستقل لـ ACH في التعريفة. بيانات ملف التعريفة تعود ليوليو 2022؛ يجب التأكد من سريانها."
+    },
+    "k_cheque": {
+     "value_en": "Chequebook: 12 cheques EGP 30, 24 EGP 60, 48 EGP 120. Returned cheques drawn on ADIB clients: EGP 40 per cheque. Certified cheque 0.2% (min EGP 10, max EGP 350).",
+     "value_ar": "دفتر الشيكات: 12 شيكاً 30 جنيهاً، 24 بـ 60، 48 بـ 120. الشيكات المرتدة المسحوبة على عملاء المصرف: 40 جنيهاً للشيك. الشيك المعتمد 0.2% (10–350 جنيهاً).",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/157794/CorporateScheduleofFeesandCharges.pdf",
+     "source_title": "ADIB Egypt - Corporate Schedule of Fees and Charges (PDF currently on adib.eg; file metadata July 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Stop payment EGP 50 per cheque. Published schedule's file metadata is July 2022; confirm it is current.",
+     "note_ar": "إيقاف صرف شيك 50 جنيهاً. بيانات ملف التعريفة تعود ليوليو 2022؛ يجب التأكد من سريانها."
+    },
+    "k_minbal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "EGP 200mn financing to ORA Developers Egypt for Sheikh Zayed Central Park redevelopment (Al Mal, 23 September 2019).",
+     "value_ar": "تمويل 200 مليون جنيه لأورا ديفلوبرز إيجيبت لتطوير حديقة الشيخ زايد المركزية (المال، 23 سبتمبر 2019).",
+     "status": "verified",
+     "source_url": "https://almalnews.com/588571/أبوظبي-الإسلامي-مصر-يوقع-عقد-تمويل-مع/",
+     "source_title": "Al Mal News, 23 Sep 2019 - ADIB Egypt signs financing contract with ORA Developers Egypt",
+     "accessed": "2026-11-25",
+     "note_en": "Old (2019) and small; no recent developer syndication verified on an opened page.",
+     "note_ar": "قديم (2019) وصغير؛ لم يُتحقق من تمويل مشترك حديث لمطور عبر صفحة مفتوحة."
+    },
+    "s_discount": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_view": {
+     "value_en": "Internet banking supports multiple user groups with segregation of duties and viewing of balances/transactions across account groupings.",
+     "value_ar": "الإنترنت البنكي يدعم مجموعات مستخدمين متعددة مع فصل المهام وعرض الأرصدة والمعاملات عبر مجموعات الحسابات.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.adib.eg/media/383478/ADIBCorporateEN.pdf",
+     "source_title": "ADIB Egypt - Corporate Internet Banking brochure (PDF; file metadata May 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "A view-only login for a third party (landowner/auditor) is not stated.",
+     "note_ar": "دخول للاطلاع فقط لطرف ثالث (مالك الأرض/المراجع) غير منصوص عليه."
+    },
+    "s_subacct": {
+     "value_en": "Internet banking allows 'grouping multiple subsidiaries under a single parent profile'.",
+     "value_ar": "الإنترنت البنكي يتيح «تجميع عدة شركات تابعة تحت ملف أم واحد».",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.adib.eg/media/383478/ADIBCorporateEN.pdf",
+     "source_title": "ADIB Egypt - Corporate Internet Banking brochure (PDF; file metadata May 2022)",
+     "accessed": "2026-11-25",
+     "note_en": "Sub-accounts under one legal entity not explicitly described.",
+     "note_ar": "الحسابات الفرعية تحت كيان قانوني واحد غير موصوفة صراحة."
+    },
+    "s_track": {
+     "value_en": "ORA Developers Egypt (EGP 200mn, 2019).",
+     "value_ar": "أورا ديفلوبرز إيجيبت (200 مليون جنيه، 2019).",
+     "status": "verified",
+     "source_url": "https://almalnews.com/588571/أبوظبي-الإسلامي-مصر-يوقع-عقد-تمويل-مع/",
+     "source_title": "Al Mal News, 23 Sep 2019 - ADIB Egypt signs financing contract with ORA Developers Egypt",
+     "accessed": "2026-11-25",
+     "note_en": "Only one dated relationship verified.",
+     "note_ar": "علاقة واحدة قديمة فقط تم التحقق منها."
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No shareholding or lending link found in searches; absence of evidence only.",
+     "note_ar": "لم يظهر في البحث أي ارتباط ملكية أو إقراض؛ هذا غياب دليل فقط."
+    },
+    "n_conflict": {
+     "value_en": "Consolidated subsidiaries include 'Abu Dhabi Islamic Properties' (44.24%, activity: real estate investment), per FY2024 consolidated financial statements.",
+     "value_ar": "الشركات التابعة المجمّعة تشمل «أبوظبي الإسلامي للعقارات» (44.24%، النشاط: استثمار عقاري) وفق القوائم المالية المجمعة لعام 2024.",
+     "status": "verified",
+     "source_url": "https://www.adib.eg/media/Consalidated2024EN.pdf",
+     "source_title": "ADIB Egypt - Consolidated financial statements 2024 (English)",
+     "accessed": "2026-11-25",
+     "note_en": "Whether this subsidiary develops projects competing with the Mostakbal City project is not established.",
+     "note_ar": "لم يثبت ما إذا كانت هذه الشركة تطوّر مشروعات منافسة لمشروع مدينة المستقبل."
+    }
+   }
+  },
+  {
+   "id": "mashreq",
+   "name_en": "Mashreq Bank Egypt",
+   "name_ar": "بنك المشرق – مصر",
+   "type": "foreign bank branch (Mashreqbank psc, Egypt Branch)",
+   "website": "https://www.mashreq.com/en/egypt/",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "Escrow is not named on the Egypt cash management page nor in the Egypt schedule of charges. Parent offers escrow in the UAE; not established for Egypt.",
+     "note_ar": "حساب الضمان غير مذكور في صفحة إدارة النقد لمصر ولا في تعريفة مصر. البنك الأم يقدمه في الإمارات؛ غير مثبت لمصر."
+    },
+    "g_developer_account": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Yes. Egypt schedule lists 'Sweeps' and 'Notional Pooling' (set-up and maintenance 'as per agreed terms'); standing instructions EGP 100 per request per account.",
+     "value_ar": "نعم. تعريفة مصر تدرج «التحويل الآلي للأرصدة» و«التجميع الافتراضي» (الإعداد والمصاريف «حسب الاتفاق»)؛ التعليمات المستديمة 100 جنيه للطلب لكل حساب.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "Standing order failing for insufficient funds: EGP 50 per transaction.",
+     "note_ar": "فشل تنفيذ التعليمات المستديمة لعدم كفاية الرصيد: 50 جنيهاً للعملية."
+    },
+    "p_alerts": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_overdraft": {
+     "value_en": "Schedule lists 'daily charges upon account being overdrawn: 19% + 2% penalty'; no overdraft facility terms published.",
+     "value_ar": "التعريفة تدرج «مصاريف يومية عند انكشاف الحساب: 19% + 2% غرامة»؛ لا توجد شروط تسهيل سحب على المكشوف منشورة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "This is a penalty rate for an overdrawn account, not evidence of a committed standby facility.",
+     "note_ar": "هذا سعر جزائي لحساب مكشوف وليس دليلاً على تسهيل احتياطي ملزم."
+    },
+    "p_certified": {
+     "value_en": "Demand drafts / pay orders available: local issuance 0.2%, min EGP 20, max EGP 200 per instrument.",
+     "value_ar": "الشيكات المصرفية / أوامر الدفع متاحة: الإصدار المحلي 0.2% بحد أدنى 20 وأقصى 200 جنيه للأداة.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "Certification of a customer's own cheque is not listed in the schedule.",
+     "note_ar": "اعتماد شيك العميل نفسه غير مدرج في التعريفة."
+    },
+    "p_sigverify": {
+     "value_en": "External signature verification: EGP 50 per stamp.",
+     "value_ar": "التحقق الخارجي من صحة التوقيع: 50 جنيهاً لكل ختم.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_virtual": {
+     "value_en": "Egypt cash management page names 'virtual accounts' in a regional platform description (UAE, Qatar, Bahrain, Kuwait, Egypt).",
+     "value_ar": "صفحة إدارة النقد لمصر تذكر «الحسابات الافتراضية» ضمن وصف منصة إقليمية (الإمارات، قطر، البحرين، الكويت، مصر).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/our-solutions/global-transaction-banking/cash-mgmt-liquidity-solutions/",
+     "source_title": "Mashreq Egypt - Cash Management and Liquidity solutions",
+     "accessed": "2026-11-25",
+     "note_en": "No virtual-account line in the Egypt schedule of charges; live availability in Egypt to confirm.",
+     "note_ar": "لا يوجد بند للحسابات الافتراضية في تعريفة مصر؛ يجب تأكيد إتاحتها فعلياً في مصر."
+    },
+    "c_pdc": {
+     "value_en": "Yes. PDC custodial service (warehousing): 0.1% per cheque, min EGP 10, max EGP 200. 'Enriched MIS & PDC Management' and cash/cheque pickup per agreed terms.",
+     "value_ar": "نعم. خدمة حفظ الشيكات الآجلة: 0.1% للشيك بحد أدنى 10 وأقصى 200 جنيه. «تقارير موسعة وإدارة الشيكات الآجلة» ونقل النقد والشيكات حسب الاتفاق.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "Replacement / premature withdrawal EGP 10 per cheque.",
+     "note_ar": "الاستبدال / السحب المبكر 10 جنيهات للشيك."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "Schedule lists an 'E finance service' (0.15%, min EGP 75, max EGP 190 + e-Finance charge) under ancillary payment services.",
+     "value_ar": "التعريفة تدرج «خدمة إي فاينانس» (0.15% بحد أدنى 75 وأقصى 190 جنيهاً + رسوم إي فاينانس) ضمن خدمات الدفع المساندة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "This is a payment service; e-collection / payment gateway / Fawry collection not established.",
+     "note_ar": "هذه خدمة سداد؛ التحصيل الإلكتروني أو بوابة الدفع أو التحصيل عبر فوري غير مثبت."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "14 branches in Cairo and Alexandria (bank's Egypt corporate page; undated).",
+     "value_ar": "14 فرعاً في القاهرة والإسكندرية (صفحة الشركات للبنك في مصر؛ بدون تاريخ).",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/",
+     "source_title": "Mashreq Egypt - Corporate home page",
+     "accessed": "2026-11-25",
+     "note_en": "Page carries no date for the figure.",
+     "note_ar": "الصفحة لا تذكر تاريخاً للرقم."
+    },
+    "c_fx": {
+     "value_en": "Yes. Inward remittance credited to FCY account: 0.1%, min USD 2, max USD 10. Cross-border transfer 0.2% (min USD 5, max USD 60) + SWIFT USD 10.",
+     "value_ar": "نعم. الحوالة الواردة لحساب بالعملة الأجنبية: 0.1% بحد أدنى 2 وأقصى 10 دولارات. التحويل الخارجي 0.2% (5–60 دولاراً) + سويفت 10 دولارات.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "SWIFT MT940 daily reporting: set-up USD 100 one time per CIF; USD 50 monthly per reported account. Page mentions automated reconciliation.",
+     "value_ar": "تقارير سويفت MT940 اليومية: إعداد 100 دولار مرة واحدة لكل عميل؛ 50 دولاراً شهرياً لكل حساب. الصفحة تذكر أتمتة التسوية.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "Yes. Host to Host: implementation fee EGP 50,000 one time, subscription per agreed terms. SWIFT FileAct/FIN: implementation EGP 3,000.",
+     "value_ar": "نعم. الربط المباشر Host to Host: رسوم تنفيذ 50,000 جنيه مرة واحدة والاشتراك حسب الاتفاق. سويفت FileAct/FIN: تنفيذ 3,000 جنيه.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "Cash management page also mentions 'API enabled services' (regional description).",
+     "note_ar": "صفحة إدارة النقد تذكر أيضاً «خدمات مفعّلة عبر API» (وصف إقليمي)."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "Account opening fees: EGP 100, one time. Online banking set-up fee: EGP 1,500 one time.",
+     "value_ar": "رسوم فتح الحساب: 100 جنيه مرة واحدة. رسوم إعداد الإنترنت البنكي: 1,500 جنيه مرة واحدة.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "No escrow fee in the schedule.",
+     "note_ar": "لا توجد رسوم لحساب الضمان في التعريفة."
+    },
+    "k_annual": {
+     "value_en": "Account maintenance fee: EGP 90 monthly (schedule also shows lines of EGP 90 quarterly and EGP 90 yearly per account). Online banking access EGP 300 monthly per trade licence.",
+     "value_ar": "مصاريف الحساب: 90 جنيهاً شهرياً (التعريفة تعرض أيضاً بنوداً 90 جنيهاً ربع سنوي و90 جنيهاً سنوياً للحساب). الإنترنت البنكي 300 جنيه شهرياً لكل سجل تجاري.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "Which of the three maintenance lines applies to a given account is not explained.",
+     "note_ar": "لم يوضَّح أي من البنود الثلاثة ينطبق على حساب بعينه."
+    },
+    "k_txn": {
+     "value_en": "Book transfer waived. Domestic RTGS 0.2% (min EGP 30, max EGP 300); via online banking EGP 30 per transaction. Local cheque clearing EGP 10 per instrument.",
+     "value_ar": "التحويل الداخلي معفى. التحويل المحلي RTGS ‏0.2% (حد أدنى 30 وأقصى 300 جنيه)؛ عبر الإنترنت البنكي 30 جنيهاً للعملية. مقاصة الشيك المحلي 10 جنيهات.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "Inward credit to LCY account: 0.1%, min EGP 5, max EGP 50 per transaction.",
+     "note_ar": "الإضافة الواردة لحساب بالجنيه: 0.1% بحد أدنى 5 وأقصى 50 جنيهاً للعملية."
+    },
+    "k_cheque": {
+     "value_en": "Standard chequebook EGP 150 per book. Inward clearing cheque on own account returned for insufficient funds: EGP 25 per instrument. Pay order 0.2% (min EGP 20, max EGP 200).",
+     "value_ar": "دفتر شيكات عادي 150 جنيهاً. شيك مقاصة وارد على حساب العميل مرتد لعدم كفاية الرصيد: 25 جنيهاً للشيك. أمر الدفع 0.2% (20–200 جنيه).",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "Stop payment EGP 50 per instrument. No certified-cheque line.",
+     "note_ar": "إيقاف الصرف 50 جنيهاً. لا يوجد بند للشيك المعتمد."
+    },
+    "k_minbal": {
+     "value_en": "Minimum monthly average credit balance EGP 10,000; fall-below fee EGP 50 monthly.",
+     "value_ar": "الحد الأدنى لمتوسط الرصيد الدائن الشهري 10,000 جنيه؛ رسم النزول عن الحد 50 جنيهاً شهرياً.",
+     "status": "verified",
+     "source_url": "https://www.mashreq.com/en/egypt/corporate/service-charges",
+     "source_title": "Schedule of Charges - Mashreqbank, Egypt Branch (PDF; file metadata 15 Sep 2025)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_yield": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_finance": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_discount": {
+     "value_en": "Mashreq announced plans to roll out NEO CORP in Egypt, with services including post-dated cheque discounting, subject to regulatory approval.",
+     "value_ar": "أعلن المشرق خططاً لطرح منصة NEO CORP في مصر بخدمات تشمل خصم الشيكات الآجلة، رهناً بالموافقات الرقابية.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.zawya.com/en/press-release/companies-news/mashreq-set-to-enhance-digital-corporate-banking-landscape-in-egypt-with-planned-launch-of-mashreq-neo-corp-k3k3bjca",
+     "source_title": "Zawya press release - Mashreq planned launch of NEO CORP in Egypt",
+     "accessed": "2026-11-25",
+     "note_en": "Announced as planned; live availability and appetite for a developer's cheque portfolio not established.",
+     "note_ar": "أُعلن كخطة؛ الإتاحة الفعلية والاستعداد لخصم محفظة شيكات مطور غير مثبتين."
+    },
+    "s_view": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No shareholding or lending link found in searches; absence of evidence only.",
+     "note_ar": "لم يظهر في البحث أي ارتباط ملكية أو إقراض؛ هذا غياب دليل فقط."
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  },
+  {
+   "id": "attijari",
+   "name_en": "Attijariwafa bank Egypt",
+   "name_ar": "التجاري وفا بنك إيجيبت",
+   "type": "foreign subsidiary",
+   "website": "https://www.attijariwafabank.com.eg",
+   "fields": {
+    "g_escrow": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "Escrow is not mentioned on the corporate cash management page or in the corporate schedules of charges opened.",
+     "note_ar": "حساب الضمان غير مذكور في صفحة إدارة النقد للشركات ولا في تعريفات الشركات التي فُتحت."
+    },
+    "g_developer_account": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_reserve": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sweep": {
+     "value_en": "Yes. Schedule lists sweeping: set-up EGP 500 one off; daily sweeping EGP 200 monthly. Standing instructions EGP 75.",
+     "value_ar": "نعم. التعريفة تدرج التحويل الآلي للأرصدة: إعداد 500 جنيه مرة واحدة؛ تحويل يومي 200 جنيه شهرياً. التعليمات المستديمة 75 جنيهاً.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/07/1753198086_612_160165_otherservices22.7.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Other Services",
+     "accessed": "2026-11-25",
+     "note_en": "Standing instruction fee is from the Transfers schedule.",
+     "note_ar": "رسم التعليمات المستديمة من تعريفة التحويلات."
+    },
+    "p_alerts": {
+     "value_en": "SMS transaction monitoring is described for the Business Debit Card only.",
+     "value_ar": "متابعة المعاملات بالرسائل القصيرة موصوفة لبطاقة الخصم للأعمال فقط.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.attijariwafabank.com.eg/services/corporate/cash-management-solutions-channels/cash-management-solutions-channels-Corporate",
+     "source_title": "Attijariwafa bank Egypt - Cash Management Solutions & Channels (Corporate)",
+     "accessed": "2026-11-25",
+     "note_en": "Account balance alerts for corporates not established.",
+     "note_ar": "تنبيهات رصيد الحساب للشركات غير مثبتة."
+    },
+    "p_overdraft": {
+     "value_en": "Yes. Overdrafts offered to finance working capital needs; revolving, tenor up to 12 months.",
+     "value_ar": "نعم. السحب على المكشوف متاح لتمويل رأس المال العامل؛ دوّار بمدة حتى 12 شهراً.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/services/corporate/loans-finances-corporate/working-capital-finance",
+     "source_title": "Attijariwafa bank Egypt - Corporate Loans & Finances: Working capital finance",
+     "accessed": "2026-11-25",
+     "note_en": "Subject to credit approval; pricing: overdrawn LCY account charged 'Lending Corridor + EGP 30' per the accounts schedule.",
+     "note_ar": "يخضع للموافقة الائتمانية؛ التسعير: الحساب المكشوف بالجنيه «سعر الإقراض (الكوريدور) + 30 جنيهاً» وفق تعريفة الحسابات."
+    },
+    "p_certified": {
+     "value_en": "Yes. LCY certified cheque issuance: 0.30%, min EGP 50, max EGP 400. LCY bank draft: same rate.",
+     "value_ar": "نعم. إصدار شيك معتمد بالعملة المحلية: 0.30% بحد أدنى 50 وأقصى 400 جنيه. الشيك المصرفي بالعملة المحلية: نفس السعر.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/cheques-soc-aug-2026-20260825084544.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Cheques (Aug 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "p_sigverify": {
+     "value_en": "Signature verification (stamped): EGP 60.",
+     "value_ar": "التحقق من صحة التوقيع (مختوم): 60 جنيهاً.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/07/1753198086_612_160165_otherservices22.7.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Other Services",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_virtual": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_pdc": {
+     "value_en": "Yes. Post-dated LCY cheques for collection: 0.20% (min EGP 20 within the bank; min EGP 40 via other banks + EGP 50 annual keeping fee). Cheque pickup EGP 1,500 monthly per location.",
+     "value_ar": "نعم. الشيكات الآجلة بالجنيه للتحصيل: 0.20% (حد أدنى 20 جنيهاً داخل البنك؛ 40 جنيهاً عبر بنوك أخرى + 50 جنيهاً رسوم حفظ سنوية). نقل الشيكات 1,500 جنيه شهرياً للموقع.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/cheques-soc-aug-2026-20260825084544.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Cheques (Aug 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Max within the bank EGP 150; the max for other-bank PDCs is illegible in the PDF text. Early withdrawal 0.30% (min EGP 50, max EGP 400).",
+     "note_ar": "الحد الأقصى داخل البنك 150 جنيهاً؛ الحد الأقصى لشيكات البنوك الأخرى غير مقروء في نص الملف. السحب المبكر 0.30% (50–400 جنيه)."
+    },
+    "c_pos": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_online": {
+     "value_en": "Direct debit collection: set-up EGP 3,000 once per customer; mandate EGP 50 per customer's client; EGP 5 per debit. CPS e-government payments.",
+     "value_ar": "التحصيل بالخصم المباشر: إعداد 3,000 جنيه مرة واحدة للعميل؛ التفويض 50 جنيهاً لكل عميل للعميل؛ 5 جنيهات لكل خصم. مدفوعات حكومية إلكترونية CPS.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318391_945_131721_digital.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Digital Services",
+     "accessed": "2026-11-25",
+     "note_en": "Online card gateway / Fawry collection not mentioned.",
+     "note_ar": "بوابة البطاقات الإلكترونية / التحصيل عبر فوري غير مذكور."
+    },
+    "c_instapay": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_branches": {
+     "value_en": "64 branches and 110 ATMs (IFC press release, 24 February 2025).",
+     "value_ar": "64 فرعاً و110 ماكينات صراف آلي (بيان مؤسسة التمويل الدولية، 24 فبراير 2025).",
+     "status": "verified",
+     "source_url": "https://www.ifc.org/en/pressroom/2025/ifc-and-attijariwafa-bank-egypt-partner-to-support-smes-climate-finance",
+     "source_title": "IFC press release, 24 Feb 2025 - IFC and Attijariwafa bank Egypt partner to support SMEs' climate finance",
+     "accessed": "2026-11-25",
+     "note_en": "Figure is from early 2025; a later count was not verified.",
+     "note_ar": "الرقم يعود لأوائل 2025؛ لم يُتحقق من رقم أحدث."
+    },
+    "c_fx": {
+     "value_en": "Yes. Inward FCY transfers by SWIFT: flat USD 8 or equivalent; FCY current account opening USD 10; outward FCY by SWIFT 0.3% + USD 30 SWIFT fees.",
+     "value_ar": "نعم. الحوالات الواردة بالعملة الأجنبية عبر سويفت: 8 دولارات مقطوعة أو ما يعادلها؛ فتح حساب جارٍ بالعملة الأجنبية 10 دولارات؛ الصادر 0.3% + 30 دولاراً رسوم سويفت.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318397_940_450870_transfers.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Transfers",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_recon": {
+     "value_en": "Daily MT940 statement: USD 50 or equivalent monthly. E-statements available; stamped 'post-dated / under collection cheques report' EGP 75.",
+     "value_ar": "كشف MT940 اليومي: 50 دولاراً أو ما يعادلها شهرياً. الكشوف الإلكترونية متاحة؛ تقرير مختوم بالشيكات الآجلة/تحت التحصيل 75 جنيهاً.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318391_945_131721_digital.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Digital Services",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "c_api": {
+     "value_en": "Channels page lists 'MT101 & MT940' and 'File ACT' (SWIFT corporate connectivity).",
+     "value_ar": "صفحة القنوات تدرج «MT101 و MT940» و«File ACT» (ربط سويفت للشركات).",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.attijariwafabank.com.eg/services/corporate/cash-management-solutions-channels/cash-management-solutions-channels-Corporate",
+     "source_title": "Attijariwafa bank Egypt - Cash Management Solutions & Channels (Corporate)",
+     "accessed": "2026-11-25",
+     "note_en": "Host-to-host / API / ERP integration not named.",
+     "note_ar": "الربط host-to-host أو API أو ERP غير مذكور بالاسم."
+    },
+    "o_time": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_docs": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_legal": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "o_template": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "k_setup": {
+     "value_en": "LCY current account opening fee: EGP 200 one-off. FCY: USD 10 or equivalent one-off. Wafanet online set-up EGP 1,500 one-off (2 token users).",
+     "value_ar": "رسوم فتح حساب جارٍ بالجنيه: 200 جنيه مرة واحدة. بالعملة الأجنبية: 10 دولارات أو ما يعادلها. إعداد Wafanet ‏1,500 جنيه مرة واحدة (مستخدمان).",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318387_752_442777_accountservices.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Accounts Services",
+     "accessed": "2026-11-25",
+     "note_en": "No escrow fee in the schedules.",
+     "note_ar": "لا توجد رسوم لحساب الضمان في التعريفات."
+    },
+    "k_annual": {
+     "value_en": "LCY current account maintenance fee (Corporate): EGP 100. FCY current account maintenance: USD 4 / GBP 3 / EUR 3 monthly.",
+     "value_ar": "مصاريف الحساب الجاري بالجنيه (شركات): 100 جنيه. مصاريف الحساب الجاري بالعملة الأجنبية: 4 دولارات / 3 إسترليني / 3 يورو شهرياً.",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318387_752_442777_accountservices.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Accounts Services",
+     "accessed": "2026-11-25",
+     "note_en": "The charging period for the EGP 100 corporate fee is not legible in the PDF text.",
+     "note_ar": "دورية تحصيل رسم الـ100 جنيه للشركات غير مقروءة في نص الملف."
+    },
+    "k_txn": {
+     "value_en": "Internal transfers free. Outward LCY by ACH: 0.2% + EGP 15 ACH fees (min EGP 25, max EGP 400). Due LCY cheques from other banks: 0.20% (min EGP 30, max EGP 150).",
+     "value_ar": "التحويل الداخلي مجاني. الصادر بالجنيه عبر ACH: ‏0.2% + 15 جنيهاً رسوم ACH (حد أدنى 25 وأقصى 400). شيكات مستحقة بالجنيه من بنوك أخرى: 0.20% (30–150 جنيهاً).",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318397_940_450870_transfers.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Transfers",
+     "accessed": "2026-11-25",
+     "note_en": "Outward LCY by SWIFT 0.3% + EGP 50 (min EGP 50, max EGP 500). Cheque fee from the Cheques schedule.",
+     "note_ar": "الصادر بالجنيه عبر سويفت 0.3% + 50 جنيهاً (50–500). رسم الشيكات من تعريفة الشيكات."
+    },
+    "k_cheque": {
+     "value_en": "LCY chequebook 12/24/48 leaves: EGP 120/240/480. Rejected cheques LCY: EGP 50. LCY certified cheque 0.30% (min EGP 50, max EGP 400).",
+     "value_ar": "دفتر شيكات بالجنيه 12/24/48 ورقة: 120/240/480 جنيهاً. الشيكات المرفوضة بالجنيه: 50 جنيهاً. شيك معتمد بالجنيه 0.30% (50–400 جنيه).",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/cheques-soc-aug-2026-20260825084544.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Cheques (Aug 2026)",
+     "accessed": "2026-11-25",
+     "note_en": "Stop/cancel payment EGP 75.",
+     "note_ar": "إيقاف/إلغاء الصرف 75 جنيهاً."
+    },
+    "k_minbal": {
+     "value_en": "Schedule shows an LCY drop-down fee of EGP 50 for SMEs & Mid Cap (minimum 10K); no minimum stated for the Corporate segment.",
+     "value_ar": "التعريفة تعرض رسم نزول عن الحد 50 جنيهاً للمشروعات الصغيرة والمتوسطة (حد أدنى 10 آلاف)؛ لا حد أدنى مذكور لشريحة الشركات الكبرى.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318387_752_442777_accountservices.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Accounts Services",
+     "accessed": "2026-11-25",
+     "note_en": "Minimum balance for a corporate-segment current account not established.",
+     "note_ar": "الحد الأدنى للرصيد لحساب جارٍ لشريحة الشركات غير مثبت."
+    },
+    "k_yield": {
+     "value_en": "Cash management page mentions 'providing corporates with returns on surplus cash'; no rates published.",
+     "value_ar": "صفحة إدارة النقد تذكر «توفير عوائد للشركات على الفوائض النقدية»؛ لا أسعار منشورة.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.attijariwafabank.com.eg/services/corporate/cash-management-solutions-channels/cash-management-solutions-channels-Corporate",
+     "source_title": "Attijariwafa bank Egypt - Cash Management Solutions & Channels (Corporate)",
+     "accessed": "2026-11-25",
+     "note_en": "Product and rate not specified.",
+     "note_ar": "المنتج والسعر غير محددين."
+    },
+    "s_finance": {
+     "value_en": "Corporate page offers overdrafts and medium-term bilateral loans (up to 7 years) for capex, new projects and expansion.",
+     "value_ar": "صفحة الشركات تعرض السحب على المكشوف وقروضاً ثنائية متوسطة الأجل (حتى 7 سنوات) للإنفاق الرأسمالي والمشروعات الجديدة والتوسعات.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.attijariwafabank.com.eg/services/corporate/loans-finances-corporate/working-capital-finance",
+     "source_title": "Attijariwafa bank Egypt - Corporate Loans & Finances: Working capital finance",
+     "accessed": "2026-11-25",
+     "note_en": "No named loan to a real estate developer found.",
+     "note_ar": "لم نجد قرضاً مسمى لمطور عقاري."
+    },
+    "s_discount": {
+     "value_en": "Offers 'discounts with recourse for cheques/bills/shipping documents', tenor up to 12 months; cheques schedule lists 'Forfeiting cheque: case by case'.",
+     "value_ar": "يقدم «خصماً مع حق الرجوع للشيكات/الكمبيالات/مستندات الشحن» بمدة حتى 12 شهراً؛ تعريفة الشيكات تدرج «فورفيتنج الشيكات: حسب الحالة».",
+     "status": "verified",
+     "source_url": "https://www.attijariwafabank.com.eg/services/corporate/loans-finances-corporate/working-capital-finance",
+     "source_title": "Attijariwafa bank Egypt - Corporate Loans & Finances: Working capital finance",
+     "accessed": "2026-11-25",
+     "note_en": "General corporate product; appetite for a developer's long-dated cheque portfolio not established.",
+     "note_ar": "منتج عام للشركات؛ الاستعداد لخصم محفظة شيكات طويلة الأجل لمطور غير مثبت."
+    },
+    "s_view": {
+     "value_en": "Schedule lists 'Wafanet inquiry fees: EGP 100 monthly', indicating an inquiry-only online service.",
+     "value_ar": "التعريفة تدرج «رسوم الاستعلام عبر Wafanet: ‏100 جنيه شهرياً» مما يشير إلى خدمة إلكترونية للاستعلام فقط.",
+     "status": "bank_to_confirm",
+     "source_url": "https://www.attijariwafabank.com.eg/app/uploads/2025/05/1747318391_945_131721_digital.pdf",
+     "source_title": "Attijariwafa bank Egypt - Corporate Schedule of Charges: Digital Services",
+     "accessed": "2026-11-25",
+     "note_en": "Granting inquiry access to a third party (landowner/auditor) not stated.",
+     "note_ar": "منح صلاحية الاستعلام لطرف ثالث (مالك الأرض/المراجع) غير منصوص عليه."
+    },
+    "s_subacct": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "s_track": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    },
+    "n_sabbour": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "No shareholding or lending link found in searches; absence of evidence only.",
+     "note_ar": "لم يظهر في البحث أي ارتباط ملكية أو إقراض؛ هذا غياب دليل فقط."
+    },
+    "n_conflict": {
+     "value_en": "",
+     "value_ar": "",
+     "status": "unknown",
+     "source_url": "",
+     "source_title": "",
+     "accessed": "2026-11-25",
+     "note_en": "",
+     "note_ar": ""
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": {"en": "Escrow bank selection", "ar": "اختيار بنك حساب الضمان"},
+    "project": {"en": "Commercial plot (about 14,910 m2), L'avenir, Mostakbal City", "ar": "القطعة التجارية (نحو 14,910 م2)، لافينير، مدينة المستقبل"},
+    "developer": {"en": "Jalal Sons for Development and Property Management LLC", "ar": "جلال صنز للتطوير وإدارة الأملاك ذ.م.م"},
+    "landowner": {"en": "Al Ahly for Real Estate Development - Sabbour S.A.E.", "ar": "الأهلي للتنمية العقارية - صبور ش.م.م"},
+    "contract_draft_date": "2026-11-17",
+    "research_date": "2026-11-25",
+    "version": "1.0"
+  },
+  "clauses": [
+    {"id": "2, 8/1", "req": {"en": "Account at a bank operating in Egypt, chosen by written agreement of both parties, opened within 90 days of the contract date.", "ar": "حساب لدى بنك عامل في مصر يُختار باتفاق كتابي بين الطرفين ويُفتح خلال 90 يوماً من تاريخ العقد."},
+     "A": {"en": "Bank, Sabbour and developer sign one escrow agreement; that agreement is itself the written consent. Timing depends on the bank's legal review of a bespoke tri-party text, the main risk to the 90 days.", "ar": "يوقّع البنك وصبور والمطوّر اتفاقية ضمان واحدة تُعدّ بذاتها الموافقة الكتابية. المدة تتوقف على المراجعة القانونية لدى البنك لنص ثلاثي خاص، وهو الخطر الرئيسي على مهلة الـ90 يوماً."},
+     "B": {"en": "Standard corporate account in the developer's name plus a side letter from Sabbour approving the bank. Fastest route; Sabbour's consent must still be obtained in writing.", "ar": "حساب شركات عادي باسم المطوّر مع خطاب جانبي من صبور بالموافقة على البنك. أسرع مسار، مع ضرورة الحصول على موافقة صبور كتابةً."}},
+    {"id": "8/1, 9/5", "req": {"en": "Every project receipt, cash and deferred (customer post-dated cheques), from sale, lease or usufruct, goes into this account only. Penalty at the CBE lending rate on Sabbour's share; a repeat terminates.", "ar": "كل متحصلات المشروع النقدية والآجلة (شيكات العملاء الآجلة) من البيع أو الإيجار أو حق الانتفاع تودع في هذا الحساب دون غيره. غرامة بسعر الإقراض لدى البنك المركزي على حصة صبور، والتكرار يفسخ العقد."},
+     "A": {"en": "Customer contracts name the escrow account as the only payment channel; the bank holds customer post-dated cheques in custody and reports all credits to both parties, giving independent evidence of compliance.", "ar": "تنص عقود العملاء على حساب الضمان كقناة السداد الوحيدة، ويحتفظ البنك بشيكات العملاء الآجلة ويبلّغ الطرفين بكل الإيداعات، ما يوفّر دليلاً مستقلاً على الالتزام."},
+     "B": {"en": "Same payment instructions and cheque custody, but compliance rests on the developer's own discipline; Sabbour and the auditor verify through view access and reconciliation files.", "ar": "نفس تعليمات السداد وحفظ الشيكات، لكن الالتزام يعتمد على انضباط المطوّر؛ وتتحقق صبور والمراجع عبر صلاحية الاطلاع وملفات التسوية."}},
+    {"id": "8/2", "req": {"en": "Revenue split 35% Sabbour / 65% developer. The developer issues a chequebook on the account and gives Sabbour semi-annual cheques for its guaranteed minimum.", "ar": "توزيع الإيراد 35% لصبور و65% للمطوّر. يصدر المطوّر دفتر شيكات على الحساب ويسلّم صبور شيكات نصف سنوية بالحد الأدنى المضمون."},
+     "A": {"en": "The bank applies 35/65 by rule on each credit or at set intervals. A chequebook on a true escrow account is unusual; the cheques would be drawn on a linked developer account or replaced by scheduled bank transfers, which needs a contract change.", "ar": "يطبّق البنك نسبة 35/65 وفق قاعدة على كل إيداع أو دورياً. إصدار دفتر شيكات على حساب ضمان حقيقي غير معتاد؛ تُسحب الشيكات على حساب مرتبط للمطوّر أو تُستبدل بتحويلات بنكية مجدولة، وهو ما يستلزم تعديل العقد."},
+     "B": {"en": "Works exactly as drafted: chequebook on the account, cheques handed to Sabbour. The split is implemented by a standing sweep of 35% into a blocked reserve or to Sabbour.", "ar": "يعمل كما في المسودة تماماً: دفتر شيكات على الحساب وتسليم الشيكات لصبور. يُنفَّذ التوزيع بتعليمات دائمة لتحويل 35% إلى احتياطي مجمّد أو إلى صبور."}},
+    {"id": "9/1", "req": {"en": "EGP 85M advance cheque at signing, then 45M (28/12/2027), 90M (2028), 180M (2029), 180M (2030), 180M (2031), 90M (2032), total 765M; final settlement 28/12/2033.", "ar": "شيك مقدّم 85 مليون جنيه عند التوقيع، ثم 45 مليون (28/12/2027)، 90 مليون (2028)، 180 مليون (2029)، 180 مليون (2030)، 180 مليون (2031)، 90 مليون (2032) بإجمالي 765 مليون؛ والتسوية النهائية في 28/12/2033."},
+     "A": {"en": "The schedule is annexed to the escrow agreement; the bank builds the reserve toward each date and pays on the date without a developer instruction.", "ar": "يُرفق الجدول باتفاقية الضمان، ويكوّن البنك الاحتياطي قبل كل تاريخ ويسدد في موعده دون تعليمات من المطوّر."},
+     "B": {"en": "The developer funds each cheque; a blocked reserve sized to the next cheque and a calendar of low-balance alerts are the controls.", "ar": "يموّل المطوّر كل شيك؛ وأدوات الضبط هي احتياطي مجمّد بقيمة الشيك التالي وتنبيهات بانخفاض الرصيد."}},
+    {"id": "9/7, 9/8", "req": {"en": "12 crossed cheques carrying the bank's signature verification, replaceable if the developer's signatories change.", "ar": "12 شيكاً مسطّراً عليها تصديق البنك على صحة التوقيع، قابلة للاستبدال عند تغيّر المفوّضين بالتوقيع."},
+     "A": {"en": "Needs the bank to issue or verify cheques linked to an escrow arrangement; to be confirmed bank by bank. Replacement on signatory change follows the bank's mandate procedure.", "ar": "يتطلب أن يصدر البنك أو يصدّق شيكات مرتبطة بترتيب الضمان؛ يُؤكَّد مع كل بنك. الاستبدال عند تغيير المفوّضين يتبع إجراءات التفويض لدى البنك."},
+     "B": {"en": "Routine: crossed cheques from the account chequebook with signature verification stamped by the branch. Replacement on signatory change is a standard request.", "ar": "إجراء اعتيادي: شيكات مسطّرة من دفتر الحساب مع ختم صحة التوقيع من الفرع. الاستبدال عند تغيير المفوّضين طلب معتاد."}},
+    {"id": "9/2", "req": {"en": "Two bounced cheques, consecutive or not, terminate the contract and the land and buildings go to Sabbour. The single biggest risk.", "ar": "ارتداد شيكين، متتاليين أو غير متتاليين، يفسخ العقد وتؤول الأرض والمباني لصبور. الخطر الأكبر على الإطلاق."},
+     "A": {"en": "Strongest protection if payment is made by the bank from the reserved 35%: there is no cheque for the developer to bounce. If cheques remain, the bank's rule-based reserve still covers them.", "ar": "أقوى حماية إذا سدّد البنك من نسبة الـ35% المحجوزة: لا يوجد شيك يمكن أن يرتد على المطوّر. وإذا بقيت الشيكات فالاحتياطي المحكوم بقاعدة يغطيها."},
+     "B": {"en": "Protection is only as good as the controls added: blocked reserve, pre-date sweep, alerts, a standby overdraft and, where available, certification of each cheque before its date.", "ar": "الحماية بقدر الضوابط المضافة: احتياطي مجمّد، تحويل تلقائي قبل التاريخ، تنبيهات، تسهيل سحب على المكشوف احتياطي، واعتماد كل شيك قبل تاريخه حيثما أمكن."}},
+    {"id": "9/3", "req": {"en": "The escrow account is the source of payment for those cheques.", "ar": "حساب الضمان هو مصدر سداد تلك الشيكات."},
+     "A": {"en": "Satisfied by design: payments come out of escrow funds under the release rules.", "ar": "متحقق بطبيعة الهيكل: السداد من أموال الضمان وفق قواعد الإفراج."},
+     "B": {"en": "Satisfied: the cheques are drawn on the account itself.", "ar": "متحقق: الشيكات مسحوبة على الحساب ذاته."}},
+    {"id": "9/4", "req": {"en": "Any excess of 35% of actual revenue over the guaranteed minimum is also owed to Sabbour.", "ar": "أي زيادة في نسبة 35% من الإيراد الفعلي على الحد الأدنى المضمون تستحق لصبور كذلك."},
+     "A": {"en": "The bank's split ledger shows 35% of actual receipts against minimums paid at any date, so the excess is visible and can be released by rule.", "ar": "يُظهر سجل التوزيع لدى البنك 35% من المتحصلات الفعلية مقابل الحدود الدنيا المسددة في أي تاريخ، فتظهر الزيادة ويمكن الإفراج عنها وفق قاعدة."},
+     "B": {"en": "Calculated by the auditor at each annual settlement from statements; paid by transfer or an extra cheque.", "ar": "يحتسبها المراجع عند كل تسوية سنوية من كشوف الحساب، وتُسدد بتحويل أو بشيك إضافي."}},
+    {"id": "9/6", "req": {"en": "A sub-account for refunds on returned units.", "ar": "حساب فرعي لردّ المبالغ عن الوحدات المرتجعة."},
+     "A": {"en": "A refund sub-account defined in the escrow agreement, funded and released under stated conditions.", "ar": "حساب فرعي للاسترداد يُنص عليه في اتفاقية الضمان ويُموَّل ويُصرف منه وفق شروط محددة."},
+     "B": {"en": "A second account or sub-account under the same customer number, funded by the developer.", "ar": "حساب ثانٍ أو حساب فرعي تحت نفس رقم العميل يموّله المطوّر."}},
+    {"id": "9/9", "req": {"en": "Refers to deposits reaching Sabbour's own account, which implies a split or sweep.", "ar": "يشير إلى إيداعات تصل إلى حساب صبور نفسه، ما يفترض وجود توزيع أو تحويل تلقائي."},
+     "A": {"en": "Rule-based transfer of Sabbour's share to its account by the escrow agent.", "ar": "تحويل حصة صبور إلى حسابها وفق قاعدة ينفذها وكيل الضمان."},
+     "B": {"en": "Standing instruction sweeping 35% to Sabbour's account or to a reserve; revocability of that instruction must be agreed.", "ar": "تعليمات دائمة بتحويل 35% إلى حساب صبور أو إلى احتياطي؛ ويجب الاتفاق على مدى قابلية إلغاء هذه التعليمات."}},
+    {"id": "8/4", "req": {"en": "Proceeds of sales made abroad must be transferred in within 3 months (foreign-currency inflows).", "ar": "حصيلة المبيعات التي تتم بالخارج يجب تحويلها خلال 3 أشهر (تدفقات بالعملة الأجنبية)."},
+     "A": {"en": "A foreign-currency escrow sub-account receives inbound transfers; conversion and split rules are written into the agreement.", "ar": "حساب ضمان فرعي بالعملة الأجنبية يستقبل التحويلات الواردة؛ وتُكتب قواعد التحويل والتوزيع في الاتفاقية."},
+     "B": {"en": "Foreign-currency accounts linked to the main account; the developer converts and credits, with dates evidenced by SWIFT advices.", "ar": "حسابات بالعملة الأجنبية مرتبطة بالحساب الرئيسي؛ يحوّل المطوّر ويقيّد، وتثبت التواريخ بإشعارات سويفت."}},
+    {"id": "8/3", "req": {"en": "The developer pays all account costs.", "ar": "يتحمل المطوّر جميع مصروفات الحساب."},
+     "A": {"en": "Higher cost expected: an escrow agency fee on top of normal tariff. Amount is a bank quotation.", "ar": "يُتوقع أن تكون التكلفة أعلى: أتعاب وكيل ضمان فوق التعريفة العادية. القيمة بعرض من البنك."},
+     "B": {"en": "Normal corporate tariff plus any fee for the reserve, sweep and extra users.", "ar": "تعريفة الشركات العادية مضافاً إليها أي رسوم للاحتياطي والتحويل التلقائي والمستخدمين الإضافيين."}},
+    {"id": "17", "req": {"en": "An independent financial auditor reports quarterly and does annual settlements at 31/12, so needs statement access.", "ar": "مراجع مالي مستقل يقدّم تقارير ربع سنوية ويجري تسويات سنوية في 31/12، ويحتاج إلى الاطلاع على الكشوف."},
+     "A": {"en": "The bank reports to both parties and the auditor under the agreement.", "ar": "يقدّم البنك التقارير للطرفين وللمراجع بموجب الاتفاقية."},
+     "B": {"en": "View-only online users for the auditor and Sabbour, authorised by the developer.", "ar": "مستخدمون بصلاحية اطلاع فقط على الإنترنت البنكي للمراجع ولصبور بتفويض من المطوّر."}},
+    {"id": "10", "req": {"en": "10-year term; development period 54 months.", "ar": "مدة العقد 10 سنوات؛ وفترة التطوير 54 شهراً."},
+     "A": {"en": "Escrow agreement must run for the full term, with a fee and a termination regime that hold for 10 years.", "ar": "يجب أن تسري اتفاقية الضمان طوال المدة، مع أتعاب ونظام إنهاء صالحين لعشر سنوات."},
+     "B": {"en": "No term limit on a corporate account; tariff may change with notice.", "ar": "لا حدّ لمدة حساب الشركات؛ وقد تتغير التعريفة بإخطار."}},
+    {"id": "25", "req": {"en": "The developer may later be replaced by a new project company, so the account may need to move or be novated.", "ar": "قد يُستبدل المطوّر لاحقاً بشركة مشروع جديدة، فقد يلزم نقل الحساب أو حوالته."},
+     "A": {"en": "A novation clause in the escrow agreement lets the project company step in without closing the account, if the bank agrees.", "ar": "بند حوالة في اتفاقية الضمان يتيح حلول شركة المشروع دون إغلاق الحساب، إذا وافق البنك."},
+     "B": {"en": "A new account in the new company's name is normally required; balances, cheques in custody and outstanding cheques to Sabbour must be transferred or replaced.", "ar": "يلزم عادةً حساب جديد باسم الشركة الجديدة؛ وتُنقل أو تُستبدل الأرصدة والشيكات المحفوظة والشيكات القائمة لصالح صبور."}}
+  ],
+  "gaps": [
+    {"en": "The contract says \"escrow\" but describes a developer-held account with a chequebook; 8/4 calls it a \"joint account\".", "ar": "يذكر العقد \"حساب ضمان\" لكنه يصف حساباً يملكه المطوّر وله دفتر شيكات؛ والبند 8/4 يسميه \"حساباً مشتركاً\"."},
+    {"en": "It never says when or how the developer may withdraw its 65%.", "ar": "لا يحدد العقد متى أو كيف يسحب المطوّر نسبة الـ65% الخاصة به."},
+    {"en": "The guaranteed minimum is EGP 800M in the definitions, but the schedule is 765M plus the 85M advance.", "ar": "الحد الأدنى المضمون 800 مليون جنيه في التعريفات، بينما الجدول 765 مليوناً إضافة إلى مقدّم 85 مليوناً."},
+    {"en": "The schedule is annual while 8/2, 9/2 and 9/7 say semi-annual.", "ar": "الجدول سنوي بينما البنود 8/2 و9/2 و9/7 تنص على نصف سنوي."},
+    {"en": "8/4 points to penalties in \"8/9\", which does not exist (9/5 appears intended).", "ar": "البند 8/4 يحيل إلى غرامات في \"8/9\" وهو غير موجود (يبدو أن المقصود 9/5)."},
+    {"en": "Nothing on who earns interest on balances, signatory rules, or what happens to the account on termination.", "ar": "لا شيء عن مستحق العائد على الأرصدة، ولا قواعد التوقيع، ولا مصير الحساب عند الإنهاء."}
+  ],
+  "schedule": [
+    {"date": "signing", "amount": 85, "kind": "advance"},
+    {"date": "2027-12-28", "amount": 45, "kind": "cheque"},
+    {"date": "2028-12-28", "amount": 90, "kind": "cheque", "assumed_date": true},
+    {"date": "2029-12-28", "amount": 180, "kind": "cheque", "assumed_date": true},
+    {"date": "2030-12-28", "amount": 180, "kind": "cheque", "assumed_date": true},
+    {"date": "2031-12-28", "amount": 180, "kind": "cheque", "assumed_date": true},
+    {"date": "2032-12-28", "amount": 90, "kind": "cheque", "assumed_date": true},
+    {"date": "2033-12-28", "amount": null, "kind": "final"}
+  ],
+  "structures": {
+    "A": {
+      "name": {"en": "A. Tri-party escrow", "ar": "أ. حساب ضمان ثلاثي الأطراف"},
+      "desc": {"en": "The bank acts as escrow agent under an agreement signed by both parties and applies the 35/65 split and releases by rule.", "ar": "يعمل البنك وكيلاً للضمان بموجب اتفاقية يوقّعها الطرفان، ويطبّق توزيع 35/65 والإفراج وفق قواعد."},
+      "pros_dev": [
+        {"en": "Can remove the 9/2 trigger altogether if Sabbour is paid by the bank from the reserved share instead of by developer cheques.", "ar": "يمكن أن يزيل سبب الفسخ في 9/2 كلياً إذا سدّد البنك لصبور من الحصة المحجوزة بدلاً من شيكات المطوّر."},
+        {"en": "Forces the open points (withdrawal of the 65%, interest, termination) to be written down.", "ar": "يفرض تدوين النقاط المفتوحة (سحب الـ65%، العائد، الإنهاء)."},
+        {"en": "Independent record of compliance with 8/1 and 9/5.", "ar": "سجل مستقل للالتزام بالبندين 8/1 و9/5."}
+      ],
+      "cons_dev": [
+        {"en": "Less day-to-day control of cash; releases of the 65% follow the agreement, not our instruction.", "ar": "تحكم يومي أقل في النقد؛ الإفراج عن الـ65% يتبع الاتفاقية لا تعليماتنا."},
+        {"en": "Higher cost, which we bear under 8/3.", "ar": "تكلفة أعلى نتحملها بموجب 8/3."},
+        {"en": "Bespoke legal work with the bank puts the 90-day deadline at risk; fewer banks may offer it.", "ar": "العمل القانوني الخاص مع البنك يهدد مهلة الـ90 يوماً؛ وقد يقدمه عدد أقل من البنوك."},
+        {"en": "Conflicts with the draft's chequebook and 12-cheque mechanics, so the contract must be amended.", "ar": "يتعارض مع آلية دفتر الشيكات والـ12 شيكاً في المسودة، فيلزم تعديل العقد."}
+      ],
+      "pros_sab": [
+        {"en": "Its 35% is ring-fenced by the bank, not by the developer's promise.", "ar": "حصتها 35% محجوزة لدى البنك لا بوعد المطوّر."},
+        {"en": "Direct reporting from the bank and a say in any change.", "ar": "تقارير مباشرة من البنك ورأي في أي تغيير."}
+      ],
+      "cons_sab": [
+        {"en": "May lose the leverage of holding cheques if they are replaced by transfers.", "ar": "قد تفقد ورقة الضغط المتمثلة في حيازة الشيكات إذا استُبدلت بتحويلات."},
+        {"en": "Becomes a signing party with its own KYC and obligations to the bank.", "ar": "تصبح طرفاً موقّعاً عليه متطلبات اعرف عميلك والتزامات تجاه البنك."}
+      ],
+      "rec": {"en": "Preferable on risk if, and only if, Sabbour agrees to be paid by rule-based bank transfer and the chosen bank has a template it can sign inside 90 days. Otherwise treat as the second step after B is in place.", "ar": "الأفضل من ناحية المخاطر فقط إذا وافقت صبور على السداد بتحويل بنكي وفق قاعدة وكان لدى البنك المختار نموذج يمكن توقيعه خلال 90 يوماً. وإلا فيُعدّ خطوة ثانية بعد تفعيل البديل ب."}
+    },
+    "B": {
+      "name": {"en": "B. Controlled collection account", "ar": "ب. حساب تحصيل مُحكَم"},
+      "desc": {"en": "Account in the developer's name, as drafted: chequebook, Sabbour view access, standing sweep of 35% or a blocked reserve covering the next cheque.", "ar": "حساب باسم المطوّر كما في المسودة: دفتر شيكات، صلاحية اطلاع لصبور، تحويل دائم لنسبة 35% أو احتياطي مجمّد يغطي الشيك التالي."},
+      "pros_dev": [
+        {"en": "Matches the draft; no contract restructuring needed to open.", "ar": "يطابق المسودة؛ لا حاجة لإعادة هيكلة العقد لفتح الحساب."},
+        {"en": "Fastest to open and available at every bank on the list.", "ar": "الأسرع فتحاً ومتاح لدى كل البنوك في القائمة."},
+        {"en": "Lower cost and full operating control of our 65%.", "ar": "تكلفة أقل وتحكم تشغيلي كامل في حصتنا 65%."}
+      ],
+      "cons_dev": [
+        {"en": "The 9/2 risk stays with us: one operational slip on a cheque date counts.", "ar": "يبقى خطر 9/2 علينا: أي خطأ تشغيلي في تاريخ شيك يُحتسب."},
+        {"en": "Controls are only as firm as the standing instructions; if revocable, Sabbour may ask for more.", "ar": "الضوابط بقدر صلابة التعليمات الدائمة؛ وإذا كانت قابلة للإلغاء فقد تطلب صبور المزيد."},
+        {"en": "The open points stay open unless added to the contract.", "ar": "تبقى النقاط المفتوحة كما هي ما لم تُضف إلى العقد."}
+      ],
+      "pros_sab": [
+        {"en": "Holds 12 cheques and the termination right in 9/2.", "ar": "تحوز 12 شيكاً وحق الفسخ في 9/2."},
+        {"en": "View access and auditor reporting without becoming a party to a bank agreement.", "ar": "صلاحية اطلاع وتقارير المراجع دون أن تصبح طرفاً في اتفاقية مع البنك."}
+      ],
+      "cons_sab": [
+        {"en": "No bank-enforced ring-fence unless the reserve is formally blocked or pledged in its favour.", "ar": "لا حجز يفرضه البنك ما لم يُجمَّد الاحتياطي رسمياً أو يُرهن لصالحها."},
+        {"en": "Relies on monitoring to detect diversion of receipts.", "ar": "تعتمد على المتابعة لاكتشاف تحويل المتحصلات إلى غير الحساب."}
+      ],
+      "rec": {"en": "Recommended base case to meet the 90 days, provided five controls are in the bank mandate from day one: irrevocable 35% sweep to a blocked reserve, reserve sized to the next cheque, alerts 60/30/7 days ahead, a committed standby line, and view access for Sabbour and the auditor.", "ar": "الخيار الأساسي الموصى به للوفاء بمهلة الـ90 يوماً، بشرط إدراج خمسة ضوابط في تفويض البنك من اليوم الأول: تحويل غير قابل للإلغاء لنسبة 35% إلى احتياطي مجمّد، احتياطي بقيمة الشيك التالي، تنبيهات قبل 60/30/7 يوماً، خط ائتمان احتياطي ملزم، وصلاحية اطلاع لصبور وللمراجع."}
+    },
+    "overall": {"en": "Open under B with hard controls, and ask every shortlisted bank at the same time whether it can run A. Before signing the contract, seek a cure period and a bank-error carve-out in 9/2: no account structure fully removes that risk while payment is by cheque. This is a commercial view, not legal advice; counsel should confirm the structure.", "ar": "افتح الحساب وفق البديل ب بضوابط صارمة، واسأل في الوقت نفسه كل بنك في القائمة عن قدرته على تنفيذ البديل أ. وقبل توقيع العقد اطلب مهلة تصحيح واستثناءً لخطأ البنك في البند 9/2، فلا يوجد هيكل حساب يزيل هذا الخطر كلياً ما دام السداد بشيكات. هذا رأي تجاري وليس مشورة قانونية؛ وعلى المستشار القانوني تأكيد الهيكل."}
+  },
+  "criteria": [
+    {"id": "protect", "group": "primary", "weight": 25, "label": {"en": "Bounced-cheque protection", "ar": "الحماية من ارتداد الشيكات"}},
+    {"id": "collect", "group": "primary", "weight": 25, "label": {"en": "Collection tools", "ar": "أدوات التحصيل"}},
+    {"id": "open", "group": "primary", "weight": 25, "label": {"en": "Speed and ease of opening", "ar": "سرعة وسهولة الفتح"}},
+    {"id": "cost", "group": "primary", "weight": 25, "label": {"en": "Cost", "ar": "التكلفة"}},
+    {"id": "secondary", "group": "secondary", "weight": 0, "label": {"en": "Secondary criteria", "ar": "المعايير الثانوية"}}
+  ],
+  "fields": [
+    {"id": "p_reserve", "c": "protect", "s": ["A","B"], "kind": "cap", "label": {"en": "Blocked reserve sub-account", "ar": "حساب احتياطي فرعي مجمّد"}, "q": {"en": "Can you hold a blocked reserve sub-account sized to the next cheque to Sabbour, released only to pay that cheque?", "ar": "هل يمكنكم فتح حساب احتياطي فرعي مجمّد بقيمة الشيك التالي لصبور لا يُفرج عنه إلا لسداد ذلك الشيك؟"}},
+    {"id": "p_sweep", "c": "protect", "s": ["A","B"], "kind": "cap", "label": {"en": "Automatic sweep or split", "ar": "تحويل أو توزيع تلقائي"}, "q": {"en": "Can you run an automatic, irrevocable 35% sweep of every credit to a reserve or to Sabbour's account? At what frequency?", "ar": "هل يمكنكم تنفيذ تحويل تلقائي غير قابل للإلغاء لنسبة 35% من كل إيداع إلى احتياطي أو إلى حساب صبور؟ وبأي دورية؟"}},
+    {"id": "p_alerts", "c": "protect", "s": ["A","B"], "kind": "cap", "label": {"en": "Low-balance alerts", "ar": "تنبيهات انخفاض الرصيد"}, "q": {"en": "Can you send threshold balance alerts ahead of each cheque date to named recipients at both parties?", "ar": "هل يمكنكم إرسال تنبيهات بحدّ الرصيد قبل كل تاريخ شيك لمستلمين محددين لدى الطرفين؟"}},
+    {"id": "p_overdraft", "c": "protect", "s": ["A","B"], "kind": "cap", "label": {"en": "Standby cover or overdraft", "ar": "تغطية احتياطية أو سحب على المكشوف"}, "q": {"en": "Will you provide a committed standby or overdraft line against the account to cover a cheque on a shortfall? Limit, pricing, security?", "ar": "هل تقدمون تسهيلاً احتياطياً ملزماً أو سحباً على المكشوف مقابل الحساب لتغطية شيك عند العجز؟ الحد والتسعير والضمانات؟"}},
+    {"id": "p_certified", "c": "protect", "s": ["A","B"], "kind": "cap", "label": {"en": "Cheque certification", "ar": "اعتماد الشيكات"}, "q": {"en": "Can each cheque to Sabbour be certified or replaced by a bank cheque before its date? Fee and lead time?", "ar": "هل يمكن اعتماد كل شيك لصبور أو استبداله بشيك مصرفي قبل تاريخه؟ الرسوم والمدة؟"}},
+    {"id": "p_sigverify", "c": "protect", "s": ["A","B"], "kind": "cap", "label": {"en": "Crossed cheques with signature verification (9/7)", "ar": "شيكات مسطّرة بتصديق صحة التوقيع (9/7)"}, "q": {"en": "Will you stamp signature verification on 12 crossed cheques, and reissue them if signatories change (9/8)?", "ar": "هل تختمون بصحة التوقيع على 12 شيكاً مسطّراً وتعيدون إصدارها عند تغيّر المفوّضين (9/8)؟"}},
+
+    {"id": "c_virtual", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "Virtual accounts or IBANs per unit", "ar": "حسابات أو أرقام آيبان افتراضية لكل وحدة"}, "q": {"en": "Do you offer virtual accounts or virtual IBANs so each unit or customer has its own collection reference?", "ar": "هل تقدمون حسابات أو أرقام آيبان افتراضية ليكون لكل وحدة أو عميل مرجع تحصيل خاص؟"}},
+    {"id": "c_pdc", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "Custody and collection of post-dated cheques", "ar": "حفظ وتحصيل الشيكات الآجلة"}, "q": {"en": "Do you take customer post-dated cheques into custody and present them on due dates, with reporting? Fee per cheque?", "ar": "هل تحفظون شيكات العملاء الآجلة وتقدمونها في تواريخ استحقاقها مع تقارير؟ الرسم لكل شيك؟"}},
+    {"id": "c_pos", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "POS", "ar": "نقاط البيع"}, "q": {"en": "Can you provide POS terminals settling directly into this account? Merchant rate?", "ar": "هل توفّرون أجهزة نقاط بيع تسوّي مباشرة في هذا الحساب؟ وما عمولة التاجر؟"}},
+    {"id": "c_online", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "Online collection", "ar": "التحصيل الإلكتروني"}, "q": {"en": "Which online collection channels (payment gateway, bill payment networks) can settle into this account?", "ar": "ما قنوات التحصيل الإلكتروني (بوابة دفع، شبكات سداد الفواتير) التي تسوّي في هذا الحساب؟"}},
+    {"id": "c_instapay", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "Instant payments (InstaPay)", "ar": "المدفوعات اللحظية (إنستاباي)"}, "q": {"en": "Can the account receive InstaPay transfers, and what limits apply?", "ar": "هل يستقبل الحساب تحويلات إنستاباي؟ وما الحدود المطبقة؟"}},
+    {"id": "c_branches", "c": "collect", "s": ["A","B"], "kind": "branches", "label": {"en": "Branch reach", "ar": "انتشار الفروع"}, "q": {"en": "How many branches accept deposits to this account, and which serve New Cairo and Mostakbal City?", "ar": "كم عدد الفروع التي تقبل الإيداع في هذا الحساب، وأيها يخدم القاهرة الجديدة ومدينة المستقبل؟"}},
+    {"id": "c_fx", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "Inbound FX handling (8/4)", "ar": "استقبال العملة الأجنبية (8/4)"}, "q": {"en": "How are inbound foreign-currency transfers received, converted and evidenced for the 3-month rule in 8/4?", "ar": "كيف تُستقبل التحويلات الواردة بالعملة الأجنبية وتُحوَّل وتُوثَّق لقاعدة الأشهر الثلاثة في 8/4؟"}},
+    {"id": "c_recon", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "Reconciliation files", "ar": "ملفات التسوية"}, "q": {"en": "Which statement and reconciliation formats (MT940, CSV, daily files) do you provide?", "ar": "ما صيغ الكشوف وملفات التسوية التي تقدمونها (MT940، CSV، ملفات يومية)؟"}},
+    {"id": "c_api", "c": "collect", "s": ["A","B"], "kind": "cap", "label": {"en": "API or host-to-host", "ar": "واجهة برمجية أو ربط مباشر"}, "q": {"en": "Do you offer API or host-to-host integration with our ERP for collections and statements?", "ar": "هل تقدمون ربطاً برمجياً أو مباشراً مع نظامنا المحاسبي للتحصيلات والكشوف؟"}},
+
+    {"id": "g_escrow", "c": "open", "s": ["A"], "kind": "cap", "label": {"en": "Escrow-agent service offered", "ar": "تقديم خدمة وكيل الضمان"}, "q": {"en": "Do you act as escrow agent under a tri-party agreement for a real estate project in Egypt? Please name comparable mandates.", "ar": "هل تعملون وكيلاً للضمان بموجب اتفاقية ثلاثية لمشروع عقاري في مصر؟ برجاء ذكر تكليفات مماثلة."}},
+    {"id": "g_developer_account", "c": "open", "s": ["B"], "kind": "cap", "label": {"en": "Controlled project account for developers", "ar": "حساب مشروع مُحكَم للمطوّرين"}, "q": {"en": "Do you have a standard controlled project or collection account set-up for developers under revenue-share contracts?", "ar": "هل لديكم ترتيب نمطي لحساب مشروع أو تحصيل مُحكَم للمطوّرين في عقود المشاركة في الإيراد؟"}},
+    {"id": "o_time", "c": "open", "s": ["A","B"], "kind": "val", "label": {"en": "Realistic time to open", "ar": "المدة الواقعية للفتح"}, "q": {"en": "How many working days from complete documents to an operating account with chequebook?", "ar": "كم يوم عمل من اكتمال المستندات حتى تشغيل الحساب مع دفتر الشيكات؟"}},
+    {"id": "o_docs", "c": "open", "s": ["A","B"], "kind": "cap", "label": {"en": "Documents required", "ar": "المستندات المطلوبة"}, "q": {"en": "Please send the full document list for our company, and what Sabbour must provide.", "ar": "برجاء إرسال قائمة المستندات الكاملة لشركتنا، وما يجب أن تقدمه صبور."}},
+    {"id": "o_legal", "c": "open", "s": ["A"], "kind": "val", "label": {"en": "Legal turnaround on a bespoke agreement", "ar": "مدة المراجعة القانونية لاتفاقية خاصة"}, "q": {"en": "How long does your legal department take to review and sign a bespoke tri-party agreement?", "ar": "كم تستغرق إدارتكم القانونية لمراجعة وتوقيع اتفاقية ثلاثية خاصة؟"}},
+    {"id": "o_template", "c": "open", "s": ["A"], "kind": "cap", "label": {"en": "Template agreement exists", "ar": "وجود نموذج اتفاقية"}, "q": {"en": "Do you have a standard escrow agreement template? Please share it.", "ar": "هل لديكم نموذج قياسي لاتفاقية الضمان؟ برجاء مشاركته."}},
+    {"id": "o_fit90", "c": "open", "s": ["A","B"], "kind": "val", "label": {"en": "Fit with the 90-day deadline", "ar": "التوافق مع مهلة الـ90 يوماً"}, "q": {"en": "Can you commit in writing to an operating account within 90 days of contract signature?", "ar": "هل تلتزمون كتابةً بتشغيل الحساب خلال 90 يوماً من توقيع العقد؟"}},
+
+    {"id": "k_setup", "c": "cost", "s": ["A","B"], "kind": "cost", "label": {"en": "Set-up fee", "ar": "رسوم التأسيس"}, "q": {"en": "What is the one-off set-up fee for the account and, separately, for an escrow agreement?", "ar": "ما رسوم التأسيس لمرة واحدة للحساب، ولاتفاقية الضمان على حدة؟"}},
+    {"id": "k_annual", "c": "cost", "s": ["A","B"], "kind": "cost", "label": {"en": "Annual escrow or maintenance fee", "ar": "الرسوم السنوية للضمان أو الحساب"}, "q": {"en": "What annual fee applies (flat or % of balances or flows), fixed for how long?", "ar": "ما الرسم السنوي المطبق (مقطوع أو نسبة من الأرصدة أو التدفقات)، وهل هو ثابت ولأي مدة؟"}},
+    {"id": "k_txn", "c": "cost", "s": ["A","B"], "kind": "cost", "label": {"en": "Transaction fees", "ar": "رسوم العمليات"}, "q": {"en": "Fees for incoming and outgoing transfers, sweeps, and cheque collection?", "ar": "رسوم التحويلات الواردة والصادرة والتحويل التلقائي وتحصيل الشيكات؟"}},
+    {"id": "k_cheque", "c": "cost", "s": ["A","B"], "kind": "cost", "label": {"en": "Chequebook and cheque fees", "ar": "رسوم دفتر الشيكات والشيكات"}, "q": {"en": "Chequebook, signature verification, certification and returned-cheque fees?", "ar": "رسوم دفتر الشيكات وتصديق التوقيع والاعتماد والشيك المرتد؟"}},
+    {"id": "k_minbal", "c": "cost", "s": ["A","B"], "kind": "cost", "label": {"en": "Minimum balance", "ar": "الحد الأدنى للرصيد"}, "q": {"en": "Is there a minimum balance, and a fee if breached?", "ar": "هل يوجد حد أدنى للرصيد ورسم عند النزول عنه؟"}},
+    {"id": "k_yield", "c": "cost", "s": ["A","B"], "kind": "cost", "label": {"en": "Yield paid on balances", "ar": "العائد على الأرصدة"}, "q": {"en": "What rate will you pay on the operating balance and on the blocked reserve, and to whom is it credited?", "ar": "ما العائد على الرصيد التشغيلي وعلى الاحتياطي المجمّد، ولحساب من يُقيَّد؟"}},
+
+    {"id": "s_finance", "c": "secondary", "s": ["A","B"], "kind": "cap", "label": {"en": "Appetite to finance the project", "ar": "الرغبة في تمويل المشروع"}, "q": {"en": "Would you consider a construction facility for this project, and on what indicative terms?", "ar": "هل تنظرون في تسهيل لتمويل إنشاء هذا المشروع؟ وبأي شروط استرشادية؟"}},
+    {"id": "s_discount", "c": "secondary", "s": ["A","B"], "kind": "cap", "label": {"en": "Receivables discounting", "ar": "خصم المستحقات"}, "q": {"en": "Do you discount developers' customer cheque portfolios, and how would that interact with 8/1?", "ar": "هل تخصمون محافظ شيكات عملاء المطوّرين؟ وكيف يتوافق ذلك مع البند 8/1؟"}},
+    {"id": "s_auditor", "c": "secondary", "s": ["A","B"], "kind": "cap", "label": {"en": "Auditor view access (Art. 17)", "ar": "صلاحية اطلاع المراجع (م. 17)"}, "q": {"en": "Can the independent auditor have view-only access to statements?", "ar": "هل يمكن منح المراجع المستقل صلاحية اطلاع فقط على الكشوف؟"}},
+    {"id": "s_sabbourview", "c": "secondary", "s": ["A","B"], "kind": "cap", "label": {"en": "Sabbour view access", "ar": "صلاحية اطلاع صبور"}, "q": {"en": "Can Sabbour, a non-account-holder, have view-only access?", "ar": "هل يمكن منح صبور، وهي ليست صاحبة الحساب، صلاحية اطلاع فقط؟"}},
+    {"id": "s_subacct", "c": "secondary", "s": ["A","B"], "kind": "cap", "label": {"en": "Sub-account capability (9/6)", "ar": "إمكانية الحسابات الفرعية (9/6)"}, "q": {"en": "Can you open a refunds sub-account and a reserve sub-account under the same arrangement?", "ar": "هل يمكن فتح حساب فرعي للاسترداد وآخر للاحتياطي ضمن الترتيب نفسه؟"}},
+    {"id": "s_novate", "c": "secondary", "s": ["A","B"], "kind": "cap", "label": {"en": "Novation to a new project company (Art. 25)", "ar": "الحوالة إلى شركة مشروع جديدة (م. 25)"}, "q": {"en": "If the developer is replaced by a new project company, can the account and cheques be novated without interrupting collections?", "ar": "إذا استُبدل المطوّر بشركة مشروع جديدة، هل يمكن حوالة الحساب والشيكات دون انقطاع التحصيل؟"}},
+    {"id": "s_track", "c": "secondary", "s": ["A","B"], "kind": "cap", "label": {"en": "Track record with developers", "ar": "سابقة التعامل مع المطوّرين"}, "q": {"en": "Which comparable developer project accounts do you run today?", "ar": "ما حسابات مشروعات المطوّرين المماثلة التي تديرونها حالياً؟"}}
+  ]
+}

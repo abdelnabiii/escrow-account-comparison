@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escrow bank selection - L'avenir commercial plot</title>
+<script id="embedded-data">
+/* ==== DATA (single JSON object; edit here or use Edit mode in the page) ==== */
+const DATA = /*__DATA__*/;
+</script>
+<style>
+:root{
+  --ink:#1b2430; --ink2:#4a5564; --ink3:#7a8494; --line:#dfe3e8; --line2:#eef0f3;
+  --bg:#f6f7f8; --card:#ffffff; --accent:#1f4e5f; --accent-soft:#e6eef1;
+  --ok:#2e6b4a; --ok-bg:#e7f1eb; --warn:#8a5a0b; --warn-bg:#f8efdc;
+  --unk:#5d6673; --unk-bg:#eceef1; --offer:#2a4f8f; --offer-bg:#e6ecf7;
+  --red:#a32a2a; --red-bg:#f9e6e6;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 "Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif}
+html[lang=ar] body{font-family:"Segoe UI","Noto Naskh Arabic","Geeza Pro",Tahoma,Arial,sans-serif;font-size:15px;line-height:1.7}
+a{color:var(--accent)}
+h1,h2,h3,h4{margin:0;font-weight:600;line-height:1.25}
+h1{font-size:20px} h2{font-size:17px;margin-bottom:10px} h3{font-size:14.5px;margin-bottom:6px} h4{font-size:13px;color:var(--ink2);text-transform:uppercase;letter-spacing:.04em;margin:14px 0 6px}
+html[lang=ar] h4{letter-spacing:0}
+p{margin:0 0 8px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+header.top{background:var(--card);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;padding-top:16px;padding-bottom:12px;flex-wrap:wrap}
+.top .sub{color:var(--ink2);font-size:13px;margin-top:3px}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button,.btn{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 11px;border-radius:4px;cursor:pointer}
+button:hover{border-color:var(--ink3)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+button.link{border:0;background:none;padding:0;color:var(--accent);text-decoration:underline;cursor:pointer}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.seg button{border:0;border-radius:0;border-inline-end:1px solid var(--line)}
+.seg button:last-child{border-inline-end:0}
+.seg button.on{background:var(--accent);color:#fff}
+nav.tabs{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+nav.tabs .wrap{display:flex;gap:2px;overflow-x:auto}
+nav.tabs button{border:0;border-bottom:2px solid transparent;border-radius:0;padding:10px 12px;color:var(--ink2);white-space:nowrap;background:none}
+nav.tabs button.on{color:var(--accent);border-bottom-color:var(--accent);font-weight:600;background:none}
+main{padding:18px 0 60px}
+section.view{display:none}
+section.view.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px;margin-bottom:16px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:900px){.grid2,.grid3{grid-template-columns:1fr}}
+.muted{color:var(--ink2)} .small{font-size:12.5px} .tiny{font-size:11.5px}
+.num{font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:start;padding:7px 9px;border-bottom:1px solid var(--line2);vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;border-bottom:1px solid var(--line);background:#fafbfc}
+td.r,th.r{text-align:end}
+.tablewrap{overflow-x:auto}
+.badge{display:inline-block;font-size:11px;line-height:1.5;padding:0 6px;border-radius:3px;border:1px solid transparent;white-space:nowrap;font-weight:600}
+.b-verified{color:var(--ok);background:var(--ok-bg)}
+.b-bank_to_confirm{color:var(--warn);background:var(--warn-bg)}
+.b-unknown{color:var(--unk);background:var(--unk-bg)}
+.b-bank_offer{color:var(--offer);background:var(--offer-bg)}
+.flag{display:inline-block;font-size:11px;padding:0 6px;border-radius:3px;border:1px solid var(--red);color:var(--red);font-weight:600;white-space:nowrap}
+.flag.soft{border-color:var(--warn);color:var(--warn)}
+.bar{height:6px;background:var(--line2);border-radius:3px;overflow:hidden;min-width:60px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.score{font-weight:700;font-size:15px}
+.sliders{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+@media(max-width:900px){.sliders{grid-template-columns:1fr 1fr}}
+.sliders label{display:block;font-size:12.5px;color:var(--ink2)}
+.sliders input[type=range]{width:100%;accent-color:var(--accent)}
+.sliders .w{font-weight:700;color:var(--ink)}
+.bankcard h3{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.field{display:grid;grid-template-columns:minmax(150px,220px) 1fr auto;gap:10px;padding:7px 0;border-bottom:1px solid var(--line2);align-items:start}
+.field:last-child{border-bottom:0}
+.field .lab{color:var(--ink2);font-size:13px}
+.field .val .note{color:var(--ink3);font-size:12px}
+.field .meta{text-align:end;white-space:nowrap;font-size:12px}
+.field .src{font-size:11.5px;color:var(--ink3);word-break:break-word}
+.rate{display:inline-block;min-width:26px;text-align:center;font-weight:700;border:1px solid var(--line);border-radius:3px;font-size:12px;margin-inline-start:6px}
+@media(max-width:700px){.field{grid-template-columns:1fr}.field .meta{text-align:start}}
+details{border:1px solid var(--line);border-radius:6px;background:var(--card);margin-bottom:10px}
+details>summary{cursor:pointer;padding:10px 14px;font-weight:600;list-style:none;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+details>summary::-webkit-details-marker{display:none}
+details>summary:before{content:"+";display:inline-block;width:14px;color:var(--ink3);font-weight:400}
+details[open]>summary:before{content:"\2212"}
+details .body{padding:0 14px 12px}
+.gap{border-inline-start:3px solid var(--warn);padding:6px 10px;margin-bottom:8px;background:#fffdf7}
+.pc{margin:0;padding-inline-start:18px}
+.pc li{margin-bottom:4px}
+.rec{border-inline-start:3px solid var(--accent);background:var(--accent-soft);padding:10px 12px;border-radius:0 4px 4px 0}
+input[type=number],input[type=text],input[type=date],textarea,select{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:4px;padding:5px 7px;background:#fff;color:var(--ink);max-width:100%}
+input.n{width:84px;text-align:end;direction:ltr}
+.short{color:var(--red);font-weight:700}
+tr.shortrow td{background:var(--red-bg)}
+.modal{position:fixed;inset:0;background:rgba(20,28,38,.45);display:none;align-items:center;justify-content:center;z-index:20;padding:16px}
+.modal.on{display:flex}
+.modal .box{background:#fff;border-radius:6px;padding:18px;width:520px;max-width:100%;max-height:90vh;overflow:auto}
+.modal label{display:block;font-size:12.5px;color:var(--ink2);margin:10px 0 3px}
+.modal input[type=text],.modal textarea{width:100%}
+.editable{cursor:pointer;outline:1px dashed var(--accent);outline-offset:2px}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--ink2);align-items:center}
+.qlist{list-style:none;margin:0;padding:0}
+.qlist li{display:flex;gap:8px;padding:5px 0;border-bottom:1px solid var(--line2)}
+.kpi{display:flex;gap:24px;flex-wrap:wrap}
+.kpi div b{display:block;font-size:20px}
+.printonly{display:none}
+@media print{
+  @page{size:A4 landscape;margin:12mm}
+  body{background:#fff;font-size:10.5px}
+  nav.tabs,.tools,.noprint,button{display:none !important}
+  section.view{display:none !important}
+  body.printall section.view.p{display:block !important;page-break-after:always}
+  body:not(.printall) section.view.on{display:block !important}
+  .card,details{border-color:#bbb;break-inside:avoid}
+  details{break-inside:auto}
+  details .body{display:block}
+  .printonly{display:block}
+  a{color:#000;text-decoration:none}
+  .wrap{max-width:none;padding:0}
+  .field{break-inside:avoid}
+  nav.tabs{position:static}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div>
+    <h1 id="h-title"></h1>
+    <div class="sub" id="h-sub"></div>
+  </div>
+  <div class="tools">
+    <span class="seg" id="seg-struct"><button data-s="A"></button><button data-s="B"></button></span>
+    <button id="btn-edit"></button>
+    <button id="btn-xlsx"></button>
+    <button id="btn-print"></button>
+    <button id="btn-lang"></button>
+  </div>
+</div></header>
+<nav class="tabs"><div class="wrap" id="tabs"></div></nav>
+<main><div class="wrap" id="views"></div></main>
+
+<div class="modal" id="modal"><div class="box" id="modal-box"></div></div>
+
+<script>
+"use strict";
+/* ---------- i18n ---------- */
+const T = {
+ en:{tabs:{rank:"Ranking",banks:"Bank cards",compare:"Compare",struct:"Structures",cover:"Cheque cover",contract:"Contract and gaps",legal:"Legal and neutrality",questions:"Questions for the bank",data:"Data and method"},
+  edit:"Edit mode",editOn:"Edit mode: on",xlsx:"Export Excel",print:"Print / PDF",lang:"العربية",
+  status:{verified:"Verified",bank_to_confirm:"Bank to confirm",unknown:"Unknown",bank_offer:"Bank offer"},
+  weights:"Criteria weights",weightsNote:"Drag to re-rank. Weights are normalised to 100%.",reset:"Reset weights",
+  rank:"Rank",bank:"Bank",total:"Total",conf:"Data confidence",confTip:"Share of scored fields that are Verified or Bank offer",flags:"Flags",cmp:"Compare",
+  structure:"Structure",scoreOutOf:"Scores are out of 10.",unkNeutral:"Unknown scores a neutral 5 and is flagged. A high score with low data confidence is not a finding.",
+  neutrality:"Neutrality",conflict:"Competitor link",related:"Related-party link",flagNote:"Flags do not change the score. Neutrality: the bank is a shareholder of Sabbour. Related-party link: the bank lends to Sabbour or owns part of the master developer. Competitor link: the bank owns real estate development interests.",open:"Open card",
+  pick3:"Select up to 3 banks in the ranking table or here.",field:"Field",criterion:"Criterion",value:"Value",rating:"Rating",source:"Source",accessed:"accessed",offerDate:"offer dated",
+  general:"General",notApplicable:"Not scored under this structure",
+  clause:"Clause",requirement:"Requirement",handling:"How this structure handles it",prosDev:"Pros for the developer",consDev:"Cons for the developer",prosSab:"Pros for Sabbour",consSab:"Cons for Sabbour",recommendation:"Recommendation",overall:"Overall recommendation",both:"Both structures, clause by clause",
+  gaps:"Contract gaps",gapsNote:"Open points in the draft dated 17 Nov 2026 (not yet signed). They are listed, not resolved; several change how the account must work.",requirements:"Contract requirements the account must satisfy",
+  coverTitle:"Cheque cover",coverNote:"Enter expected collections per half-year (EGP million). The view shows the balance available before each cheque date and any shortfall. No forecast is pre-filled.",
+  splitMode:"Cheque frequency",annual:"Annual, as in 9/1",semi:"Semi-annual, two equal cheques (28/6 and 28/12)",
+  retain:"Share of each half-year's collections kept in the account until the cheque date (%)",retainNote:"The draft does not say when the developer may withdraw its 65% (gap 2). 35% models a sweep of Sabbour's share only; 100% models no withdrawals.",
+  opening:"Opening balance (EGP m)",inclAdvance:"Pay the EGP 85M advance from this account",advNote:"The advance is a cheque at signing, before collections start.",
+  period:"Half-year",collections:"Collections",otherOut:"Refunds and other outflows",retained:"Added to balance",before:"Balance before cheque",cheque:"Cheque due",after:"Balance after",shortfall:"Shortfall",needed:"Collections needed to cover",cum35:"35% of cumulative collections",cumPaid:"Cumulative paid to Sabbour",
+  assumed:"Date assumed (28/12); the draft states only 28/12/2027 and 28/12/2033.",finalNote:"28/12/2033: final settlement, amount not fixed in the draft.",timing:"Collections of a half-year are assumed to arrive before that half-year's cheque date. A negative balance is the cumulative funding gap.",
+  noShort:"No shortfall on the inputs entered.",shorts:"cheque dates with a shortfall",bounceWarn:"Two bounced cheques terminate the contract (9/2).",twelve:"Observation: six instalment years at two cheques a year gives the 12 cheques in 9/7.",
+  legalTitle:"Legal position on developer escrow accounts in Egypt",shareTitle:"Al Ahly Sabbour shareholders",mostTitle:"El Mostakbal for Urban Development shareholders",linksTitle:"Bank links to the counterparty",position:{in_force:"In force",pending:"Pending",not_found:"Not found",market_practice:"Market practice",reference_rate:"Reference"},holder:"Holder",stake:"Stake",asof:"As of",link:"Link found",
+  qTitle:"Questions for the bank",qNote:"Generated from each bank's Unknown and Bank-to-confirm fields. Tick off as answers arrive; record the answers in Edit mode.",exportTxt:"Export checklist",copy:"Copy",allBanks:"All banks",
+  dataTitle:"Data and method",method:"Scoring method",exportJson:"Export JSON",importJson:"Import JSON",clear:"Clear my edits",edits:"edits stored in this browser",
+  unknownList:"Fields still Unknown",toConfirmList:"Fields marked Bank to confirm",count:"Count",
+  editField:"Edit value from a bank offer",save:"Save",cancel:"Cancel",revert:"Revert to researched value",note:"Note",valueEn:"Value",edited:"edited",
+  clickEdit:"Edit mode is on: click any value to overwrite it with a figure from a bank's written offer.",
+  secondaryNote:"Secondary criteria are shown but carry no weight unless you raise their slider.",
+  printAll:"Print all sections",printThis:"Print this section",generated:"Research date",draft:"Contract draft",
+  methodText:[
+   "Each field is rated 0 to 10. A criterion score is the simple average of its fields that apply to the selected structure. The total is the weighted average of the criterion scores.",
+   "Capability fields: 8 when a public source shows the bank offers the capability to corporates in Egypt; 9 when the evidence is specific to escrow or to real estate developers; 6 when there is a related public indication but the specific capability needs the bank's confirmation; 5 when the only indication is too thin to record a value; 5 when nothing was found (Unknown, neutral); 2 when a source shows the bank does not offer it.",
+   "Cost fields: 7 when a corporate tariff figure is published and in the ordinary range (such fees are small against project flows); 6 when the published schedule is dated; 5 when unknown or not comparable; lower where a published fee is material, as explained in the note. Timeline fields are rated only when a figure is published; otherwise 5.",
+   "Branch reach: 10 for 500 or more branches, 8 for 200 or more, 7 for 100 or more, 6 for 50 or more, 4 for 20 or more, 3 below that, 5 if unknown.",
+   "A value you enter in Edit mode is marked Bank offer with its date and takes the rating you give it.",
+   "Neutrality and competitor flags are shown next to the bank and do not change its score."
+  ]},
+ ar:{tabs:{rank:"الترتيب",banks:"بطاقات البنوك",compare:"مقارنة",struct:"الهيكلان",cover:"تغطية الشيكات",contract:"العقد والثغرات",legal:"الوضع القانوني والحياد",questions:"أسئلة للبنك",data:"البيانات والمنهجية"},
+  edit:"وضع التعديل",editOn:"وضع التعديل: مفعّل",xlsx:"تصدير إكسل",print:"طباعة / PDF",lang:"English",
+  status:{verified:"موثّق",bank_to_confirm:"يؤكده البنك",unknown:"غير معروف",bank_offer:"عرض البنك"},
+  weights:"أوزان المعايير",weightsNote:"حرّك المؤشرات لإعادة الترتيب. تُعاير الأوزان إلى 100%.",reset:"إعادة الأوزان",
+  rank:"الترتيب",bank:"البنك",total:"الإجمالي",conf:"ثقة البيانات",confTip:"نسبة الحقول المقيَّمة الموثّقة أو الواردة في عرض بنك",flags:"تنبيهات",cmp:"قارن",
+  structure:"الهيكل",scoreOutOf:"الدرجات من 10.",unkNeutral:"غير المعروف يأخذ درجة محايدة 5 مع التنبيه. الدرجة المرتفعة مع ثقة بيانات منخفضة ليست نتيجة يُعتدّ بها.",
+  neutrality:"الحياد",conflict:"ارتباط منافس",related:"ارتباط بطرف ذي علاقة",flagNote:"التنبيهات لا تغيّر الدرجة. الحياد: البنك مساهم في صبور. ارتباط بطرف ذي علاقة: البنك مُقرض لصبور أو مساهم في المطوّر العام. ارتباط منافس: البنك يملك مصالح في التطوير العقاري.",open:"فتح البطاقة",
+  pick3:"اختر حتى 3 بنوك من جدول الترتيب أو من هنا.",field:"الحقل",criterion:"المعيار",value:"القيمة",rating:"التقييم",source:"المصدر",accessed:"تاريخ الاطلاع",offerDate:"تاريخ العرض",
+  general:"عام",notApplicable:"غير مقيَّم في هذا الهيكل",
+  clause:"البند",requirement:"المتطلب",handling:"كيف يتعامل معه هذا الهيكل",prosDev:"مزايا للمطوّر",consDev:"عيوب للمطوّر",prosSab:"مزايا لصبور",consSab:"عيوب لصبور",recommendation:"التوصية",overall:"التوصية العامة",both:"الهيكلان بنداً بنداً",
+  gaps:"ثغرات العقد",gapsNote:"نقاط مفتوحة في المسودة المؤرخة 17 نوفمبر 2026 (غير موقّعة). معروضة دون حسم؛ وبعضها يغيّر طريقة عمل الحساب.",requirements:"متطلبات العقد التي يجب أن يستوفيها الحساب",
+  coverTitle:"تغطية الشيكات",coverNote:"أدخل التحصيلات المتوقعة لكل نصف سنة (بالمليون جنيه). يعرض الجدول الرصيد المتاح قبل كل تاريخ شيك وأي عجز. لا توجد توقعات مُدخلة مسبقاً.",
+  splitMode:"دورية الشيكات",annual:"سنوي كما في 9/1",semi:"نصف سنوي، شيكان متساويان (28/6 و28/12)",
+  retain:"نسبة تحصيلات كل نصف سنة التي تبقى في الحساب حتى تاريخ الشيك (%)",retainNote:"لا تحدد المسودة متى يسحب المطوّر نسبة الـ65% (الثغرة 2). 35% تمثّل حجز حصة صبور فقط؛ و100% تمثّل عدم السحب.",
+  opening:"الرصيد الافتتاحي (مليون جنيه)",inclAdvance:"سداد مقدّم الـ85 مليون جنيه من هذا الحساب",advNote:"المقدّم شيك عند التوقيع قبل بدء التحصيل.",
+  period:"نصف السنة",collections:"التحصيلات",otherOut:"استردادات ومدفوعات أخرى",retained:"المضاف للرصيد",before:"الرصيد قبل الشيك",cheque:"الشيك المستحق",after:"الرصيد بعده",shortfall:"العجز",needed:"التحصيل اللازم للتغطية",cum35:"35% من التحصيلات التراكمية",cumPaid:"المسدد تراكمياً لصبور",
+  assumed:"التاريخ مفترض (28/12)؛ المسودة تذكر فقط 28/12/2027 و28/12/2033.",finalNote:"28/12/2033: التسوية النهائية، والمبلغ غير محدد في المسودة.",timing:"يُفترض وصول تحصيلات نصف السنة قبل تاريخ شيك ذلك النصف. الرصيد السالب هو فجوة التمويل التراكمية.",
+  noShort:"لا عجز وفق المدخلات.",shorts:"تواريخ شيكات بها عجز",bounceWarn:"ارتداد شيكين يفسخ العقد (9/2).",twelve:"ملاحظة: ست سنوات أقساط بشيكين سنوياً تعطي الـ12 شيكاً الواردة في 9/7.",
+  legalTitle:"الوضع القانوني لحسابات ضمان المطوّرين في مصر",shareTitle:"مساهمو الأهلي صبور",mostTitle:"مساهمو شركة المستقبل للتنمية العمرانية",linksTitle:"ارتباطات البنوك بالطرف المقابل",position:{in_force:"سارٍ",pending:"قيد الإصدار",not_found:"لم يُعثر عليه",market_practice:"ممارسة سوقية",reference_rate:"مرجع"},holder:"المساهم",stake:"الحصة",asof:"بتاريخ",link:"الارتباط",
+  qTitle:"أسئلة للبنك",qNote:"مولّدة من حقول كل بنك غير المعروفة أو التي يؤكدها البنك. ضع علامة عند ورود الإجابة وسجّل الإجابات في وضع التعديل.",exportTxt:"تصدير القائمة",copy:"نسخ",allBanks:"كل البنوك",
+  dataTitle:"البيانات والمنهجية",method:"منهجية التقييم",exportJson:"تصدير JSON",importJson:"استيراد JSON",clear:"مسح تعديلاتي",edits:"تعديلات محفوظة في هذا المتصفح",
+  unknownList:"حقول ما زالت غير معروفة",toConfirmList:"حقول يؤكدها البنك",count:"العدد",
+  editField:"تعديل القيمة من عرض بنك",save:"حفظ",cancel:"إلغاء",revert:"الرجوع إلى القيمة البحثية",note:"ملاحظة",valueEn:"القيمة",edited:"معدّل",
+  clickEdit:"وضع التعديل مفعّل: انقر أي قيمة لاستبدالها برقم من عرض كتابي من البنك.",
+  secondaryNote:"المعايير الثانوية معروضة دون وزن ما لم ترفع مؤشرها.",
+  printAll:"طباعة كل الأقسام",printThis:"طباعة هذا القسم",generated:"تاريخ البحث",draft:"مسودة العقد",
+  methodText:[
+   "يُقيَّم كل حقل من 0 إلى 10. درجة المعيار هي المتوسط البسيط لحقوله المنطبقة على الهيكل المختار، والإجمالي هو المتوسط المرجّح لدرجات المعايير.",
+   "حقول الإمكانات: 8 عند وجود مصدر علني يثبت تقديم البنك للإمكانية للشركات في مصر؛ 9 إذا كان الدليل خاصاً بحسابات الضمان أو بالمطوّرين العقاريين؛ 6 عند وجود مؤشر علني ذي صلة مع حاجة الإمكانية المحددة لتأكيد البنك؛ 5 إذا كان المؤشر أضعف من أن تُسجَّل معه قيمة؛ 5 عند عدم العثور على شيء (غير معروف، محايد)؛ 2 إذا أثبت مصدر أن البنك لا يقدمها.",
+   "حقول التكلفة: 7 عند نشر رقم في تعريفة الشركات ضمن النطاق المعتاد (هذه الرسوم ضئيلة قياساً بتدفقات المشروع)؛ 6 إذا كانت التعريفة المنشورة قديمة؛ 5 إذا كان غير معروف أو غير قابل للمقارنة؛ وأقل إذا كان الرسم المنشور مؤثراً كما يوضَّح في الملاحظة. حقول المدد تُقيَّم فقط عند نشر رقم؛ وإلا 5.",
+   "انتشار الفروع: 10 لـ500 فرع فأكثر، 8 لـ200 فأكثر، 7 لـ100 فأكثر، 6 لـ50 فأكثر، 4 لـ20 فأكثر، 3 لأقل من ذلك، 5 إذا كان غير معروف.",
+   "القيمة التي تدخلها في وضع التعديل تُعلَّم «عرض البنك» بتاريخها وتأخذ التقييم الذي تحدده.",
+   "تنبيهات الحياد والمنافسة تظهر بجانب البنك ولا تغيّر درجته."
+  ]}
+};
+
+/* ---------- state ---------- */
+const LS_KEY="escrowTool.v1";
+const def={lang:"en",structure:"B",tab:"rank",weights:null,overrides:{},compare:[],cover:{coll:{},out:{},retain:35,opening:0,adv:false,semi:false},qdone:{},qbank:null,edit:false,openBank:null};
+let S=load();
+function load(){try{const j=JSON.parse(localStorage.getItem(LS_KEY)||"null");if(j)return Object.assign({},def,j,{cover:Object.assign({},def.cover,j.cover||{}),edit:false});}catch(e){}return JSON.parse(JSON.stringify(def));}
+function save(){try{localStorage.setItem(LS_KEY,JSON.stringify(S));}catch(e){}}
+const L=()=>S.lang, t=()=>T[S.lang];
+const tx=o=>o==null?"":(typeof o==="string"?o:(o[S.lang]||o.en||""));
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=(n,d)=>n==null||isNaN(n)?"":Number(n).toLocaleString("en-US",{minimumFractionDigits:d||0,maximumFractionDigits:d==null?1:d});
+const F=id=>DATA.fields.find(f=>f.id===id);
+const crit=id=>DATA.criteria.find(c=>c.id===id);
+const weights=()=>S.weights||Object.fromEntries(DATA.criteria.map(c=>[c.id,c.weight]));
+
+/* effective data point = researched value overlaid by user's bank-offer edit */
+function dp(bank,fid){
+  const base=bank.fields[fid]||{value_en:"",value_ar:"",status:"unknown",rating:5};
+  const o=(S.overrides[bank.id]||{})[fid];
+  if(!o) return base;
+  return {value_en:o.value,value_ar:o.value,status:"bank_offer",rating:o.rating,offer_date:o.date,note_en:o.note||"",note_ar:o.note||"",source_url:"",source_title:"",base:base};
+}
+function scoreBank(bank,st){
+  const w=weights(); const out={crit:{},total:0,known:0,n:0};
+  let ws=0,acc=0;
+  DATA.criteria.forEach(c=>{
+    const fs=DATA.fields.filter(f=>f.c===c.id&&f.s.includes(st));
+    const rs=fs.map(f=>dp(bank,f.id));
+    const sc=rs.length?rs.reduce((a,r)=>a+Number(r.rating),0)/rs.length:5;
+    out.crit[c.id]=sc;
+    if(c.group==="primary"||w[c.id]>0){rs.forEach(r=>{out.n++;if(r.status==="verified"||r.status==="bank_offer")out.known++;});}
+    ws+=w[c.id]; acc+=w[c.id]*sc;
+  });
+  out.total=ws?acc/ws:0; out.conf=out.n?out.known/out.n:0;
+  return out;
+}
+function ranked(st){return DATA.banks.map(b=>({b,s:scoreBank(b,st)})).sort((x,y)=>y.s.total-x.s.total);}
+const bname=b=>S.lang==="ar"?(b.name_ar||b.name_en):b.name_en;
+function flagsHtml(b){let h="";
+  if(b.flags&&b.flags.neutrality) h+=`<span class="flag" title="${esc(tx(b.flags.neutrality))}">${t().neutrality}</span> `;
+  if(b.flags&&b.flags.link) h+=`<span class="flag soft" title="${esc(tx(b.flags.link))}">${t().related}</span> `;
+  if(b.flags&&b.flags.conflict) h+=`<span class="flag soft" title="${esc(tx(b.flags.conflict))}">${t().conflict}</span>`;
+  return h;}
+const badge=s=>`<span class="badge b-${s}">${t().status[s]||s}</span>`;
+function srcHtml(d){
+  if(d.status==="bank_offer") return `<span class="src">${t().offerDate} <span class="num">${esc(d.offer_date||"")}</span></span>`;
+  if(!d.source_url) return "";
+  return `<span class="src"><a href="${esc(d.source_url)}" target="_blank" rel="noopener">${esc(d.source_title||d.source_url)}</a> · ${t().accessed} <span class="num">${esc(d.accessed||"")}</span></span>`;}
+function fieldRow(bank,f,st){
+  const d=dp(bank,f.id); const applies=!st||f.s.includes(st);
+  const v=S.lang==="ar"?(d.value_ar||d.value_en):d.value_en; const n=S.lang==="ar"?(d.note_ar||d.note_en):d.note_en;
+  return `<div class="field"><div class="lab">${esc(tx(f.label))}${applies?"":`<div class="tiny muted">${t().notApplicable}</div>`}</div>
+   <div class="val"><span class="${S.edit?"editable":""}" data-edit="${bank.id}|${f.id}">${v?esc(v):"&mdash;"}</span>${n?`<div class="note">${esc(n)}</div>`:""}<div>${srcHtml(d)}</div></div>
+   <div class="meta">${badge(d.status)}${f.c!=="flag"?`<span class="rate num">${fmt(d.rating,0)}</span>`:""}</div></div>`;}
+
+/* ---------- views ---------- */
+const TABS=["rank","banks","compare","struct","cover","contract","legal","questions","data"];
+function render(){
+  document.documentElement.lang=S.lang; document.documentElement.dir=S.lang==="ar"?"rtl":"ltr";
+  const m=DATA.meta;
+  document.getElementById("h-title").textContent=tx(m.title);
+  document.getElementById("h-sub").innerHTML=`${esc(tx(m.project))}<br>${esc(tx(m.developer))} / ${esc(tx(m.landowner))} · ${t().draft} <span class="num">${m.contract_draft_date}</span> · ${t().generated} <span class="num">${m.research_date}</span>`;
+  document.querySelectorAll("#seg-struct button").forEach(b=>{b.textContent=b.dataset.s==="A"?tx(DATA.structures.A.name):tx(DATA.structures.B.name);b.className=S.structure===b.dataset.s?"on":"";});
+  const be=document.getElementById("btn-edit");be.textContent=S.edit?t().editOn:t().edit;be.className=S.edit?"on":"";
+  document.getElementById("btn-xlsx").textContent=t().xlsx;document.getElementById("btn-print").textContent=t().print;document.getElementById("btn-lang").textContent=t().lang;
+  document.getElementById("tabs").innerHTML=TABS.map(k=>`<button data-tab="${k}" class="${S.tab===k?"on":""}">${t().tabs[k]}</button>`).join("");
+  const V={rank:vRank,banks:vBanks,compare:vCompare,struct:vStruct,cover:vCover,contract:vContract,legal:vLegal,questions:vQuestions,data:vData};
+  document.getElementById("views").innerHTML=TABS.map(k=>`<section class="view p ${S.tab===k?"on":""}" id="v-${k}"><h2 class="printonly">${t().tabs[k]}</h2>${V[k]()}</section>`).join("");
+  save();
+}
+function editBanner(){return S.edit?`<div class="card rec noprint">${t().clickEdit}</div>`:"";}
+
+function vRank(){
+  const w=weights(), st=S.structure, rk=ranked(st);
+  const prim=DATA.criteria;
+  let h=`<div class="card"><h2>${t().weights}</h2><div class="sliders">`+prim.map(c=>`<label>${esc(tx(c.label))} <span class="w num" id="wv-${c.id}">${w[c.id]}</span><input type="range" min="0" max="100" step="5" value="${w[c.id]}" data-w="${c.id}"></label>`).join("")+`</div>
+   <p class="small muted" style="margin-top:8px">${t().weightsNote} ${t().secondaryNote} <button class="link noprint" id="w-reset">${t().reset}</button></p></div>`;
+  h+=`<div class="card"><h2>${t().tabs.rank}: ${esc(tx(DATA.structures[st].name))}</h2><div class="tablewrap"><table id="rank-table"><thead><tr><th>${t().rank}</th><th>${t().bank}</th><th class="r">${t().total}</th>`+
+     prim.map(c=>`<th class="r">${esc(tx(c.label))}</th>`).join("")+`<th title="${t().confTip}">${t().conf}</th><th>${t().flags}</th><th class="noprint">${t().cmp}</th></tr></thead><tbody>`;
+  rk.forEach((r,i)=>{h+=`<tr><td class="num">${i+1}</td><td><button class="link" data-open="${r.b.id}">${esc(bname(r.b))}</button><div class="tiny muted">${esc(r.b.type||"")}</div></td>
+    <td class="r"><span class="score num">${fmt(r.s.total,1)}</span></td>`+prim.map(c=>`<td class="r num ${c.group==="secondary"?"muted":""}">${fmt(r.s.crit[c.id],1)}</td>`).join("")+
+    `<td><div class="bar"><i style="width:${Math.round(r.s.conf*100)}%"></i></div><span class="tiny num">${Math.round(r.s.conf*100)}%</span></td><td>${flagsHtml(r.b)}</td>
+     <td class="noprint"><input type="checkbox" data-cmp="${r.b.id}" ${S.compare.includes(r.b.id)?"checked":""}></td></tr>`;});
+  h+=`</tbody></table></div><p class="small muted" style="margin-top:10px">${t().scoreOutOf} ${t().unkNeutral}</p>
+   <div class="legend">${["verified","bank_to_confirm","unknown","bank_offer"].map(badge).join(" ")}</div><p class="small muted" style="margin-top:8px">${t().flagNote}</p></div>`;
+  return h;
+}
+function bankBody(b,st){
+  let h="";
+  if(b.flags&&b.flags.neutrality) h+=`<div class="gap" style="border-color:var(--red)"><b>${t().neutrality}:</b> ${esc(tx(b.flags.neutrality))} ${b.flags.neutrality_url?`<a href="${esc(b.flags.neutrality_url)}" target="_blank" rel="noopener">${t().source}</a>`:""}</div>`;
+  if(b.flags&&b.flags.link) h+=`<div class="gap"><b>${t().related}:</b> ${esc(tx(b.flags.link))} ${b.flags.link_url?`<a href="${esc(b.flags.link_url)}" target="_blank" rel="noopener">${t().source}</a>`:""}</div>`;
+  if(b.flags&&b.flags.conflict) h+=`<div class="gap"><b>${t().conflict}:</b> ${esc(tx(b.flags.conflict))} ${b.flags.conflict_url?`<a href="${esc(b.flags.conflict_url)}" target="_blank" rel="noopener">${t().source}</a>`:""}</div>`;
+  DATA.criteria.forEach(c=>{h+=`<h4>${esc(tx(c.label))}</h4>`+DATA.fields.filter(f=>f.c===c.id).map(f=>fieldRow(b,f,st)).join("");});
+  return h;
+}
+function vBanks(){
+  const st=S.structure, rk=ranked(st);
+  return editBanner()+rk.map((r,i)=>`<details class="bankcard" data-bank="${r.b.id}" ${S.openBank===r.b.id?"open":""}><summary><span class="num muted">${i+1}</span> ${esc(bname(r.b))} <span class="score num">${fmt(r.s.total,1)}</span> <span class="tiny muted">${t().conf} <span class="num">${Math.round(r.s.conf*100)}%</span></span> ${flagsHtml(r.b)}</summary><div class="body">${r.b.website?`<div class="small"><a href="${esc(r.b.website)}" target="_blank" rel="noopener">${esc(r.b.website)}</a></div>`:""}${bankBody(r.b,st)}</div></details>`).join("");
+}
+function vCompare(){
+  const st=S.structure; const sel=S.compare.map(id=>DATA.banks.find(b=>b.id===id)).filter(Boolean);
+  let h=`<div class="card noprint"><p class="muted">${t().pick3}</p>`+DATA.banks.map(b=>`<label style="display:inline-block;margin-inline-end:14px"><input type="checkbox" data-cmp="${b.id}" ${S.compare.includes(b.id)?"checked":""}> ${esc(bname(b))}</label>`).join("")+`</div>`;
+  if(!sel.length) return h;
+  h+=editBanner()+`<div class="card"><div class="tablewrap"><table><thead><tr><th style="width:18%">${t().field}</th>`+sel.map(b=>`<th>${esc(bname(b))} ${flagsHtml(b)}</th>`).join("")+`</tr></thead><tbody>`;
+  const sc=sel.map(b=>scoreBank(b,st));
+  h+=`<tr><td><b>${t().total}</b></td>`+sc.map(s=>`<td><span class="score num">${fmt(s.total,1)}</span> <span class="tiny muted">${t().conf} <span class="num">${Math.round(s.conf*100)}%</span></span></td>`).join("")+`</tr>`;
+  DATA.criteria.forEach(c=>{
+    h+=`<tr><th>${esc(tx(c.label))}</th>`+sc.map(s=>`<th class="num">${fmt(s.crit[c.id],1)}</th>`).join("")+`</tr>`;
+    DATA.fields.filter(f=>f.c===c.id).forEach(f=>{
+      h+=`<tr><td class="muted">${esc(tx(f.label))}${f.s.includes(st)?"":`<div class="tiny">${t().notApplicable}</div>`}</td>`+sel.map(b=>{const d=dp(b,f.id);const v=S.lang==="ar"?(d.value_ar||d.value_en):d.value_en;
+        return `<td><span class="${S.edit?"editable":""}" data-edit="${b.id}|${f.id}">${v?esc(v):"&mdash;"}</span><div>${badge(d.status)}<span class="rate num">${fmt(d.rating,0)}</span></div><div>${srcHtml(d)}</div></td>`;}).join("")+`</tr>`;});
+  });
+  return h+`</tbody></table></div></div>`;
+}
+function li(a){return `<ul class="pc">`+a.map(x=>`<li>${esc(tx(x))}</li>`).join("")+`</ul>`;}
+function vStruct(){
+  const X=DATA.structures; let h=`<div class="card"><h2>${t().overall}</h2><div class="rec">${esc(tx(X.overall))}</div></div><div class="grid2">`;
+  ["A","B"].forEach(k=>{const s=X[k];h+=`<div class="card" style="${S.structure===k?"border-color:var(--accent)":""}"><h2>${esc(tx(s.name))}</h2><p class="muted">${esc(tx(s.desc))}</p>
+    <h4>${t().prosDev}</h4>${li(s.pros_dev)}<h4>${t().consDev}</h4>${li(s.cons_dev)}<h4>${t().prosSab}</h4>${li(s.pros_sab)}<h4>${t().consSab}</h4>${li(s.cons_sab)}
+    <h4>${t().recommendation}</h4><div class="rec">${esc(tx(s.rec))}</div></div>`;});
+  h+=`</div><div class="card"><h2>${t().both}</h2><div class="tablewrap"><table><thead><tr><th style="width:7%">${t().clause}</th><th style="width:27%">${t().requirement}</th><th>${esc(tx(X.A.name))}</th><th>${esc(tx(X.B.name))}</th></tr></thead><tbody>`+
+    DATA.clauses.map(c=>`<tr><td class="num"><b>${esc(c.id)}</b></td><td>${esc(tx(c.req))}</td><td>${esc(tx(c.A))}</td><td>${esc(tx(c.B))}</td></tr>`).join("")+`</tbody></table></div></div>`;
+  return h;
+}
+/* cheque cover model */
+function coverModel(){
+  const C=S.cover; const periods=[];
+  for(let y=2027;y<=2033;y++){periods.push({k:y+"H1",y,h:1});periods.push({k:y+"H2",y,h:2});}
+  const due={};
+  DATA.schedule.filter(s=>s.kind==="cheque").forEach(s=>{const y=+s.date.slice(0,4);
+    if(C.semi){due[y+"H1"]=(due[y+"H1"]||0)+s.amount/2;due[y+"H2"]=(due[y+"H2"]||0)+s.amount/2;}else{due[y+"H2"]=(due[y+"H2"]||0)+s.amount;}});
+  let bal=Number(C.opening)||0, cumC=0, cumP=0, shorts=0; const adv=DATA.schedule.find(s=>s.kind==="advance").amount;
+  if(C.adv){bal-=adv;} cumP+=adv;
+  const rows=periods.map(p=>{
+    const coll=Number(C.coll[p.k])||0, out=Number(C.out[p.k])||0, ret=coll*(Number(C.retain)||0)/100;
+    const before=bal+ret-out, chq=due[p.k]||0;
+    const short=chq>0&&before<chq?chq-before:0; if(short>0)shorts++;
+    const needed=chq>0&&(Number(C.retain)||0)>0?Math.max(0,(chq-(bal-out))/((Number(C.retain))/100)):null;
+    bal=before-chq; cumC+=coll; cumP+=chq;
+    return {p,coll,out,ret,before,chq,after:bal,short,needed,cum35:cumC*0.35,cumP};
+  });
+  return {rows,shorts,adv};
+}
+function vCover(){
+  const C=S.cover, M=coverModel(), tt=t();
+  let h=`<div class="card"><h2>${tt.coverTitle}</h2><p class="muted">${tt.coverNote}</p>
+  <div class="grid2 noprint"><div>
+    <label class="small muted">${tt.splitMode}</label><br><span class="seg"><button data-cv="semi:0" class="${C.semi?"":"on"}">${tt.annual}</button><button data-cv="semi:1" class="${C.semi?"on":""}">${tt.semi}</button></span>
+    <p class="tiny muted" style="margin-top:6px">${tt.twelve}</p>
+    <label class="small"><input type="checkbox" data-cvc="adv" ${C.adv?"checked":""}> ${tt.inclAdvance}</label><div class="tiny muted">${tt.advNote}</div>
+  </div><div>
+    <label class="small muted">${tt.retain}</label><br><input class="n" type="number" min="0" max="100" step="5" data-cvn="retain" value="${C.retain}">
+    <div class="tiny muted">${tt.retainNote}</div>
+    <label class="small muted">${tt.opening}</label><br><input class="n" type="number" step="1" data-cvn="opening" value="${C.opening}">
+  </div></div></div>`;
+  h+=`<div class="card" id="cover-out">${coverOut(M)}</div>`;
+  return h;
+}
+function coverOut(M){
+  const tt=t(); let h="";
+  h+=M.shorts?`<p class="short">${M.shorts} ${tt.shorts}. ${tt.bounceWarn}</p>`:`<p class="muted">${tt.noShort}</p>`;
+  h+=coverChart(M);
+  h+=`<div class="tablewrap"><table><thead><tr><th>${tt.period}</th><th class="r">${tt.collections}</th><th class="r">${tt.otherOut}</th><th class="r">${tt.retained}</th><th class="r">${tt.before}</th><th class="r">${tt.cheque}</th><th class="r">${tt.shortfall}</th><th class="r">${tt.after}</th><th class="r">${tt.needed}</th><th class="r">${tt.cum35}</th><th class="r">${tt.cumPaid}</th></tr></thead><tbody>`;
+  M.rows.forEach(r=>{const k=r.p.k;
+    h+=`<tr class="${r.short>0?"shortrow":""}"><td class="num" style="white-space:nowrap">${r.p.y} H${r.p.h}</td>
+     <td class="r"><input class="n" type="number" min="0" step="1" data-coll="${k}" value="${S.cover.coll[k]||""}"></td>
+     <td class="r"><input class="n" type="number" min="0" step="1" data-out="${k}" value="${S.cover.out[k]||""}"></td>
+     <td class="r num">${fmt(r.ret)}</td><td class="r num">${fmt(r.before)}</td><td class="r num">${r.chq?`<b>${fmt(r.chq)}</b>`:""}</td>
+     <td class="r num ${r.short>0?"short":""}">${r.short>0?fmt(r.short):""}</td><td class="r num">${fmt(r.after)}</td><td class="r num muted">${r.needed==null?"":fmt(r.needed)}</td>
+     <td class="r num muted">${fmt(r.cum35)}</td><td class="r num muted">${fmt(r.cumP)}</td></tr>`;});
+  h+=`</tbody></table></div><p class="tiny muted" style="margin-top:8px">EGP m. ${tt.timing} ${tt.assumed} ${tt.finalNote}</p>`;
+  return h;
+}
+function coverChart(M){
+  const rows=M.rows, W=1100, H=210, padL=46, padB=30, padT=10, n=rows.length, bw=(W-padL-10)/n;
+  const max=Math.max(1,...rows.map(r=>Math.max(r.before,r.chq))), min=Math.min(0,...rows.map(r=>r.before));
+  const sy=v=>padT+(H-padT-padB)*(1-(v-min)/(max-min));
+  let g=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;direction:ltr" role="img" aria-label="cheque cover timeline"><line x1="${padL}" x2="${W-10}" y1="${sy(0)}" y2="${sy(0)}" stroke="#9aa3ae"/>`;
+  [max,max/2].forEach(v=>{g+=`<line x1="${padL}" x2="${W-10}" y1="${sy(v)}" y2="${sy(v)}" stroke="#eef0f3"/><text x="${padL-6}" y="${sy(v)+4}" font-size="10" text-anchor="end" fill="#7a8494">${fmt(v,0)}</text>`;});
+  g+=`<text x="${padL-6}" y="${sy(0)+4}" font-size="10" text-anchor="end" fill="#7a8494">0</text>`;
+  rows.forEach((r,i)=>{const x=padL+i*bw+bw*0.18, w=bw*0.4;
+    const y0=sy(0), yb=sy(r.before);
+    g+=`<rect x="${x}" y="${Math.min(y0,yb)}" width="${w}" height="${Math.max(1,Math.abs(yb-y0))}" fill="${r.short>0?"#a32a2a":"#1f4e5f"}" opacity="${r.chq?1:.35}"><title>${r.p.y} H${r.p.h}: ${fmt(r.before)}</title></rect>`;
+    if(r.chq){const yc=sy(r.chq);g+=`<line x1="${x-4}" x2="${x+w+bw*0.22}" y1="${yc}" y2="${yc}" stroke="#1b2430" stroke-width="2"/><text x="${x+w+bw*0.24}" y="${yc+3}" font-size="10" fill="#1b2430">${fmt(r.chq,0)}</text>`;}
+    g+=`<text x="${x+w/2}" y="${H-12}" font-size="10" text-anchor="middle" fill="#4a5564">${String(r.p.y).slice(2)} H${r.p.h}</text>`;});
+  g+=`</svg><div class="legend" style="margin-bottom:10px"><span><svg width="12" height="10"><rect width="12" height="10" fill="#1f4e5f"/></svg> ${t().before}</span><span><svg width="16" height="10"><line x1="0" x2="16" y1="5" y2="5" stroke="#1b2430" stroke-width="2"/></svg> ${t().cheque}</span><span><svg width="12" height="10"><rect width="12" height="10" fill="#a32a2a"/></svg> ${t().shortfall}</span></div>`;
+  return g;
+}
+function vContract(){
+  let h=`<div class="card"><h2>${t().gaps}</h2><p class="muted">${t().gapsNote}</p>`+DATA.gaps.map((g,i)=>`<div class="gap"><b class="num">${i+1}.</b> ${esc(tx(g))}</div>`).join("")+`</div>`;
+  h+=`<div class="card"><h2>${t().requirements}</h2><table><thead><tr><th style="width:10%">${t().clause}</th><th>${t().requirement}</th></tr></thead><tbody>`+DATA.clauses.map(c=>`<tr><td class="num"><b>${esc(c.id)}</b></td><td>${esc(tx(c.req))}</td></tr>`).join("")+`</tbody></table></div>`;
+  return h;
+}
+function srcList(a){return (a||[]).filter(s=>s.url).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)}</a>`).join("; ");}
+function holdersTable(rows){
+  if(!rows||!rows.length) return `<p class="muted">${badge("unknown")}</p>`;
+  return `<table><thead><tr><th>${t().holder}</th><th>${t().stake}</th><th>${t().asof}</th><th></th><th>${t().source}</th></tr></thead><tbody>`+rows.map(r=>`<tr><td>${esc(S.lang==="ar"?(r.holder_ar||r.holder_en):r.holder_en)}<div class="tiny muted">${esc(S.lang==="ar"?(r.note_ar||r.note_en||""):(r.note_en||""))}</div></td><td class="num">${esc(r.stake||"")}</td><td class="num">${esc(r.as_of||"")}</td><td>${badge(r.status||"unknown")}</td><td class="small">${srcList(r.sources)}</td></tr>`).join("")+`</tbody></table>`;
+}
+function vLegal(){
+  const G=DATA.legal; let h=`<div class="card"><h2>${t().legalTitle}</h2><p>${esc(S.lang==="ar"?(G.legal_summary_ar||G.legal_summary_en):G.legal_summary_en)}</p><p class="tiny muted">${t().generated} <span class="num">${DATA.meta.research_date}</span></p>`;
+  (G.legal_items||[]).forEach(i=>{h+=`<div class="field"><div class="lab"><b>${esc(S.lang==="ar"?(i.topic_ar||i.topic_en):i.topic_en)}</b><div><span class="badge b-unknown">${t().position[i.position]||esc(i.position||"")}</span></div></div><div class="val">${esc(S.lang==="ar"?(i.finding_ar||i.finding_en):i.finding_en)}<div class="src">${srcList(i.sources)}${i.as_of?` · ${t().asof} <span class="num">${esc(i.as_of)}</span>`:""}</div></div><div class="meta">${badge(i.status||"unknown")}</div></div>`;});
+  h+=`</div><div class="card"><h2>${t().shareTitle}</h2>${holdersTable(G.sabbour_shareholders)}</div>`;
+  h+=`<div class="card"><h2>${t().mostTitle}</h2>${holdersTable(G.mostakbal_shareholders)}</div>`;
+  h+=`<div class="card"><h2>${t().linksTitle}</h2><table><thead><tr><th>${t().bank}</th><th>${t().link}</th><th></th><th>${t().source}</th></tr></thead><tbody>`+(G.bank_links||[]).map(l=>{const b=DATA.banks.find(x=>x.id===l.bank_id);return `<tr><td>${esc(b?bname(b):l.bank_id)}</td><td>${esc(S.lang==="ar"?(l.link_ar||l.link_en):l.link_en)}</td><td>${badge(l.status||"unknown")}</td><td class="small">${srcList(l.sources)}</td></tr>`;}).join("")+`</tbody></table></div>`;
+  return h;
+}
+function questionsFor(b){return DATA.fields.map(f=>({f,d:dp(b,f.id)})).filter(x=>x.d.status==="unknown"||x.d.status==="bank_to_confirm");}
+function vQuestions(){
+  const cur=S.qbank||ranked(S.structure)[0].b.id; const b=DATA.banks.find(x=>x.id===cur)||DATA.banks[0];
+  let h=`<div class="card"><h2>${t().qTitle}</h2><p class="muted">${t().qNote}</p><div class="noprint"><select id="q-bank">`+DATA.banks.map(x=>`<option value="${x.id}" ${x.id===b.id?"selected":""}>${esc(bname(x))} (${questionsFor(x).length})</option>`).join("")+`</select> <button id="q-export">${t().exportTxt}</button> <button id="q-export-all">${t().exportTxt}: ${t().allBanks}</button> <button id="q-copy">${t().copy}</button></div></div>`;
+  h+=`<div class="card"><h3>${esc(bname(b))}</h3>`;
+  DATA.criteria.forEach(c=>{const qs=questionsFor(b).filter(x=>x.f.c===c.id); if(!qs.length)return;
+    h+=`<h4>${esc(tx(c.label))}</h4><ul class="qlist">`+qs.map(x=>{const k=b.id+"|"+x.f.id;return `<li><input type="checkbox" data-q="${k}" ${S.qdone[k]?"checked":""}><div><div>${esc(tx(x.f.q))}</div><div class="tiny muted">${esc(tx(x.f.label))} ${badge(x.d.status)}</div></div></li>`;}).join("")+`</ul>`;});
+  return h+`</div>`;
+}
+function questionsText(b){
+  let s=`${bname(b)}\n${tx(DATA.meta.project)}\n${"=".repeat(60)}\n`; let n=0;
+  DATA.criteria.forEach(c=>{const qs=questionsFor(b).filter(x=>x.f.c===c.id); if(!qs.length)return; s+=`\n${tx(c.label)}\n`;
+    qs.forEach(x=>{n++;s+=`${n}. [${S.qdone[b.id+"|"+x.f.id]?"x":" "}] ${tx(x.f.q)}  (${tx(x.f.label)}: ${t().status[x.d.status]})\n`;});});
+  return s+"\n";
+}
+function statusList(st){const out=[];DATA.banks.forEach(b=>DATA.fields.forEach(f=>{if(dp(b,f.id).status===st)out.push({b,f});}));return out;}
+function vData(){
+  const nEd=Object.values(S.overrides).reduce((a,o)=>a+Object.keys(o).length,0);
+  let h=`<div class="card"><h2>${t().dataTitle}</h2><div class="noprint" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><button id="d-export">${t().exportJson}</button><button id="d-import">${t().importJson}</button><input type="file" id="d-file" accept="application/json,.json" style="display:none"><button id="d-clear">${t().clear}</button><button id="d-printall">${t().printAll}</button><span class="small muted"><span class="num">${nEd}</span> ${t().edits}</span></div>
+   <h4>${t().method}</h4><ul class="pc">`+t().methodText.map(x=>`<li>${x}</li>`).join("")+`</ul></div>`;
+  ["unknown","bank_to_confirm"].forEach(st=>{const l=statusList(st);
+    h+=`<div class="card"><h2>${st==="unknown"?t().unknownList:t().toConfirmList} <span class="num muted">(${l.length})</span></h2><div class="tablewrap"><table><thead><tr><th>${t().field}</th><th class="r">${t().count}</th><th>${t().bank}</th></tr></thead><tbody>`+
+      DATA.fields.map(f=>{const bs=l.filter(x=>x.f.id===f.id).map(x=>bname(x.b));return bs.length?`<tr><td>${esc(tx(f.label))}</td><td class="r num">${bs.length}</td><td class="small muted">${bs.length===DATA.banks.length?t().allBanks:esc(bs.join(", "))}</td></tr>`:"";}).join("")+`</tbody></table></div></div>`;});
+  return h;
+}
+
+/* ---------- edit modal ---------- */
+function openEdit(bid,fid){
+  const b=DATA.banks.find(x=>x.id===bid), f=F(fid), d=dp(b,fid), o=(S.overrides[bid]||{})[fid];
+  const today=new Date().toISOString().slice(0,10);
+  document.getElementById("modal-box").innerHTML=`<h2>${t().editField}</h2><p class="muted">${esc(bname(b))} · ${esc(tx(f.label))}</p>
+   <label>${t().valueEn}</label><textarea id="e-val" rows="3">${esc(o?o.value:(S.lang==="ar"?(d.value_ar||d.value_en):d.value_en))}</textarea>
+   <label>${t().rating} (0-10)</label><input type="number" class="n" id="e-rate" min="0" max="10" step="1" value="${o?o.rating:d.rating}">
+   <label>${t().offerDate}</label><input type="date" id="e-date" value="${o?o.date:today}">
+   <label>${t().note}</label><input type="text" id="e-note" value="${esc(o?o.note||"":"")}">
+   <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap"><button class="primary" id="e-save">${t().save}</button><button id="e-cancel">${t().cancel}</button>${o?`<button id="e-revert">${t().revert}</button>`:""}</div>`;
+  const m=document.getElementById("modal"); m.classList.add("on");
+  document.getElementById("e-cancel").onclick=()=>m.classList.remove("on");
+  document.getElementById("e-save").onclick=()=>{const r=Math.max(0,Math.min(10,Number(document.getElementById("e-rate").value)||0));
+    (S.overrides[bid]=S.overrides[bid]||{})[fid]={value:document.getElementById("e-val").value.trim(),rating:r,date:document.getElementById("e-date").value,note:document.getElementById("e-note").value.trim()};
+    m.classList.remove("on");render();};
+  const rv=document.getElementById("e-revert"); if(rv) rv.onclick=()=>{delete S.overrides[bid][fid];m.classList.remove("on");render();};
+}
+
+/* ---------- export helpers ---------- */
+function download(name,blob){const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);}
+function exportJson(){const out={exported:new Date().toISOString(),settings:{structure:S.structure,weights:weights(),cover:S.cover,compare:S.compare,qdone:S.qdone},overrides:S.overrides,data:DATA};
+  download("escrow-bank-comparison.json",new Blob([JSON.stringify(out,null,2)],{type:"application/json"}));}
+function importJson(file){const r=new FileReader();r.onload=()=>{try{const j=JSON.parse(r.result);
+  if(j.overrides)S.overrides=j.overrides; if(j.settings){if(j.settings.weights)S.weights=j.settings.weights;if(j.settings.cover)S.cover=Object.assign({},def.cover,j.settings.cover);if(j.settings.structure)S.structure=j.settings.structure;if(j.settings.compare)S.compare=j.settings.compare;if(j.settings.qdone)S.qdone=j.settings.qdone;}
+  render();}catch(e){alert("JSON: "+e.message);}};r.readAsText(file);}
+
+/* minimal .xlsx writer (stored zip, inline strings) */
+const CRC=(()=>{const tb=new Uint32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;tb[n]=c>>>0;}return b=>{let c=0xFFFFFFFF;for(let i=0;i<b.length;i++)c=tb[(c^b[i])&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0;};})();
+function zip(files){const enc=new TextEncoder();const parts=[],cen=[];let off=0;
+  files.forEach(f=>{const name=enc.encode(f.name),data=enc.encode(f.text),crc=CRC(data);
+    const h=new DataView(new ArrayBuffer(30));h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,0x0800,true);h.setUint16(8,0,true);h.setUint16(10,0,true);h.setUint16(12,0x21,true);h.setUint32(14,crc,true);h.setUint32(18,data.length,true);h.setUint32(22,data.length,true);h.setUint16(26,name.length,true);h.setUint16(28,0,true);
+    parts.push(new Uint8Array(h.buffer),name,data);
+    const c=new DataView(new ArrayBuffer(46));c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);c.setUint16(6,20,true);c.setUint16(8,0x0800,true);c.setUint16(10,0,true);c.setUint16(12,0,true);c.setUint16(14,0x21,true);c.setUint32(16,crc,true);c.setUint32(20,data.length,true);c.setUint32(24,data.length,true);c.setUint16(28,name.length,true);c.setUint32(42,off,true);
+    cen.push(new Uint8Array(c.buffer),name);off+=30+name.length+data.length;});
+  const cs=cen.reduce((a,x)=>a+x.length,0);const e=new DataView(new ArrayBuffer(22));e.setUint32(0,0x06054b50,true);e.setUint16(8,files.length,true);e.setUint16(10,files.length,true);e.setUint32(12,cs,true);e.setUint32(16,off,true);
+  return new Blob([...parts,...cen,new Uint8Array(e.buffer)],{type:"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"});}
+function colName(i){let s="";i++;while(i>0){const m=(i-1)%26;s=String.fromCharCode(65+m)+s;i=Math.floor((i-1)/26);}return s;}
+const xe=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g,"");
+function sheetXml(rows,rtl){let x=`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetViews><sheetView workbookViewId="0"${rtl?' rightToLeft="1"':""}/></sheetViews><sheetData>`;
+  rows.forEach((r,ri)=>{x+=`<row r="${ri+1}">`;r.forEach((v,ci)=>{if(v===null||v===undefined||v==="")return;const ref=colName(ci)+(ri+1);
+    x+=typeof v==="number"&&isFinite(v)?`<c r="${ref}"${ri===0?' s="1"':""}><v>${v}</v></c>`:`<c r="${ref}" t="inlineStr"${ri===0?' s="1"':""}><is><t xml:space="preserve">${xe(v)}</t></is></c>`;});x+=`</row>`;});
+  return x+`</sheetData></worksheet>`;}
+function exportXlsx(){
+  const st=S.structure, rk=ranked(st), tt=t(), rtl=S.lang==="ar"; const r1=n=>Math.round(n*10)/10;
+  const sh=[];
+  sh.push({name:"Ranking",rows:[[tt.rank,tt.bank,tt.structure,tt.total,...DATA.criteria.map(c=>tx(c.label)),tt.conf+" %",tt.neutrality,tt.related+" / "+tt.conflict],
+    ...rk.map((r,i)=>[i+1,bname(r.b),st,r1(r.s.total),...DATA.criteria.map(c=>r1(r.s.crit[c.id])),Math.round(r.s.conf*100),r.b.flags&&r.b.flags.neutrality?tx(r.b.flags.neutrality):"",[r.b.flags&&r.b.flags.link?tx(r.b.flags.link):"",r.b.flags&&r.b.flags.conflict?tx(r.b.flags.conflict):""].filter(Boolean).join(" | ")])]});
+  const rowsD=[[tt.bank,tt.criterion,tt.field,"A/B",tt.value,"Status",tt.rating,tt.note,tt.source,"URL",tt.accessed+" / "+tt.offerDate]];
+  rk.forEach(r=>DATA.fields.forEach(f=>{const d=dp(r.b,f.id);rowsD.push([bname(r.b),tx(crit(f.c).label),tx(f.label),f.s.join("+"),rtl?(d.value_ar||d.value_en):d.value_en,tt.status[d.status],Number(d.rating),rtl?(d.note_ar||d.note_en||""):(d.note_en||""),d.source_title||"",d.source_url||"",d.status==="bank_offer"?d.offer_date:(d.accessed||"")]);}));
+  sh.push({name:"Data",rows:rowsD});
+  const fl=DATA.fields; sh.push({name:"Matrix",rows:[[tt.field,...rk.map(r=>bname(r.b))],...fl.map(f=>[tx(f.label),...rk.map(r=>{const d=dp(r.b,f.id);const v=rtl?(d.value_ar||d.value_en):d.value_en;return (v||"-")+" ["+tt.status[d.status]+"]";})])]});
+  const M=coverModel(); sh.push({name:"Cheque cover",rows:[[tt.period,tt.collections,tt.otherOut,tt.retained,tt.before,tt.cheque,tt.shortfall,tt.after,tt.needed,tt.cum35,tt.cumPaid],...M.rows.map(r=>[r.p.y+" H"+r.p.h,r.coll,r.out,r1(r.ret),r1(r.before),r.chq,r1(r.short),r1(r.after),r.needed==null?"":r1(r.needed),r1(r.cum35),r.cumP])]});
+  sh.push({name:"Structures",rows:[[tt.clause,tt.requirement,tx(DATA.structures.A.name),tx(DATA.structures.B.name)],...DATA.clauses.map(c=>[c.id,tx(c.req),tx(c.A),tx(c.B)]),[],[tt.gaps],...DATA.gaps.map((g,i)=>[i+1,tx(g)])]});
+  sh.push({name:"Open fields",rows:[[tt.bank,tt.field,"Status",tt.qTitle],...["unknown","bank_to_confirm"].flatMap(s=>statusList(s).map(x=>[bname(x.b),tx(x.f.label),tt.status[s],tx(x.f.q)]))]});
+  sh.push({name:"Legal",rows:[[tt.legalTitle],[rtl?(DATA.legal.legal_summary_ar||DATA.legal.legal_summary_en):DATA.legal.legal_summary_en],[],["Topic","Finding","Position","Status",tt.asof,"URL"],...(DATA.legal.legal_items||[]).map(i=>[rtl?(i.topic_ar||i.topic_en):i.topic_en,rtl?(i.finding_ar||i.finding_en):i.finding_en,i.position,i.status,i.as_of||"",(i.sources||[]).map(s=>s.url).join(" ")]),[],[tt.shareTitle],...(DATA.legal.sabbour_shareholders||[]).map(r=>[r.holder_en,r.stake,r.status,r.as_of||"",(r.sources||[]).map(s=>s.url).join(" ")])]});
+  const files=[{name:"[Content_Types].xml",text:`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>${sh.map((s,i)=>`<Override PartName="/xl/worksheets/sheet${i+1}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>`).join("")}</Types>`},
+   {name:"_rels/.rels",text:`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`},
+   {name:"xl/workbook.xml",text:`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>${sh.map((s,i)=>`<sheet name="${xe(s.name)}" sheetId="${i+1}" r:id="rId${i+1}"/>`).join("")}</sheets></workbook>`},
+   {name:"xl/_rels/workbook.xml.rels",text:`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">${sh.map((s,i)=>`<Relationship Id="rId${i+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet${i+1}.xml"/>`).join("")}<Relationship Id="rId${sh.length+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`},
+   {name:"xl/styles.xml",text:`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><name val="Calibri"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="2"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`},
+   ...sh.map((s,i)=>({name:`xl/worksheets/sheet${i+1}.xml`,text:sheetXml(s.rows,rtl)}))];
+  download("escrow-bank-comparison.xlsx",zip(files));
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click",e=>{
+  const el=e.target;
+  if(el.dataset.tab){S.tab=el.dataset.tab;render();window.scrollTo(0,0);return;}
+  if(el.dataset.s&&el.parentNode.id==="seg-struct"){S.structure=el.dataset.s;render();return;}
+  if(el.id==="btn-lang"){S.lang=S.lang==="en"?"ar":"en";render();return;}
+  if(el.id==="btn-edit"){S.edit=!S.edit;if(S.edit&&!["banks","compare"].includes(S.tab))S.tab="banks";render();return;}
+  if(el.id==="btn-xlsx"){exportXlsx();return;}
+  if(el.id==="btn-print"){document.body.classList.remove("printall");window.print();return;}
+  if(el.id==="d-printall"){document.body.classList.add("printall");document.querySelectorAll("details").forEach(d=>d.open=true);window.print();return;}
+  if(el.id==="w-reset"){S.weights=null;render();return;}
+  if(el.dataset.open){S.openBank=el.dataset.open;S.tab="banks";render();const d=document.querySelector(`details[data-bank="${S.openBank}"]`);if(d)d.scrollIntoView({block:"start"});return;}
+  if(el.dataset.edit&&S.edit){const [b,f]=el.dataset.edit.split("|");openEdit(b,f);return;}
+  if(el.dataset.cv){const [k,v]=el.dataset.cv.split(":");S.cover[k]=v==="1";render();return;}
+  if(el.id==="q-export"||el.id==="q-export-all"||el.id==="q-copy"){const cur=document.getElementById("q-bank").value;const bs=el.id==="q-export-all"?DATA.banks:[DATA.banks.find(b=>b.id===cur)];const txt=bs.map(questionsText).join("\n");
+    if(el.id==="q-copy"){if(navigator.clipboard)navigator.clipboard.writeText(txt);}else download(el.id==="q-export-all"?"questions-all-banks.txt":"questions-"+cur+".txt",new Blob(["﻿"+txt],{type:"text/plain;charset=utf-8"}));return;}
+  if(el.id==="d-export"){exportJson();return;}
+  if(el.id==="d-import"){document.getElementById("d-file").click();return;}
+  if(el.id==="d-clear"){if(confirm(t().clear+"?")){S.overrides={};render();}return;}
+  if(el.id==="modal"){el.classList.remove("on");}
+});
+document.addEventListener("input",e=>{
+  const el=e.target;
+  if(el.dataset.w){const w=weights();w[el.dataset.w]=Number(el.value);S.weights=w;document.getElementById("wv-"+el.dataset.w).textContent=el.value;
+    /* live re-rank without rebuilding the sliders */
+    const tmp=document.createElement("div");tmp.innerHTML=vRank();document.getElementById("rank-table").innerHTML=tmp.querySelector("#rank-table").innerHTML;save();return;}
+  if(el.dataset.coll||el.dataset.out){const k=el.dataset.coll||el.dataset.out;S.cover[el.dataset.coll?"coll":"out"][k]=el.value===""?"":Number(el.value);save();return;}
+});
+document.addEventListener("change",e=>{
+  const el=e.target;
+  if(el.dataset.cmp){const id=el.dataset.cmp;if(el.checked){if(S.compare.length>=3){el.checked=false;return;}S.compare.push(id);}else S.compare=S.compare.filter(x=>x!==id);if(S.tab==="compare")render();else save();return;}
+  if(el.dataset.coll||el.dataset.out){setTimeout(()=>{const a=document.activeElement,sel=a&&a.dataset&&(a.dataset.coll?`[data-coll="${a.dataset.coll}"]`:a.dataset.out?`[data-out="${a.dataset.out}"]`:null);
+    document.getElementById("cover-out").innerHTML=coverOut(coverModel());if(sel){const n=document.querySelector(sel);if(n){n.focus();n.select();}}},0);return;}
+  if(el.dataset.cvn){S.cover[el.dataset.cvn]=Number(el.value)||0;save();document.getElementById("cover-out").innerHTML=coverOut(coverModel());return;}
+  if(el.dataset.cvc){S.cover[el.dataset.cvc]=el.checked;save();document.getElementById("cover-out").innerHTML=coverOut(coverModel());return;}
+  if(el.dataset.q){S.qdone[el.dataset.q]=el.checked;save();return;}
+  if(el.id==="q-bank"){S.qbank=el.value;render();return;}
+  if(el.id==="d-file"&&el.files[0]){importJson(el.files[0]);return;}
+});
+document.addEventListener("toggle",e=>{const d=e.target;if(d.dataset&&d.dataset.bank){if(d.open)S.openBank=d.dataset.bank;else if(S.openBank===d.dataset.bank)S.openBank=null;save();}},true);
+window.addEventListener("afterprint",()=>document.body.classList.remove("printall"));
+render();
+</script>
+</body>
+</html>
